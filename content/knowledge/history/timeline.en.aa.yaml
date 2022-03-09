@@ -1,0 +1,621 @@
+---
+__type: crwdns5430:0crwdne5430:0
+title: crwdns5432:0crwdne5432:0
+items:
+  frontierRelease:
+    title: crwdns5434:0crwdne5434:0
+    date: crwdns5436:0crwdne5436:0
+    color: crwdns5438:0crwdne5438:0
+    icon: crwdns5440:0crwdne5440:0
+    link: crwdns5442:0crwdne5442:0
+    text: crwdns5444:0crwdne5444:0
+  frontierThawingUpgrade:
+    title: crwdns5446:0crwdne5446:0
+    dateText: crwdns5448:0crwdne5448:0
+    date: crwdns5450:0crwdne5450:0
+    color: crwdns5452:0crwdne5452:0
+    icon: crwdns5454:0crwdne5454:0
+    link: crwdns5456:0crwdne5456:0
+    text: crwdns5458:0crwdne5458:0
+  homesteadUpgrade:
+    title: crwdns5460:0crwdne5460:0
+    dateText: crwdns5462:0crwdne5462:0
+    date: crwdns5464:0crwdne5464:0
+    color: crwdns5466:0crwdne5466:0
+    icon: crwdns5468:0crwdne5468:0
+    link: crwdns5470:0crwdne5470:0
+    text: crwdns5472:0crwdne5472:0
+  slockItCreatesThe Dao:
+    title: crwdns5474:0crwdne5474:0
+    date: crwdns5476:0crwdne5476:0
+    color: crwdns5478:0crwdne5478:0
+    icon: crwdns5480:0crwdne5480:0
+    link: crwdns5482:0crwdne5482:0
+    text: crwdns5484:0crwdne5484:0
+  the DaoCrowdsaleBegins:
+    title: crwdns5486:0crwdne5486:0
+    date: crwdns5488:0crwdne5488:0
+    color: crwdns5490:0crwdne5490:0
+    icon: crwdns5492:0crwdne5492:0
+    link: crwdns5494:0crwdne5494:0
+    text: crwdns5496:0crwdne5496:0
+  securityProposal:
+    title: crwdns5498:0crwdne5498:0
+    date: crwdns5500:0crwdne5500:0
+    color: crwdns5502:0crwdne5502:0
+    icon: crwdns5504:0crwdne5504:0
+    link: crwdns5506:0crwdne5506:0
+    text: crwdns5508:0crwdne5508:0
+  moratoriumCalled:
+    title: crwdns5510:0crwdne5510:0
+    date: crwdns5512:0crwdne5512:0
+    color: crwdns5514:0crwdne5514:0
+    icon: crwdns5516:0crwdne5516:0
+    link: crwdns5518:0crwdne5518:0
+    text: crwdns5520:0crwdne5520:0
+  the DaoCrowdsaleEnds:
+    title: crwdns5522:0crwdne5522:0
+    date: crwdns5524:0crwdne5524:0
+    color: crwdns5526:0crwdne5526:0
+    icon: crwdns5528:0crwdne5528:0
+    link: crwdns5530:0crwdne5530:0
+    text: crwdns5532:0crwdne5532:0
+  recursiveCallBugDiscovered:
+    title: crwdns5534:0crwdne5534:0
+    date: crwdns5536:0crwdne5536:0
+    color: crwdns5538:0crwdne5538:0
+    icon: crwdns5540:0crwdne5540:0
+    link: crwdns5542:0crwdne5542:0
+    text: crwdns5544:0crwdne5544:0
+  noFundsAtRisk:
+    title: crwdns5546:0crwdne5546:0
+    date: crwdns5548:0crwdne5548:0
+    color: crwdns5550:0crwdne5550:0
+    icon: crwdns5552:0crwdne5552:0
+    link: crwdns5554:0crwdne5554:0
+    text: crwdns5556:0crwdne5556:0
+  the DAOIsHacked:
+    title: crwdns5558:0crwdne5558:0
+    date: crwdns5560:0crwdne5560:0
+    color: crwdns5562:0crwdne5562:0
+    icon: crwdns5564:0crwdne5564:0
+    link: crwdns5566:0crwdne5566:0
+    text: crwdns5568:0crwdne5568:0
+  panicHitsTheMarkets:
+    title: crwdns5570:0crwdne5570:0
+    date: crwdns5572:0crwdne5572:0
+    color: crwdns5574:0crwdne5574:0
+    icon: crwdns5576:0crwdne5576:0
+    link: crwdns5578:0crwdne5578:0
+    text: crwdns5580:0crwdne5580:0
+  theCountdownBegins:
+    title: crwdns5582:0crwdne5582:0
+    date: crwdns5584:0crwdne5584:0
+    color: crwdns5586:0crwdne5586:0
+    icon: crwdns5588:0crwdne5588:0
+    link: crwdns5590:0crwdne5590:0
+    text: crwdns5592:0crwdne5592:0
+  robinHoodGroupAnnounced:
+    title: crwdns5594:0crwdne5594:0
+    date: crwdns5596:0crwdne5596:0
+    color: crwdns5598:0crwdne5598:0
+    icon: crwdns5600:0crwdne5600:0
+    link: crwdns5602:0crwdne5602:0
+    text: crwdns5604:0crwdne5604:0
+  softForkTheDao:
+    title: "crwdns5606:0crwdne5606:0"
+    date: crwdns5608:0crwdne5608:0
+    color: crwdns5610:0crwdne5610:0
+    icon: crwdns5612:0crwdne5612:0
+    link: crwdns5614:0crwdne5614:0
+    text: crwdns5616:0crwdne5616:0
+  softForkVulnerability:
+    title: crwdns5618:0crwdne5618:0
+    date: crwdns5620:0crwdne5620:0
+    color: crwdns5622:0crwdne5622:0
+    icon: crwdns5624:0crwdne5624:0
+    link: crwdns5626:0crwdne5626:0
+    text: crwdns5628:0crwdne5628:0
+  hardForkDebate:
+    title: crwdns5630:0crwdne5630:0
+    date: crwdns5632:0crwdne5632:0
+    color: crwdns5634:0crwdne5634:0
+    icon: crwdns5636:0crwdne5636:0
+    link: crwdns5638:0crwdne5638:0
+    text: crwdns5640:0crwdne5640:0
+  hardForkSpecAnnounced:
+    title: crwdns5642:0crwdne5642:0
+    date: crwdns5644:0crwdne5644:0
+    color: crwdns5646:0crwdne5646:0
+    icon: crwdns5648:0crwdne5648:0
+    link: crwdns5650:0crwdne5650:0
+    text: crwdns5652:0crwdne5652:0
+  lastMinuteCarbonvote:
+    title: crwdns5654:0crwdne5654:0
+    date: crwdns5656:0crwdne5656:0
+    color: crwdns5658:0crwdne5658:0
+    icon: crwdns5660:0crwdne5660:0
+    link: crwdns5662:0crwdne5662:0
+    text: crwdns5664:0crwdne5664:0
+  daoBailoutHardFork:
+    title: crwdns5666:0crwdne5666:0
+    date: crwdns5668:0crwdne5668:0
+    color: crwdns5670:0crwdne5670:0
+    icon: crwdns5672:0crwdne5672:0
+    link: crwdns5674:0crwdne5674:0
+    text: crwdns5676:0crwdne5676:0
+  newEthereumIsBorn:
+    title: crwdns5678:0crwdne5678:0
+    date: crwdns5680:0crwdne5680:0
+    color: crwdns5682:0crwdne5682:0
+    icon: crwdns5684:0crwdne5684:0
+    link: crwdns5686:0crwdne5686:0
+    text: crwdns5688:0crwdne5688:0
+  ethereumRenamedToClassic:
+    title: crwdns5690:0crwdne5690:0
+    date: crwdns5692:0crwdne5692:0
+    color: crwdns5694:0crwdne5694:0
+    icon: crwdns5696:0crwdne5696:0
+    link: crwdns5698:0crwdne5698:0
+    text: crwdns5700:0crwdne5700:0
+  missionAccomplished:
+    title: crwdns5702:0crwdne5702:0
+    date: crwdns5704:0crwdne5704:0
+    color: crwdns5706:0crwdne5706:0
+    icon: crwdns5708:0crwdne5708:0
+    link: crwdns5710:0crwdne5710:0
+    text: crwdns5712:0crwdne5712:0
+  poloniexListsETC:
+    title: crwdns5714:0crwdne5714:0
+    date: crwdns5716:0crwdne5716:0
+    color: crwdns5718:0crwdne5718:0
+    icon: crwdns5720:0crwdne5720:0
+    link: crwdns5722:0crwdne5722:0
+    text: crwdns5724:0crwdne5724:0
+  etheriansInDisarray:
+    title: crwdns5726:0crwdne5726:0
+    date: crwdns5728:0crwdne5728:0
+    color: crwdns5730:0crwdne5730:0
+    icon: crwdns5732:0crwdne5732:0
+    link: crwdns5734:0crwdne5734:0
+    text: crwdns5736:0crwdne5736:0
+  ethereumClassicsupporters:
+    title: crwdns5738:0crwdne5738:0
+    date: crwdns5740:0crwdne5740:0
+    color: crwdns5742:0crwdne5742:0
+    icon: crwdns5744:0crwdne5744:0
+    link: crwdns5746:0crwdne5746:0
+    text: crwdns5748:0crwdne5748:0
+  geth-ETC-Support:
+    title: crwdns5750:0crwdne5750:0
+    date: crwdns5752:0crwdne5752:0
+    color: crwdns5754:0crwdne5754:0
+    icon: crwdns5756:0crwdne5756:0
+    link: crwdns5758:0crwdne5758:0
+    text: crwdns5760:0crwdne5760:0
+  parity-ETC-Support:
+    title: crwdns5762:0crwdne5762:0
+    date: crwdns5764:0crwdne5764:0
+    color: crwdns5766:0crwdne5766:0
+    icon: crwdns5768:0crwdne5768:0
+    link: crwdns5770:0crwdne5770:0
+    text: crwdns5772:0crwdne5772:0
+  51Pool:
+    title: crwdns5774:0crwdne5774:0
+    date: crwdns5776:0crwdne5776:0
+    color: crwdns5778:0crwdne5778:0
+    icon: crwdns5780:0crwdne5780:0
+    link: crwdns5782:0crwdne5782:0
+    text: crwdns5784:0crwdne5784:0
+  minerSupport:
+    title: crwdns5786:0crwdne5786:0
+    date: crwdns5788:0crwdne5788:0
+    color: crwdns5790:0crwdne5790:0
+    icon: crwdns5792:0crwdne5792:0
+    link: crwdns5794:0crwdne5794:0
+    text: crwdns5796:0crwdne5796:0
+  attackRhg:
+    title: crwdns5798:0crwdne5798:0
+    date: crwdns5800:0crwdne5800:0
+    color: crwdns5802:0crwdne5802:0
+    icon: crwdns5804:0crwdne5804:0
+    link: crwdns5806:0crwdne5806:0
+    text: crwdns5808:0crwdne5808:0
+  classicDeclaresIndependence:
+    title: crwdns5810:0crwdne5810:0
+    date: crwdns5812:0crwdne5812:0
+    color: crwdns5814:0crwdne5814:0
+    icon: crwdns5816:0crwdne5816:0
+    link: crwdns5818:0crwdne5818:0
+    text: crwdns5820:0crwdne5820:0
+  classicRebuilds:
+    title: crwdns5822:0crwdne5822:0
+    date: crwdns5824:0crwdne5824:0
+    color: crwdns5826:0crwdne5826:0
+    icon: crwdns5828:0crwdne5828:0
+    link: crwdns5830:0crwdne5830:0
+    text: crwdns5832:0crwdne5832:0
+  unlockedDaoFunds:
+    title: crwdns5834:0crwdne5834:0
+    date: crwdns5836:0crwdne5836:0
+    color: crwdns5838:0crwdne5838:0
+    icon: crwdns5840:0crwdne5840:0
+    link: crwdns5842:0crwdne5842:0
+    text: crwdns5844:0crwdne5844:0
+  codeIsLaw:
+    title: crwdns5846:0crwdne5846:0
+    date: crwdns5848:0crwdne5848:0
+    color: crwdns5850:0crwdne5850:0
+    icon: crwdns5852:0crwdne5852:0
+    link: crwdns5854:0crwdne5854:0
+    text: crwdns5856:0crwdne5856:0
+  gasReprice:
+    title: crwdns5858:0crwdne5858:0
+    date: crwdns5860:0crwdne5860:0
+    color: crwdns5862:0crwdne5862:0
+    icon: crwdns5864:0crwdne5864:0
+    link: crwdns5866:0crwdne5866:0
+    text: crwdns5868:0crwdne5868:0
+  etcMonetaryPolicy:
+    title: crwdns5870:0crwdne5870:0
+    date: crwdns5872:0crwdne5872:0
+    color: crwdns5874:0crwdne5874:0
+    icon: crwdns5876:0crwdne5876:0
+    link: crwdns5878:0crwdne5878:0
+    text: crwdns5880:0crwdne5880:0
+  grothendieckTeam:
+    title: crwdns5882:0crwdne5882:0
+    date: crwdns5884:0crwdne5884:0
+    color: crwdns5886:0crwdne5886:0
+    icon: crwdns5888:0crwdne5888:0
+    link: crwdns5890:0crwdne5890:0
+    text: crwdns5892:0crwdne5892:0
+  dieHardUpgrade:
+    title: crwdns5894:0crwdne5894:0
+    date: crwdns5896:0crwdne5896:0
+    color: crwdns5898:0crwdne5898:0
+    icon: crwdns5900:0crwdne5900:0
+    link: crwdns5902:0crwdne5902:0
+    text: crwdns5904:0crwdne5904:0
+  etcDEVTeamAnnouncement:
+    title: crwdns5906:0crwdne5906:0
+    date: crwdns5908:0crwdne5908:0
+    color: crwdns5910:0crwdne5910:0
+    icon: crwdns5912:0crwdne5912:0
+    link: crwdns5914:0crwdne5914:0
+    text: crwdns5916:0crwdne5916:0
+  monetaryPolicyAdopted:
+    title: crwdns5918:0crwdne5918:0
+    date: crwdns5920:0crwdne5920:0
+    color: crwdns5922:0crwdne5922:0
+    icon: crwdns5924:0crwdne5924:0
+    link: crwdns5926:0crwdne5926:0
+    text: crwdns5928:0crwdne5928:0
+  etcInvestmentFund:
+    title: crwdns5930:0crwdne5930:0
+    date: crwdns5932:0crwdne5932:0
+    color: crwdns5934:0crwdne5934:0
+    icon: crwdns5936:0crwdne5936:0
+    link: crwdns5938:0crwdne5938:0
+    text: crwdns5940:0crwdne5940:0
+  etcCommonwealth:
+    title: crwdns5942:0crwdne5942:0
+    date: crwdns5944:0crwdne5944:0
+    color: crwdns5946:0crwdne5946:0
+    icon: crwdns5948:0crwdne5948:0
+    link: crwdns5950:0crwdne5950:0
+    text: crwdns5952:0crwdne5952:0
+  mantis-Launch:
+    title: crwdns5954:0crwdne5954:0
+    date: crwdns5956:0crwdne5956:0
+    color: crwdns5958:0crwdne5958:0
+    icon: crwdns5960:0crwdne5960:0
+    link: crwdns5962:0crwdne5962:0
+    text: crwdns5964:0crwdne5964:0
+  etcCoop:
+    title: crwdns5966:0crwdne5966:0
+    date: crwdns5968:0crwdne5968:0
+    color: crwdns5970:0crwdne5970:0
+    icon: crwdns5972:0crwdne5972:0
+    link: crwdns5974:0crwdne5974:0
+    text: crwdns5976:0crwdne5976:0
+  etcSummitHK:
+    title: crwdns5978:0crwdne5978:0
+    date: crwdns5980:0crwdne5980:0
+    color: crwdns5982:0crwdne5982:0
+    icon: crwdns5984:0crwdne5984:0
+    link: crwdns5986:0crwdne5986:0
+    text: crwdns5988:0crwdne5988:0
+  gothamUpgrade:
+    title: crwdns5990:0crwdne5990:0
+    date: crwdns5992:0crwdne5992:0
+    color: crwdns5994:0crwdne5994:0
+    icon: crwdns5996:0crwdne5996:0
+    link: crwdns5998:0crwdne5998:0
+    text: crwdns6000:0crwdne6000:0
+  era2:
+    title: crwdns6002:0crwdne6002:0
+    date: crwdns6004:0crwdne6004:0
+    color: crwdns6006:0crwdne6006:0
+    icon: crwdns6008:0crwdne6008:0
+    link: crwdns6010:0crwdne6010:0
+    text: crwdns6012:0crwdne6012:0
+  multi-Geth-Launch:
+    title: crwdns6014:0crwdne6014:0
+    date: crwdns6016:0crwdne6016:0
+    color: crwdns6018:0crwdne6018:0
+    icon: crwdns6020:0crwdne6020:0
+    link: crwdns6022:0crwdne6022:0
+    text: crwdns6024:0crwdne6024:0
+  defuseDifficultyBomb:
+    title: crwdns6026:0crwdne6026:0
+    date: crwdns6028:0crwdne6028:0
+    color: crwdns6030:0crwdne6030:0
+    icon: crwdns6032:0crwdne6032:0
+    link: crwdns6034:0crwdne6034:0
+    text: crwdns6036:0crwdne6036:0
+  etclabs:
+    title: crwdns6038:0crwdne6038:0
+    date: crwdns6040:0crwdne6040:0
+    color: crwdns6042:0crwdne6042:0
+    icon: crwdns6044:0crwdne6044:0
+    link: crwdns6046:0crwdne6046:0
+    text: crwdns6048:0crwdne6048:0
+  kotti:
+    title: crwdns6050:0crwdne6050:0
+    date: crwdns6052:0crwdne6052:0
+    color: crwdns6054:0crwdne6054:0
+    icon: crwdns6056:0crwdne6056:0
+    link: crwdns6058:0crwdne6058:0
+    text: crwdns6060:0crwdne6060:0
+  etcSummitSeoul:
+    title: crwdns6062:0crwdne6062:0
+    date: crwdns6064:0crwdne6064:0
+    color: crwdns6066:0crwdne6066:0
+    icon: crwdns6068:0crwdne6068:0
+    link: crwdns6070:0crwdne6070:0
+    text: crwdns6072:0crwdne6072:0
+  coinbase:
+    title: crwdns6074:0crwdne6074:0
+    date: crwdns6076:0crwdne6076:0
+    color: crwdns6078:0crwdne6078:0
+    icon: crwdns6080:0crwdne6080:0
+    text: crwdns6082:0crwdne6082:0
+  etcLabsIncubator:
+    title: crwdns6084:0crwdne6084:0
+    date: crwdns6086:0crwdne6086:0
+    color: crwdns6088:0crwdne6088:0
+    icon: crwdns6090:0crwdne6090:0
+    link: crwdns6092:0crwdne6092:0
+    text: crwdns6094:0crwdne6094:0
+  51Attack:
+    title: crwdns6096:0crwdne6096:0
+    date: crwdns6098:0crwdne6098:0
+    color: crwdns6100:0crwdne6100:0
+    icon: crwdns6102:0crwdne6102:0
+    link: crwdns6104:0crwdne6104:0
+    text: crwdns6106:0crwdne6106:0
+  51AttackReturn:
+    title: crwdns6108:0crwdne6108:0
+    date: crwdns6110:0crwdne6110:0
+    color: crwdns6112:0crwdne6112:0
+    icon: crwdns6114:0crwdne6114:0
+    link: crwdns6116:0crwdne6116:0
+    text: crwdns6118:0crwdne6118:0
+  atlantisConsensus:
+    title: crwdns6120:0crwdne6120:0
+    date: crwdns6122:0crwdne6122:0
+    color: crwdns6124:0crwdne6124:0
+    icon: crwdns6126:0crwdne6126:0
+    link: crwdns6128:0crwdne6128:0
+    text: crwdns6130:0crwdne6130:0
+  atlantisUpgrade:
+    title: crwdns6132:0crwdne6132:0
+    dateText: crwdns6134:0crwdne6134:0
+    date: crwdns6136:0crwdne6136:0
+    color: crwdns6138:0crwdne6138:0
+    icon: crwdns6140:0crwdne6140:0
+    link: crwdns6142:0crwdne6142:0
+    text: crwdns6144:0crwdne6144:0
+  etcSummitVancouver:
+    date: crwdns6146:0crwdne6146:0
+    title: crwdns6148:0crwdne6148:0
+    color: crwdns6150:0crwdne6150:0
+    icon: crwdns6152:0crwdne6152:0
+    link: crwdns6154:0crwdne6154:0
+    text: crwdns6156:0crwdne6156:0
+  mordorLaunch:
+    title: crwdns6158:0crwdne6158:0
+    date: crwdns6160:0crwdne6160:0
+    color: crwdns6162:0crwdne6162:0
+    icon: crwdns6164:0crwdne6164:0
+    link: crwdns6166:0crwdne6166:0
+    text: crwdns6168:0crwdne6168:0
+  besu-ETC-Support:
+    title: crwdns6170:0crwdne6170:0
+    date: crwdns6172:0crwdne6172:0
+    color: crwdns6174:0crwdne6174:0
+    icon: crwdns6176:0crwdne6176:0
+    link: crwdns6178:0crwdne6178:0
+    text: crwdns6180:0crwdne6180:0
+  aztlanConsensus:
+    title: crwdns6182:0crwdne6182:0
+    date: crwdns6184:0crwdne6184:0
+    color: crwdns6186:0crwdne6186:0
+    icon: crwdns6188:0crwdne6188:0
+    link: crwdns6190:0crwdne6190:0
+    text: crwdns6192:0crwdne6192:0
+  aghartaConsensus:
+    title: crwdns6194:0crwdne6194:0
+    date: crwdns6196:0crwdne6196:0
+    color: crwdns6198:0crwdne6198:0
+    icon: crwdns6200:0crwdne6200:0
+    link: crwdns6202:0crwdne6202:0
+    text: crwdns6204:0crwdne6204:0
+  aghartaUpgrade:
+    title: crwdns6206:0crwdne6206:0
+    dateText: crwdns6208:0crwdne6208:0
+    date: crwdns6210:0crwdne6210:0
+    color: crwdns6212:0crwdne6212:0
+    icon: crwdns6214:0crwdne6214:0
+    link: crwdns6216:0crwdne6216:0
+    text: crwdns6218:0crwdne6218:0
+  core-Geth-Launch:
+    title: crwdns6220:0crwdne6220:0
+    date: crwdns6222:0crwdne6222:0
+    color: crwdns6224:0crwdne6224:0
+    icon: crwdns6226:0crwdne6226:0
+    link: crwdns6228:0crwdne6228:0
+    text: crwdns6230:0crwdne6230:0
+  phoenixFixConsensus:
+    title: crwdns6232:0crwdne6232:0
+    date: crwdns6234:0crwdne6234:0
+    color: crwdns6236:0crwdne6236:0
+    icon: crwdns6238:0crwdne6238:0
+    link: crwdns6240:0crwdne6240:0
+    text: crwdns6242:0crwdne6242:0
+  ecip1050-Status-Codes:
+    title: crwdns6244:0crwdne6244:0
+    date: crwdns6246:0crwdne6246:0
+    color: crwdns6248:0crwdne6248:0
+    icon: crwdns6250:0crwdne6250:0
+    link: crwdns6252:0crwdne6252:0
+    text: crwdns6254:0crwdne6254:0
+  aztlanBugs:
+    title: crwdns6256:0crwdne6256:0
+    date: crwdns6258:0crwdne6258:0
+    color: crwdns6260:0crwdne6260:0
+    icon: crwdns6262:0crwdne6262:0
+    link: crwdns6264:0crwdne6264:0
+    text: crwdns6266:0crwdne6266:0
+  aztlanRejected:
+    title: crwdns6268:0crwdne6268:0
+    date: crwdns6270:0crwdne6270:0
+    color: crwdns6272:0crwdne6272:0
+    icon: crwdns6274:0crwdne6274:0
+    link: crwdns6276:0crwdne6276:0
+    text: crwdns6278:0crwdne6278:0
+  phoenixConsensus:
+    title: crwdns6280:0crwdne6280:0
+    date: crwdns6282:0crwdne6282:0
+    color: crwdns6284:0crwdne6284:0
+    icon: crwdns6286:0crwdne6286:0
+    link: crwdns6288:0crwdne6288:0
+    text: crwdns6290:0crwdne6290:0
+  phoenixMordor:
+    title: crwdns6292:0crwdne6292:0
+    date: crwdns6294:0crwdne6294:0
+    color: crwdns6296:0crwdne6296:0
+    icon: crwdns6298:0crwdne6298:0
+    link: crwdns6300:0crwdne6300:0
+    text: crwdns6302:0crwdne6302:0
+  era3:
+    title: crwdns6304:0crwdne6304:0
+    dateText: crwdns6306:0crwdne6306:0
+    date: crwdns6308:0crwdne6308:0
+    color: crwdns6310:0crwdne6310:0
+    icon: crwdns6312:0crwdne6312:0
+    link: crwdns6314:0crwdne6314:0
+    text: crwdns6316:0crwdne6316:0
+  phoenixKotti:
+    title: crwdns6318:0crwdne6318:0
+    date: crwdns6320:0crwdne6320:0
+    color: crwdns6322:0crwdne6322:0
+    icon: crwdns6324:0crwdne6324:0
+    link: crwdns6326:0crwdne6326:0
+    text: crwdns6328:0crwdne6328:0
+  phoenixUpgrade:
+    title: crwdns6330:0crwdne6330:0
+    dateText: crwdns6332:0crwdne6332:0
+    date: crwdns6334:0crwdne6334:0
+    color: crwdns6336:0crwdne6336:0
+    icon: crwdns6338:0crwdne6338:0
+    link: crwdns6340:0crwdne6340:0
+    text: crwdns6342:0crwdne6342:0
+  client-Deprecation-Attacks:
+    title: crwdns6344:0crwdne6344:0
+    date: crwdns6346:0crwdne6346:0
+    color: crwdns6348:0crwdne6348:0
+    icon: crwdns6350:0crwdne6350:0
+    link: crwdns6352:0crwdne6352:0
+    text: crwdns6354:0crwdne6354:0
+  51Attack2:
+    title: "crwdns6356:0crwdne6356:0"
+    date: crwdns6358:0crwdne6358:0
+    color: crwdns6360:0crwdne6360:0
+    icon: crwdns6362:0crwdne6362:0
+    link: crwdns6364:0crwdne6364:0
+    text: crwdns6366:0crwdne6366:0
+  51Attack3:
+    title: "crwdns6368:0crwdne6368:0"
+    date: crwdns6370:0crwdne6370:0
+    color: crwdns6372:0crwdne6372:0
+    icon: crwdns6374:0crwdne6374:0
+    link: crwdns6376:0crwdne6376:0
+    text: crwdns6378:0crwdne6378:0
+  51Attack4:
+    title: "crwdns6380:0crwdne6380:0"
+    date: crwdns6382:0crwdne6382:0
+    color: crwdns6384:0crwdne6384:0
+    icon: crwdns6386:0crwdne6386:0
+    link: crwdns6388:0crwdne6388:0
+    text: crwdns6390:0crwdne6390:0
+  messClientFunctionality:
+    title: crwdns6392:0crwdne6392:0
+    dateText: crwdns6394:0crwdne6394:0
+    date: crwdns6396:0crwdne6396:0
+    color: crwdns6398:0crwdne6398:0
+    icon: crwdns6400:0crwdne6400:0
+    link: crwdns6402:0crwdne6402:0
+    text: crwdns6404:0crwdne6404:0
+  thanosMordor:
+    title: crwdns6406:0crwdne6406:0
+    date: crwdns6408:0crwdne6408:0
+    color: crwdns6410:0crwdne6410:0
+    icon: crwdns6412:0crwdne6412:0
+    link: crwdns6414:0crwdne6414:0
+    text: crwdns6416:0crwdne6416:0
+  thanosUpgrade:
+    title: crwdns6418:0crwdne6418:0
+    dateText: crwdns6420:0crwdne6420:0
+    date: crwdns6422:0crwdne6422:0
+    color: crwdns6424:0crwdne6424:0
+    icon: crwdns6426:0crwdne6426:0
+    link: crwdns6428:0crwdne6428:0
+    text: crwdns6430:0crwdne6430:0
+  etchash:
+    title: crwdns6432:0crwdne6432:0
+    dateText: crwdns6434:0crwdne6434:0
+    date: crwdns6436:0crwdne6436:0
+    color: crwdns6438:0crwdne6438:0
+    icon: crwdns6440:0crwdne6440:0
+    link: crwdns6442:0crwdne6442:0
+    text: crwdns6444:0crwdne6444:0
+  manis-ETC-Stupport:
+    title: crwdns6446:0crwdne6446:0
+    date: crwdns6448:0crwdne6448:0
+    color: crwdns6450:0crwdne6450:0
+    icon: crwdns6452:0crwdne6452:0
+    link: crwdns6454:0crwdne6454:0
+    text: crwdns6456:0crwdne6456:0
+  lcetcc:
+    title: crwdns6458:0crwdne6458:0
+    date: crwdns6460:0crwdne6460:0
+    color: crwdns6462:0crwdne6462:0
+    icon: crwdns6464:0crwdne6464:0
+    link: crwdns6466:0crwdne6466:0
+    text: crwdns6468:0crwdne6468:0
+  treasuryDebate:
+    title: crwdns6470:0crwdne6470:0
+    date: crwdns6472:0crwdne6472:0
+    color: crwdns6474:0crwdne6474:0
+    icon: crwdns6476:0crwdne6476:0
+    link: crwdns6478:0crwdne6478:0
+    text: crwdns6480:0crwdne6480:0
+  aBrightFuture:
+    title: crwdns6482:0crwdne6482:0
+    date: crwdns6484:0crwdne6484:0
+    color: crwdns6486:0crwdne6486:0
+    icon: crwdns6488:0crwdne6488:0
+    link: crwdns6490:0crwdne6490:0
+    text: crwdns6492:0crwdne6492:0
