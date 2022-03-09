@@ -1,0 +1,62 @@
+---
+contribute: true
+contributors:
+  - crwdns5182:0crwdne5182:0
+  - crwdns5184:0crwdne5184:0
+  - crwdns5186:0crwdne5186:0
+  - crwdns5188:0crwdne5188:0
+  - crwdns5190:0crwdne5190:0
+  - crwdns5192:0crwdne5192:0
+  - crwdns5194:0crwdne5194:0
+  - crwdns5196:0crwdne5196:0
+  - crwdns5198:0crwdne5198:0
+  - crwdns5200:0crwdne5200:0
+  - crwdns5202:0crwdne5202:0
+  - crwdns5204:0crwdne5204:0
+  - crwdns5206:0crwdne5206:0
+  - crwdns5208:0crwdne5208:0
+  - crwdns5210:0crwdne5210:0
+  - crwdns5212:0crwdne5212:0
+items:
+  main:
+    type: crwdns5214:0crwdne5214:0
+    title: crwdns5216:0crwdne5216:0
+    description: crwdns5218:0crwdne5218:0
+    items:
+      Declaration of Independence:
+        name: crwdns5220:0crwdne5220:0
+        link: crwdns5222:0crwdne5222:0
+        description: crwdns5224:0crwdne5224:0
+      A Crypto-Decentralist Manifesto:
+        name: crwdns5226:0crwdne5226:0
+        link: crwdns5228:0crwdne5228:0
+        description: crwdns5230:0crwdne5230:0
+      Ethereum Classic Vision:
+        name: crwdns5232:0crwdne5232:0
+        link: crwdns5234:0crwdne5234:0
+        description: crwdns5236:0crwdne5236:0
+      keepEtcClassic:
+        name: crwdns5238:0crwdne5238:0
+        link: crwdns5240:0crwdne5240:0
+        description: crwdns5242:0crwdne5242:0
+  past:
+    type: crwdns5244:0crwdne5244:0
+    title: crwdns5246:0crwdne5246:0
+    description: crwdns5248:0crwdne5248:0
+    items:
+      The idea of Smart Contracts:
+        name: crwdns5250:0crwdne5250:0
+        link: crwdns5252:0crwdne5252:0
+        description: crwdns5254:0crwdne5254:0
+      Bitcoin A Peer-to-Peer Electronic Cash System:
+        name: "crwdns5256:0crwdne5256:0"
+        link: crwdns5258:0crwdne5258:0
+        description: crwdns5260:0crwdne5260:0
+      ethWhitepaper:
+        name: "crwdns5262:0crwdne5262:0"
+        link: crwdns5264:0crwdne5264:0
+        description: crwdns5266:0crwdne5266:0
+      ethYellowPaper:
+        name: "crwdns5268:0crwdne5268:0"
+        link: crwdns5270:0crwdne5270:0
+        description: crwdns5272:0crwdne5272:0
