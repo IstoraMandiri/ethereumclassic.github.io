@@ -1,0 +1,308 @@
+---
+__contribute: true
+__disclaimer: crwdns2430:0crwdne2430:0
+title: crwdns2432:0crwdne2432:0
+__contributors:
+  - crwdns11290:0crwdne11290:0
+  - crwdns11292:0crwdne11292:0
+  - crwdns11294:0crwdne11294:0
+  - crwdns11296:0crwdne11296:0
+  - crwdns11298:0crwdne11298:0
+  - crwdns11300:0crwdne11300:0
+  - crwdns11302:0crwdne11302:0
+  - crwdns11304:0crwdne11304:0
+  - crwdns11306:0crwdne11306:0
+  - crwdns11308:0crwdne11308:0
+  - crwdns11310:0crwdne11310:0
+  - crwdns11312:0crwdne11312:0
+  - crwdns11314:0crwdne11314:0
+__updated: crwdns11316:0crwdne11316:0
+seo: crwdns2462:0crwdne2462:0
+description: |
+  crwdns2464:0[Discord]crwdne2464:0
+items:
+  Chat Rooms:
+    __type: crwdns2466:0crwdne2466:0
+    title: crwdns2468:0crwdne2468:0
+    items:
+      chat Discord:
+        __link: crwdns2470:0crwdne2470:0
+        __icon: crwdns2472:0crwdne2472:0
+        name: crwdns2474:0crwdne2474:0
+      chat Facebook English:
+        __link: crwdns2476:0crwdne2476:0
+        __icon: crwdns2478:0crwdne2478:0
+        name: crwdns2480:0crwdne2480:0
+      chat Facebook Vietnam:
+        __link: crwdns2482:0crwdne2482:0
+        __icon: crwdns2484:0crwdne2484:0
+        name: crwdns2486:0crwdne2486:0
+      chat Kakao Korea:
+        __link: crwdns2488:0crwdne2488:0
+        name: crwdns2490:0crwdne2490:0
+      chat Slack:
+        __link: crwdns2492:0crwdne2492:0
+        __icon: crwdns2494:0crwdne2494:0
+        name: crwdns2496:0crwdne2496:0
+      chat WeChat:
+        __link: crwdns2498:0crwdne2498:0
+        name: crwdns2500:0crwdne2500:0
+  Development Chat:
+    __type: crwdns2502:0crwdne2502:0
+    title: crwdns2504:0crwdne2504:0
+    items:
+      Commonwealth.gg dev:
+        __link: crwdns2506:0crwdne2506:0
+        __icon: crwdns2508:0crwdne2508:0
+        name: crwdns2510:0crwdne2510:0
+      Core-Geth dev:
+        __link: crwdns2512:0crwdne2512:0
+        __icon: crwdns2514:0crwdne2514:0
+        name: crwdns2516:0crwdne2516:0
+      Core Paper dev:
+        __link: crwdns2518:0crwdne2518:0
+        __icon: crwdns2520:0crwdne2520:0
+        name: crwdns2522:0crwdne2522:0
+      ECIPs dev:
+        __link: crwdns2524:0crwdne2524:0
+        __icon: crwdns2526:0crwdne2526:0
+        name: crwdns2528:0crwdne2528:0
+      ETC Core dev:
+        __link: crwdns2530:0crwdne2530:0
+        __icon: crwdns2532:0crwdne2532:0
+        name: crwdns2534:0crwdne2534:0
+      ETCDEV dev:
+        __link: crwdns2536:0crwdne2536:0
+        __icon: crwdns2538:0crwdne2538:0
+        name: crwdns2540:0crwdne2540:0
+      ETC Labs dev:
+        __link: crwdns2542:0crwdne2542:0
+        __icon: crwdns2544:0crwdne2544:0
+        name: crwdns2546:0crwdne2546:0
+      Gödel Labs dev:
+        __link: crwdns2548:0crwdne2548:0
+        __icon: crwdns2550:0crwdne2550:0
+        name: crwdns2552:0crwdne2552:0
+      Hyperledger Besu dev:
+        __link: crwdns2554:0crwdne2554:0
+        name: crwdns2556:0crwdne2556:0
+      Mantis Client & Wallet:
+        __link: crwdns2558:0crwdne2558:0
+        __icon: crwdns2560:0crwdne2560:0
+        name: crwdns2562:0crwdne2562:0
+      Multi-Geth dev deprecated:
+        __link: crwdns2564:0crwdne2564:0
+        __icon: crwdns2566:0crwdne2566:0
+        name: crwdns2568:0crwdne2568:0
+      OpenEthereum dev deprecated:
+        __link: crwdns2570:0crwdne2570:0
+        __icon: crwdns2572:0crwdne2572:0
+        name: crwdns2574:0crwdne2574:0
+      Open-RPC dev:
+        __link: crwdns2576:0crwdne2576:0
+        __icon: crwdns2578:0crwdne2578:0
+        name: crwdns2580:0crwdne2580:0
+      PAO Network dev:
+        __link: crwdns2582:0crwdne2582:0
+        __icon: crwdns2584:0crwdne2584:0
+        name: crwdns2586:0crwdne2586:0
+      POA Network dev:
+        __link: crwdns2588:0crwdne2588:0
+        __icon: crwdns2590:0crwdne2590:0
+        name: crwdns2592:0crwdne2592:0
+      POA Network telegram:
+        __link: crwdns2594:0crwdne2594:0
+        __icon: crwdns2596:0crwdne2596:0
+        name: crwdns2598:0crwdne2598:0
+      Parity Tech dev:
+        __link: crwdns2600:0crwdne2600:0
+        __icon: crwdns2602:0crwdne2602:0
+        name: crwdns2604:0crwdne2604:0
+      Parity Tech dev telegram:
+        __link: crwdns2606:0crwdne2606:0
+        __icon: crwdns2608:0crwdne2608:0
+        name: crwdns2610:0crwdne2610:0
+  Telegram Groups:
+    __type: crwdns2612:0crwdne2612:0
+    title: crwdns2614:0crwdne2614:0
+    items:
+      telegram Arabic:
+        __link: crwdns2616:0crwdne2616:0
+        __icon: crwdns2618:0crwdne2618:0
+        name: crwdns2620:0crwdne2620:0
+      telegram China 1:
+        __link: crwdns2622:0crwdne2622:0
+        __icon: crwdns2624:0crwdne2624:0
+        name: crwdns2626:0crwdne2626:0
+      telegram China 2:
+        __link: crwdns2628:0crwdne2628:0
+        __icon: crwdns2630:0crwdne2630:0
+        name: crwdns2632:0crwdne2632:0
+      telegram English 1:
+        __link: crwdns2634:0crwdne2634:0
+        __icon: crwdns2636:0crwdne2636:0
+        name: crwdns2638:0crwdne2638:0
+      telegram English 2:
+        __link: crwdns2640:0crwdne2640:0
+        __icon: crwdns2642:0crwdne2642:0
+        name: crwdns2644:0crwdne2644:0
+      telegram Español:
+        __link: crwdns2646:0crwdne2646:0
+        __icon: crwdns2648:0crwdne2648:0
+        name: crwdns2650:0crwdne2650:0
+      telegram German:
+        __link: crwdns2652:0crwdne2652:0
+        __icon: crwdns2654:0crwdne2654:0
+        name: crwdns2656:0crwdne2656:0
+      telegram Italia:
+        __link: crwdns2658:0crwdne2658:0
+        __icon: crwdns2660:0crwdne2660:0
+        name: crwdns2662:0crwdne2662:0
+      telegram Japan:
+        __link: crwdns2664:0crwdne2664:0
+        __icon: crwdns2666:0crwdne2666:0
+        name: crwdns2668:0crwdne2668:0
+      telegram Russia 1:
+        __link: crwdns2670:0crwdne2670:0
+        __icon: crwdns2672:0crwdne2672:0
+        name: crwdns2674:0crwdne2674:0
+      telegram Russia 2:
+        __link: crwdns2676:0crwdne2676:0
+        __icon: crwdns2678:0crwdne2678:0
+        name: crwdns2680:0crwdne2680:0
+      telegram Viet Nam:
+        __link: crwdns2682:0crwdne2682:0
+        __icon: crwdns2684:0crwdne2684:0
+        name: crwdns2686:0crwdne2686:0
+  Forums:
+    __type: crwdns2688:0crwdne2688:0
+    title: crwdns2690:0crwdne2690:0
+    items:
+      forum RedditEthereumClassic:
+        __link: crwdns2692:0crwdne2692:0
+        __icon: crwdns2694:0crwdne2694:0
+        name: crwdns2696:0crwdne2696:0
+      forum ETC:
+        __link: crwdns2698:0crwdne2698:0
+        __icon: crwdns2700:0crwdne2700:0
+        name: crwdns2702:0crwdne2702:0
+      forum BitcoinTalk:
+        __link: crwdns2704:0crwdne2704:0
+        __icon: crwdns2706:0crwdne2706:0
+        name: crwdns2708:0crwdne2708:0
+      forum Archived BitcoinTalk:
+        __link: crwdns2710:0crwdne2710:0
+        __icon: crwdns2712:0crwdne2712:0
+        name: crwdns2714:0crwdne2714:0
+  Media:
+    __type: crwdns2716:0crwdne2716:0
+    title: crwdns2718:0crwdne2718:0
+    items:
+      media ETCfInv:
+        __link: crwdns2720:0crwdne2720:0
+        __icon: crwdns2722:0crwdne2722:0
+        name: crwdns2724:0crwdne2724:0
+      media Etherplan:
+        __link: crwdns2726:0crwdne2726:0
+        __icon: crwdns2728:0crwdne2728:0
+        name: crwdns2730:0crwdne2730:0
+      media EVM61:
+        __link: crwdns2732:0crwdne2732:0
+        __icon: crwdns2734:0crwdne2734:0
+        name: crwdns2736:0crwdne2736:0
+      media Explore The Chain:
+        __link: crwdns2738:0crwdne2738:0
+        __icon: crwdns2740:0crwdne2740:0
+        name: crwdns2742:0crwdne2742:0
+      media Let's Talk ETC!:
+        __link: crwdns2744:0crwdne2744:0
+        __icon: crwdns2746:0crwdne2746:0
+        name: crwdns2748:0crwdne2748:0
+  Twitter Accounts:
+    __type: crwdns2750:0crwdne2750:0
+    title: crwdns2752:0crwdne2752:0
+    items:
+      twitter China 1:
+        __link: crwdns2754:0crwdne2754:0
+        __icon: crwdns2756:0crwdne2756:0
+        name: crwdns2758:0crwdne2758:0
+      twitter China 2:
+        __link: crwdns2760:0crwdne2760:0
+        __icon: crwdns2762:0crwdne2762:0
+        name: crwdns2764:0crwdne2764:0
+      twitter English 1:
+        __link: crwdns2766:0crwdne2766:0
+        __icon: crwdns2768:0crwdne2768:0
+        name: crwdns2770:0crwdne2770:0
+      twitter English 2:
+        __link: crwdns2772:0crwdne2772:0
+        __icon: crwdns2774:0crwdne2774:0
+        name: crwdns2776:0crwdne2776:0
+      twitter Español:
+        __link: crwdns2778:0crwdne2778:0
+        __icon: crwdns2780:0crwdne2780:0
+        name: crwdns2782:0crwdne2782:0
+      twitter France:
+        __link: crwdns2784:0crwdne2784:0
+        __icon: crwdns2786:0crwdne2786:0
+        name: crwdns2788:0crwdne2788:0
+      twitter Germany:
+        __link: crwdns2790:0crwdne2790:0
+        __icon: crwdns2792:0crwdne2792:0
+        name: crwdns2794:0crwdne2794:0
+      twitter Italia:
+        __link: crwdns2796:0crwdne2796:0
+        __icon: crwdns2798:0crwdne2798:0
+        name: crwdns2800:0crwdne2800:0
+      twitter Japan:
+        __link: crwdns2802:0crwdne2802:0
+        __icon: crwdns2804:0crwdne2804:0
+        name: crwdns2806:0crwdne2806:0
+      twitter Korea 1:
+        __link: crwdns2808:0crwdne2808:0
+        __icon: crwdns2810:0crwdne2810:0
+        name: crwdns2812:0crwdne2812:0
+      twitter Korea 2:
+        __link: crwdns2814:0crwdne2814:0
+        __icon: crwdns2816:0crwdne2816:0
+        name: crwdns2818:0crwdne2818:0
+      twitter Netherlands:
+        __link: crwdns2820:0crwdne2820:0
+        __icon: crwdns2822:0crwdne2822:0
+        name: crwdns2824:0crwdne2824:0
+      twitter Philippines:
+        __link: crwdns2826:0crwdne2826:0
+        __icon: crwdns2828:0crwdne2828:0
+        name: crwdns2830:0crwdne2830:0
+      twitter Sri Lanka:
+        __link: crwdns2832:0crwdne2832:0
+        __icon: crwdns2834:0crwdne2834:0
+        name: crwdns2836:0crwdne2836:0
+      twitter Turkey:
+        __link: crwdns2838:0crwdne2838:0
+        __icon: crwdns2840:0crwdne2840:0
+        name: crwdns2842:0crwdne2842:0
+      twitter Viet Nam:
+        __link: crwdns2844:0crwdne2844:0
+        __icon: crwdns2846:0crwdne2846:0
+        name: crwdns2848:0crwdne2848:0
+  Regional Website:
+    __type: crwdns2850:0crwdne2850:0
+    title: crwdns2852:0crwdne2852:0
+    items:
+      website ETC Hub:
+        __link: crwdns2854:0crwdne2854:0
+        __icon: crwdns2856:0crwdne2856:0
+        name: crwdns2858:0crwdne2858:0
+      website EthereumClassic.cn:
+        __link: crwdns2860:0crwdne2860:0
+        __icon: crwdns2862:0crwdne2862:0
+        name: crwdns2864:0crwdne2864:0
+      website ETC Korea:
+        __link: crwdns2866:0crwdne2866:0
+        __icon: crwdns2868:0crwdne2868:0
+        name: crwdns2870:0crwdne2870:0
+      website EthereumClassicKorea.com:
+        __link: crwdns2872:0crwdne2872:0
+        __icon: crwdns2874:0crwdne2874:0
+        name: crwdns2876:0crwdne2876:0
