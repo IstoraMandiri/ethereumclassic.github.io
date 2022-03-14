@@ -1,8 +1,1 @@
 ---
-##
-announcement:
-  __enabled: no
-  __landingOnly: yes
-socialItems:
-  discord:
-    __hilight: yes
