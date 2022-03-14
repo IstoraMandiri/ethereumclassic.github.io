@@ -1,0 +1,85 @@
+---
+__contribute: true
+items:
+  table:
+    items:
+      Cruxminer:
+        __windowsAmd: true
+        __windowsNvidia: true
+      GMiner:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      lolMiner:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      Nanominer:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      NBMiner:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      OpenETC Pool:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      Phoenix Miner:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      SRBMiner-Multi:
+        __windowsAmd: true
+        __linuxAmd: true
+      T-Rex Miner:
+        __windowsNvidia: true
+        __linuxNvidia: true
+      TeamRedMiner:
+        __windowsAmd: true
+        __linuxAmd: true
+      TT-Miner:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      AwesomeMiner:
+        __linuxAmd: true
+        __linuxNvidia: true
+      HiveOS:
+        __linuxAmd: true
+        __linuxNvidia: true
+      MinerStat:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      MMP OS:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      NiceHash:
+        __windowsAmd: true
+        __windowsNvidia: true
+        __linuxAmd: true
+        __linuxNvidia: true
+      PiMPOS:
+        __linuxAmd: true
+        __linuxNvidia: true
+      RaveOS:
+        __linuxAmd: true
+        __linuxNvidia: true
+      SimpleMining:
+        __linuxAmd: true
+        __linuxNvidia: true
+      Stratums:
+        __linuxAmd: true
+        __linuxNvidia: true
