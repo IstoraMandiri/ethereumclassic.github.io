@@ -1,0 +1,62 @@
+---
+__contribute: true
+__contributors:
+  - crwdns11578:0crwdne11578:0
+  - crwdns11580:0crwdne11580:0
+  - crwdns11582:0crwdne11582:0
+  - crwdns11584:0crwdne11584:0
+  - crwdns11586:0crwdne11586:0
+  - crwdns11588:0crwdne11588:0
+  - crwdns11590:0crwdne11590:0
+  - crwdns11592:0crwdne11592:0
+  - crwdns11594:0crwdne11594:0
+  - crwdns11596:0crwdne11596:0
+  - crwdns11598:0crwdne11598:0
+  - crwdns11600:0crwdne11600:0
+  - crwdns11602:0crwdne11602:0
+  - crwdns11604:0crwdne11604:0
+  - crwdns11606:0crwdne11606:0
+  - crwdns11608:0crwdne11608:0
+items:
+  main:
+    __type: crwdns11610:0crwdne11610:0
+    title: crwdns5216:0crwdne5216:0
+    description: crwdns5218:0crwdne5218:0
+    items:
+      Declaration of Independence:
+        name: crwdns5220:0crwdne5220:0
+        __link: crwdns11612:0crwdne11612:0
+        description: crwdns5224:0crwdne5224:0
+      A Crypto-Decentralist Manifesto:
+        name: crwdns5226:0crwdne5226:0
+        __link: crwdns11614:0crwdne11614:0
+        description: crwdns5230:0crwdne5230:0
+      Ethereum Classic Vision:
+        name: crwdns5232:0crwdne5232:0
+        __link: crwdns11616:0crwdne11616:0
+        description: crwdns5236:0crwdne5236:0
+      keepEtcClassic:
+        name: crwdns5238:0crwdne5238:0
+        __link: crwdns11618:0crwdne11618:0
+        description: crwdns5242:0crwdne5242:0
+  past:
+    __type: crwdns11620:0crwdne11620:0
+    title: crwdns5246:0crwdne5246:0
+    description: crwdns5248:0crwdne5248:0
+    items:
+      The idea of Smart Contracts:
+        name: crwdns5250:0crwdne5250:0
+        __link: crwdns11622:0crwdne11622:0
+        description: crwdns5254:0crwdne5254:0
+      Bitcoin A Peer-to-Peer Electronic Cash System:
+        name: "crwdns5256:0crwdne5256:0"
+        __link: crwdns11624:0crwdne11624:0
+        description: crwdns5260:0crwdne5260:0
+      ethWhitepaper:
+        name: "crwdns5262:0crwdne5262:0"
+        __link: crwdns11626:0crwdne11626:0
+        description: crwdns5266:0crwdne5266:0
+      ethYellowPaper:
+        name: "crwdns5268:0crwdne5268:0"
+        __link: crwdns11628:0crwdne11628:0
+        description: crwdns5272:0crwdne5272:0
