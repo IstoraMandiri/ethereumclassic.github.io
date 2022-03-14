@@ -1,0 +1,122 @@
+---
+#LODO clean this file up
+#This file contains words that are used on every page (such as menu and footer).
+### Metadata
+#### Data about the page used by search engines, etc.
+#This title appears in browser tab / window
+title: crwdns8874:0crwdne8874:0
+# A short description that appears in google searches
+seo: "crwdns8876:0crwdne8876:0"
+#Date format used to display dates globally
+dateFormat: crwdns8878:0crwdne8878:0
+#Used by og:locale meta tag [info](https://kb.yoast.com/kb/changing-the-og-locale-output/)
+metaLocale: crwdns8880:0crwdne8880:0
+#Used in the <html> tag [info](https://www.w3schools.com/tags/att_lang.asp)
+htmlLang: crwdns8882:0crwdne8882:0
+##
+## ## General UI
+##
+published: crwdns8884:0crwdne8884:0
+updated: crwdns8886:0crwdne8886:0
+author: crwdns8888:0crwdne8888:0
+timeline:
+  chronological: crwdns8890:0crwdne8890:0
+  reversed: crwdns8892:0crwdne8892:0
+## disclaimer on pages with extenral links
+disclaimers:
+  verify:
+    title: crwdns8894:0crwdne8894:0
+    text: crwdns8896:0crwdne8896:0
+  opinion:
+    title: crwdns8898:0crwdne8898:0
+    text: crwdns8900:0crwdne8900:0
+## Banner at the top of the page for warnings / upgrade messages
+## prev next
+next: crwdns8902:0crwdne8902:0
+prev: crwdns8904:0crwdne8904:0
+##
+__contribute: crwdns12684:0[Discord]crwdnd12684:0[GitHub]crwdne12684:0
+__contributors: "crwdns12686:0crwdne12686:0"
+##
+allLanguages: crwdns8910:0crwdne8910:0
+##
+noResults: crwdns8912:0crwdne8912:0
+##
+announcement:
+  __color: crwdns8914:0crwdne8914:0
+  __enabled: false
+  __landingOnly: true
+  __icon: crwdns8916:0crwdne8916:0
+  text: |
+    crwdns8918:0crwdne8918:0
+  button:
+    __link: crwdns8920:0crwdne8920:0
+    text: "crwdns8922:0crwdne8922:0"
+## Footer
+signOff: crwdns8924:0crwdne8924:0
+socialHilight: crwdns8926:0crwdne8926:0
+socialItems:
+  github:
+    __link: crwdns8928:0crwdne8928:0
+    __icon: crwdns8930:0crwdne8930:0
+    name: crwdns8932:0crwdne8932:0
+  discord:
+    __link: crwdns8934:0crwdne8934:0
+    __icon: crwdns8936:0crwdne8936:0
+    __hilight: true
+    name: crwdns8938:0crwdne8938:0
+  reddit:
+    __link: crwdns8940:0crwdne8940:0
+    __icon: crwdns8942:0crwdne8942:0
+    name: crwdns8944:0crwdne8944:0
+  twitter:
+    __link: crwdns8946:0crwdne8946:0
+    __icon: crwdns8948:0crwdne8948:0
+    name: crwdns8950:0crwdne8950:0
+## App types
+#available colors: red, yellow, green, blue, indigo, purple, pink, gray
+appTypes:
+  finance:
+    __color: crwdns8952:0crwdne8952:0
+    __icon: crwdns8954:0crwdne8954:0
+    name: crwdns8956:0crwdne8956:0
+  games:
+    __icon: crwdns8958:0crwdne8958:0
+    __color: crwdns8960:0crwdne8960:0
+    name: crwdns8962:0crwdne8962:0
+  identity:
+    __icon: crwdns8964:0crwdne8964:0
+    __color: crwdns8966:0crwdne8966:0
+    name: crwdns8968:0crwdne8968:0
+  interoperability:
+    __icon: crwdns8970:0crwdne8970:0
+    __color: crwdns8972:0crwdne8972:0
+    name: crwdns8974:0crwdne8974:0
+  nfts:
+    __icon: crwdns8976:0crwdne8976:0
+    __color: crwdns8978:0crwdne8978:0
+    name: crwdns8980:0crwdne8980:0
+  other:
+    __icon: crwdns8982:0crwdne8982:0
+    __color: crwdns8984:0crwdne8984:0
+    name: crwdns8986:0crwdne8986:0
+appLinks:
+  homepage: crwdns8988:0crwdne8988:0
+  app: crwdns8990:0crwdne8990:0
+  twitter: crwdns8992:0crwdne8992:0
+  github: crwdns8994:0crwdne8994:0
+newsTypes:
+  news:
+    name: crwdns8996:0crwdne8996:0
+    __icon: crwdns8998:0crwdne8998:0
+  blog:
+    name: crwdns9000:0crwdne9000:0
+    __icon: crwdns9002:0crwdne9002:0
+  application:
+    name: crwdns9004:0crwdne9004:0
+    prefix: "crwdns9006:0crwdne9006:0"
+    __icon: crwdns9008:0crwdne9008:0
+  video:
+    name: crwdns9010:0crwdne9010:0
+    prefix: "crwdns9012:0crwdne9012:0"
+    __icon: crwdns9014:0crwdne9014:0
