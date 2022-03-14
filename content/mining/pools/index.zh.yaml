@@ -1,0 +1,17 @@
+---
+__contribute: true
+items:
+  pools:
+    items:
+      2Miners:
+        __primary: true
+      Ethermine:
+        __primary: true
+      f2pool:
+        __primary: true
+      Hiveon:
+        __primary: true
+      Nanopool:
+        __primary: true
+      Open ETC Pool:
+        __primary: true
