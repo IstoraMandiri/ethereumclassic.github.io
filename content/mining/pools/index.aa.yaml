@@ -1,0 +1,230 @@
+---
+__disclaimer: crwdns6778:0crwdne6778:0
+__updated: crwdns12416:0crwdne12416:0
+__contribute: true
+title: crwdns6782:0crwdne6782:0
+seo: crwdns6784:0crwdne6784:0
+description: |
+  crwdns6786:0crwdne6786:0
+__contributors:
+  - crwdns12418:0crwdne12418:0
+  - crwdns12420:0crwdne12420:0
+  - crwdns12422:0crwdne12422:0
+  - crwdns12424:0crwdne12424:0
+  - crwdns12426:0crwdne12426:0
+  - crwdns12428:0crwdne12428:0
+  - crwdns12430:0crwdne12430:0
+  - crwdns12432:0crwdne12432:0
+  - crwdns12434:0crwdne12434:0
+  - crwdns12436:0crwdne12436:0
+  - crwdns12438:0crwdne12438:0
+  - crwdns12440:0crwdne12440:0
+  - crwdns12442:0crwdne12442:0
+  - crwdns12444:0crwdne12444:0
+  - crwdns12446:0crwdne12446:0
+  - crwdns12448:0crwdne12448:0
+  - crwdns12450:0crwdne12450:0
+  - crwdns12452:0crwdne12452:0
+  - crwdns12454:0crwdne12454:0
+items:
+  pools:
+    __type: crwdns6826:0crwdne6826:0
+    items:
+      1stPool:
+        name: crwdns6828:0crwdne6828:0
+        __link: crwdns6830:0crwdne6830:0
+      2Miners:
+        name: crwdns6832:0crwdne6832:0
+        __link: crwdns6834:0crwdne6834:0
+        __primary: true
+      AltPool:
+        name: crwdns6836:0crwdne6836:0
+        __link: crwdns6838:0crwdne6838:0
+      AntPool:
+        name: crwdns6840:0crwdne6840:0
+        __link: crwdns6842:0crwdne6842:0
+      BaikalMine:
+        name: crwdns6844:0crwdne6844:0
+        __link: crwdns6846:0crwdne6846:0
+      Beepool:
+        name: crwdns6848:0crwdne6848:0
+        __link: crwdns6850:0crwdne6850:0
+      BTC.com:
+        name: crwdns6852:0crwdne6852:0
+        __link: crwdns6854:0crwdne6854:0
+      BWPool:
+        name: crwdns6856:0crwdne6856:0
+        __link: crwdns6858:0crwdne6858:0
+      Clona:
+        name: crwdns6860:0crwdne6860:0
+        __link: crwdns6862:0crwdne6862:0
+      CoinMine:
+        name: crwdns6864:0crwdne6864:0
+        __link: crwdns6866:0crwdne6866:0
+      Coinotron:
+        name: crwdns6868:0crwdne6868:0
+        __link: crwdns6870:0crwdne6870:0
+      Cominers:
+        name: crwdns6872:0crwdne6872:0
+        __link: crwdns6874:0crwdne6874:0
+      Comining:
+        name: crwdns6876:0crwdne6876:0
+        __link: crwdns6878:0crwdne6878:0
+      CoolPool:
+        name: crwdns6880:0crwdne6880:0
+        __link: crwdns6882:0crwdne6882:0
+      CrazyPool:
+        name: crwdns6884:0crwdne6884:0
+        __link: crwdns6886:0crwdne6886:0
+      Cruxpool:
+        name: crwdns6888:0crwdne6888:0
+        __link: crwdns6890:0crwdne6890:0
+      CRYPIT:
+        name: crwdns6892:0crwdne6892:0
+        __link: crwdns6894:0crwdne6894:0
+      DigiPools:
+        name: crwdns6896:0crwdne6896:0
+        __link: crwdns6898:0crwdne6898:0
+      E4Pool:
+        name: crwdns6900:0crwdne6900:0
+        __link: crwdns6902:0crwdne6902:0
+      EMCD:
+        name: crwdns6904:0crwdne6904:0
+        __link: crwdns6906:0crwdne6906:0
+      ETC365:
+        name: crwdns6908:0crwdne6908:0
+        __link: crwdns6910:0crwdne6910:0
+      ETCPool:
+        name: crwdns6912:0crwdne6912:0
+        __link: crwdns6914:0crwdne6914:0
+      ETC-POOL:
+        name: crwdns6916:0crwdne6916:0
+        __link: crwdns6918:0crwdne6918:0
+      ETCTurk:
+        name: crwdns6920:0crwdne6920:0
+        __link: crwdns6922:0crwdne6922:0
+      Ethashpool:
+        name: crwdns6924:0crwdne6924:0
+        __link: crwdns6926:0crwdne6926:0
+      Ethermine:
+        name: crwdns6928:0crwdne6928:0
+        __link: crwdns6930:0crwdne6930:0
+        __primary: true
+      EZil:
+        name: crwdns6932:0crwdne6932:0
+        __link: crwdns6934:0crwdne6934:0
+      f2pool:
+        name: crwdns6936:0crwdne6936:0
+        __link: crwdns6938:0crwdne6938:0
+        __primary: true
+      FairPool:
+        name: crwdns6940:0crwdne6940:0
+        __link: crwdns6942:0crwdne6942:0
+      FirePool:
+        name: crwdns6944:0crwdne6944:0
+        __link: crwdns6946:0crwdne6946:0
+      flexpool:
+        name: crwdns6948:0crwdne6948:0
+        __link: crwdns6950:0crwdne6950:0
+      HashExpress:
+        name: crwdns6952:0crwdne6952:0
+        __link: crwdns6954:0crwdne6954:0
+      HashCity:
+        name: crwdns6956:0crwdne6956:0
+        __link: crwdns6958:0crwdne6958:0
+      Hellominer:
+        name: crwdns6960:0crwdne6960:0
+        __link: crwdns6962:0crwdne6962:0
+      HeroMiners:
+        name: crwdns6964:0crwdne6964:0
+        __link: crwdns6966:0crwdne6966:0
+      Hiveon:
+        name: crwdns6968:0crwdne6968:0
+        __link: crwdns6970:0crwdne6970:0
+        __primary: true
+      HuobiPool:
+        name: crwdns6972:0crwdne6972:0
+        __link: crwdns6974:0crwdne6974:0
+      ICanMining:
+        name: crwdns6976:0crwdne6976:0
+        __link: crwdns6978:0crwdne6978:0
+      K1Pool:
+        name: crwdns6980:0crwdne6980:0
+        __link: crwdns6982:0crwdne6982:0
+      KDV-Mining:
+        name: crwdns6984:0crwdne6984:0
+        __link: crwdns6986:0crwdne6986:0
+      MaxHash:
+        name: crwdns6988:0crwdne6988:0
+        __link: crwdns6990:0crwdne6990:0
+      MinerGate:
+        name: crwdns6992:0crwdne6992:0
+        __link: crwdns6994:0crwdne6994:0
+      Mole Pool:
+        name: crwdns6996:0crwdne6996:0
+        __link: crwdns6998:0crwdne6998:0
+      MyMiners:
+        name: crwdns7000:0crwdne7000:0
+        __link: crwdns7002:0crwdne7002:0
+      Nanopool:
+        name: crwdns7004:0crwdne7004:0
+        __link: crwdns7006:0crwdne7006:0
+        __primary: true
+      Open ETC Pool:
+        name: crwdns7008:0crwdne7008:0
+        __link: crwdns7010:0crwdne7010:0
+        __primary: true
+      Pearpool:
+        name: crwdns7012:0crwdne7012:0
+        __link: crwdns7014:0crwdne7014:0
+      PhoenixMax:
+        name: crwdns7016:0crwdne7016:0
+        __link: crwdns7018:0crwdne7018:0
+      Pool-Node:
+        name: crwdns7020:0crwdne7020:0
+        __link: crwdns7022:0crwdne7022:0
+      Prohashing:
+        name: crwdns7024:0crwdne7024:0
+        __link: crwdns7026:0crwdne7026:0
+      RociMining:
+        name: crwdns7028:0crwdne7028:0
+        __link: crwdns7030:0crwdne7030:0
+      RuPool:
+        name: crwdns7032:0crwdne7032:0
+        __link: crwdns7034:0crwdne7034:0
+      SaturnPool:
+        name: crwdns7036:0crwdne7036:0
+        __link: crwdns7038:0crwdne7038:0
+      SoloPool:
+        name: crwdns7040:0crwdne7040:0
+        __link: crwdns7042:0crwdne7042:0
+      StartMining:
+        name: crwdns7044:0crwdne7044:0
+        __link: crwdns7046:0crwdne7046:0
+      ua-mining:
+        name: crwdns7048:0crwdne7048:0
+        __link: crwdns7050:0crwdne7050:0
+      uuPool:
+        name: crwdns7052:0crwdne7052:0
+        __link: crwdns7054:0crwdne7054:0
+      ViaBTC:
+        name: crwdns7056:0crwdne7056:0
+        __link: crwdns7058:0crwdne7058:0
+      Wattpool:
+        name: crwdns7060:0crwdne7060:0
+        __link: crwdns7062:0crwdne7062:0
+      Whalesburg:
+        name: crwdns7064:0crwdne7064:0
+        __link: crwdns7066:0crwdne7066:0
+      WoolyPooly:
+        name: crwdns7068:0crwdne7068:0
+        __link: crwdns7070:0crwdne7070:0
+      XnPool:
+        name: crwdns7072:0crwdne7072:0
+        __link: crwdns7074:0crwdne7074:0
+      Zergpool:
+        name: crwdns7076:0crwdne7076:0
+        __link: crwdns7078:0crwdne7078:0
+      ŻET:
+        name: crwdns7080:0crwdne7080:0
+        __link: crwdns7082:0crwdne7082:0
