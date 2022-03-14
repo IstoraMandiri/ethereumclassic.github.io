@@ -1,0 +1,59 @@
+---
+__type: crwdns3270:0crwdne3270:0
+title: crwdns3272:0crwdne3272:0
+description: crwdns3274:0crwdne3274:0
+number: crwdns3276:0crwdne3276:0
+author: crwdns3278:0crwdne3278:0
+columnItems:
+  number:
+    name: "crwdns3280:0crwdne3280:0"
+    __linkPrefix: crwdns3282:0crwdne3282:0
+  title:
+    name: crwdns3284:0crwdne3284:0
+  author:
+    name: crwdns3286:0crwdne3286:0
+items:
+  Delay Difficulty Bomb Explosion:
+    number: "crwdns3288:0crwdne3288:0"
+    title: crwdns3290:0crwdne3290:0
+    author: crwdns3292:0crwdne3292:0
+  Long-term gas cost changes for IO-heavy operations to mitigate transaction spam attacks:
+    number: "crwdns3294:0crwdne3294:0"
+    title: crwdns3296:0crwdne3296:0
+    author: crwdns3298:0crwdne3298:0
+  Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule:
+    number: "crwdns3300:0crwdne3300:0"
+    title: crwdns3302:0crwdne3302:0
+    author: crwdns3304:0crwdne3304:0
+  Monetary policy rounding specification:
+    number: "crwdns3306:0crwdne3306:0"
+    title: crwdns3308:0crwdne3308:0
+    author: crwdns3310:0crwdne3310:0
+  Remove Difficulty Bomb:
+    number: "crwdns3312:0crwdne3312:0"
+    title: crwdns3314:0crwdne3314:0
+    author: crwdns3316:0crwdne3316:0
+  Clique proof-of-authority consensus protocol:
+    number: "crwdns3318:0crwdne3318:0"
+    title: crwdns3320:0crwdne3320:0
+    author: crwdns3322:0crwdne3322:0
+  Status Codes:
+    number: "crwdns3324:0crwdne3324:0"
+    title: crwdns3326:0crwdne3326:0
+    author: crwdns3328:0crwdne3328:0
+  Atlantis EVM and Protocol Upgrades:
+    number: "crwdns3330:0crwdne3330:0"
+    title: crwdns3332:0crwdne3332:0
+    author: crwdns3334:0crwdne3334:0
+  Agharta EVM and Protocol Upgrades:
+    number: "crwdns3336:0crwdne3336:0"
+    title: crwdns3338:0crwdne3338:0
+    author: crwdns3340:0crwdne3340:0
+  Phoenix EVM and Protocol Upgrades:
+    number: "crwdns3342:0crwdne3342:0"
+    title: crwdns3344:0crwdne3344:0
+    author: crwdns3346:0crwdne3346:0
+  Calibrate Epoch Duration:
+    number: "crwdns3348:0crwdne3348:0"
+    title: crwdns3350:0crwdne3350:0
+    author: crwdns3352:0crwdne3352:0
