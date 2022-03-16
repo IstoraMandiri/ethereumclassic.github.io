@@ -1,1 +1,229 @@
 ---
+title: 交易
+seo: 支持ETC的集中和最大限度的交易所、DEX和付款处理器列表。
+description: |
+  此页面包含一个允许您购买或交易ETC的服务列表。
+
+  ## 非详尽的交易列表
+
+  以下交易所有支持 Ethereum Classic。 它们分为三类：集中、信任、最小化和即时化。
+
+  **请对您选择的源自以太坊类的交易所进行研究。 在此站点上市并不表示Ethereum Classic 项目认可交易所的服务。**
+items:
+  Centralized Exchanges:
+    title: 集中化交易
+    items:
+      Altilly:
+        name: Altilly
+      Bequant:
+        name: Bequant
+      BigONE:
+        name: BigONE
+      BiKi:
+        name: 比基文
+      Binance:
+        name: 双色
+      Binance US:
+        name: Binance US
+      BitAsset:
+        name: BitAsset
+      Bitbns:
+        name: Bitbns
+      Bitcoin IRA:
+        name: Bitcoin IRA
+      Bitfinex:
+        name: Bitfinex
+      Bithumb:
+        name: Bithumb
+      BitMart:
+        name: BitMart
+      BitMax:
+        name: BitMax
+      Bitpanda:
+        name: Bitpanda
+      Bitsonic:
+        name: Bitsonic
+      Bitrue:
+        name: Bitrue
+      Bittrex:
+        name: Bittrex
+      Bittrex Global:
+        name: Bittrex 全局的
+      Bitvavo:
+        name: Bitvavo
+      BitZ:
+        name: BitZ
+      BKEX:
+        name: BKEX
+      BTC Markets:
+        name: BTC市场
+      C2CX:
+        name: C2CX
+      CAT.EX:
+        name: CAT.EX
+      Coinbase Pro:
+        name: Coinbase Pro
+      Coinbene:
+        name: Coinbene
+      Coinbit:
+        name: 硬币
+      Coineal:
+        name: Coinal
+      CoinEgg:
+        name: 硬币蛋
+      CoinEx:
+        name: 硬币
+      CoinLore:
+        name: 金币 Lore
+      Coinsbit:
+        name: 硬币
+      CoinTiger:
+        name: 硬币提格器
+      Coinut:
+        name: Coinut
+      Crex24:
+        name: Crex24
+      DCoin:
+        name: DCoin
+      DEX-Trade:
+        name: DEX-贸易
+      DigiFinex:
+        name: DigiFinex
+      DragonEx:
+        name: 德拉贡Ex
+      eToro:
+        name: eToro
+      eToroX:
+        name: eToroX
+      EXMO:
+        name: EXMO
+      EXX:
+        name: EXX
+      FatBTC:
+        name: FatBTC
+      Folgory:
+        name: Folgory
+      FTX:
+        name: FTX
+      Gate:
+        name: 门
+      HBTC:
+        name: HBTC
+      HitBTC:
+        name: 希特勒省
+      Hoo:
+        name: Hoo
+      HotBit:
+        name: HotBit
+      Huobi Global:
+        name: Huobi全球系统
+      Huobi Indonesia:
+        name: 印度尼西亚Huobi
+      Huobi Korea:
+        name: Huobi Korea
+      Huobi Russia:
+        name: Huobi Russia
+      Independent Reserve:
+        name: 独立储备金
+      Korbit:
+        name: Ktrov
+      Kraken:
+        name: Kraken
+      Kucoin:
+        name: Kucoin
+      LBank:
+        name: LBank
+      LiteBit:
+        name: LiteBit
+      Mandala:
+        name: Mandala
+      MXC:
+        name: MXC
+      OceanEx:
+        name: OceanEx
+      OKCoin:
+        name: OKCoin
+      OKex:
+        name: Okex
+      OKex Korea:
+        name: OKex Korea
+      P2PB2B:
+        name: P2PB2B
+      Poloniex:
+        name: Poloniex
+      ProBit:
+        name: ProBit
+      SouthXchange:
+        name: SouthXchange
+      STEX:
+        name: 粗体
+      Thodex:
+        name: Thodex
+      TOKOK:
+        name: TOKOK
+      Upbit:
+        name: 上线
+      VCC Exchange:
+        name: VCC 交易
+      WazirX:
+        name: WazirX
+      WhiteBIT:
+        name: 白色BIT
+      YoBit:
+        name: 约比特
+      YunEx:
+        name: YunEx
+      ZB:
+        name: ZB
+      ZBG:
+        name: ZBG
+  Trust-Minimizing Exchange:
+    title: 信托最小化交易
+    description: 以下交易所可能不会*完全*分散化*，但其业务集中程度比上面的清单要低。
+    items:
+      Bisq:
+        name: 双精度
+      Saturn Network:
+        name: 土星网络
+  Instant Exchanges:
+    title: 即时交流
+    description: "注: * 即时交易所提供的汇率通常低于中央交易所。"
+    items:
+      ABRA:
+        name: ABRA
+      AtomicWallet:
+        name: AtomicWallet
+      Bitni:
+        name: Bitni
+      BitTorro:
+        name: BitTorro
+      ChangeAngel:
+        name: ChangeAngel
+      ChangeNOW:
+        name: 更改NOW
+      Coinveer:
+        name: 硬币
+      Evercoin:
+        name: 埃韦尔币
+      Exodus:
+        name: Exodus
+      Exolix:
+        name: Exolix
+      FixedFloat:
+        name: 固定浮点数
+      SimpleSwap:
+        name: SimpleSwap
+      StealthEx:
+        name: 隐藏Ex
+      SwapSpace:
+        name: 交换空间
+      SwapSwop:
+        name: SwapSwop
+      Swapzone:
+        name: Swapzone
+      Switchain:
+        name: 切换链条
+      Voyager:
+        name: Voyager
+      XChange:
+        name: Xchange
