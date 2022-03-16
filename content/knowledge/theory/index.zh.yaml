@@ -1,1 +1,42 @@
 ---
+title: 理论与研究
+seo: 一系列涉及以太基姆古典的基本哲学、历史和独特价值主张的广泛专题的文章。
+description: |
+  超越了以太坊公会的核心租户， 根据《硬福克》的后果和原始《以太坊展望》的继续，形成了一整套思路。
+
+  下面收集了一系列文章，探讨了ETC及其历史的影响。 还有更广泛的理论和研究课题，帮助你进一步了解亚瑟姆古典的独特地位和无限潜力。
+items:
+  links:
+    items:
+      Etherplan:
+        name: 以太计划
+        description: Donald McIntyre's Etherplan 是著名的Etherum经典理论和研究来源。
+      Ethereum Classic Vision:
+        name: Ethereum 经典视图
+        description: Etherum经典如何成为一个成功的计算平台，以及为什么ETC是一个极好的价值存储。
+      Ethereum Classic vs. Ethereum 2.0, What is the Difference?:
+        name: 以太古经典与以太空为基础的 2.0 之间有什么区别？
+        description: 可以说，埃瑟姆经典是一种以安全为重点的保守管理系统，也是即将推出的以埃瑟姆2为重点的系统。 这是一个以业绩为重点的逐步运作的系统。
+      Phyro's Recap of ETC History:
+        name: Phyro的ETC历史记录
+        description: |
+          详细概述ETC公司的长期故事。
+          *您也可以在 [roadmap](/knowledge/roadmap)上阅读更多关于ETC 历史的信息。*
+      /blog/2016-12-06-why/:
+        name: 为什么我要选择在Etherum/经典上运行我的应用程序，而不是万维网？
+        description: 万维网带来的利益
+      Ethereum Classic Opportunities:
+        name: 以太坊经典商机
+        description: 以太坊经典野生潜力概述
+      How to Have a Vision for Ethereum Classic Without Creating a Governance Orgy:
+        name: 如何在不创造治理神学的情况下为以太基古典树立一个视野。
+        description: A. 保持进展同时避免区块链治理问题的办法
+      The Ethereum Classic vs Ethereum 1.x Dichotomy:
+        name: 以太古经典与以太异常为主。 1.x 二次切割。
+        description: Etherum走向利益证明时，ETC与ETH 1.X的关系是什么？
+      Why Proof of Stake is Less Secure Than Proof of Work:
+        name: 为什么利益攸关方的证明比工作证明更安全？
+        description: 主观层通过以工作体质为基础的证据为依据，从而获得了更加客观的程度，从而更加安全。
+      Ethereum Classic (ETC) Wiki:
+        name: Ethereum Classic (ETC) Wiki
+        description: Etherum的ETC链的一些核心理念。
