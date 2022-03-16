@@ -1,1 +1,159 @@
 ---
+title: 社交频道
+seo: Ethereum 经典聊天室、Twitter账户、讨论小组、论坛、播客、仓库和区域网站集合。
+description: |
+  以下是活跃的Ethereum 经典讨论渠道和小组的非详尽清单。
+
+  目前ETC 社区内的主要活动中心在 [Discord](https://eferumclassic.org/discord)。
+items:
+  Chat Rooms:
+    title: 聊天室
+    items:
+      chat Discord:
+        name: Discord (全球)
+      chat Facebook English:
+        name: Facebook (英文)
+      chat Facebook Vietnam:
+        name: Facebook (越南语)
+      chat Kakao Korea:
+        name: Kakao (韩国)
+      chat Slack:
+        name: Slack (英文)
+      chat WeChat:
+        name: WeChat (中文)
+  Development Chat:
+    title: 开发聊天
+    items:
+      Commonwealth.gg dev:
+        name: 英联邦.gg
+      Core-Geth dev:
+        name: 核心资源
+      Core Paper dev:
+        name: 核心文件
+      ECIPs dev:
+        name: ECIP
+      ETC Core dev:
+        name: ETC Core
+      ETCDEV dev:
+        name: 其它设备
+      ETC Labs dev:
+        name: ETC 标签
+      Gödel Labs dev:
+        name: Goodutification del Labs
+      Hyperledger Besu dev:
+        name: 超音速贝斯文
+      Mantis Client & Wallet:
+        name: Mantis
+      Multi-Geth dev deprecated:
+        name: 多地理坐标(已废弃)
+      OpenEthereum dev deprecated:
+        name: OpenEthereum (已废弃)
+      Open-RPC dev:
+        name: 开放式RPC
+      PAO Network dev:
+        name: PAO 网络
+      POA Network dev:
+        name: POA 网络
+      POA Network telegram:
+        name: POA 网络
+      Parity Tech dev:
+        name: 对等技术
+      Parity Tech dev telegram:
+        name: 对等技术
+  Telegram Groups:
+    title: Telegram 群組
+    items:
+      telegram Arabic:
+        name: 阿拉伯语
+      telegram China 1:
+        name: 中国
+      telegram China 2:
+        name: 中国
+      telegram English 1:
+        name: Distr.
+      telegram English 2:
+        name: Distr.
+      telegram Español:
+        name: Español
+      telegram German:
+        name: 德文
+      telegram Italia:
+        name: Italia
+      telegram Japan:
+        name: 日本
+      telegram Russia 1:
+        name: Russian
+      telegram Russia 2:
+        name: Russian
+      telegram Viet Nam:
+        name: Viet Nam
+  Forums:
+    title: 讨论区
+    items:
+      forum RedditEthereumClassic:
+        name: Reddit r/Etherumsic
+      forum ETC:
+        name: EtherumClassic.org论坛
+      forum BitcoinTalk:
+        name: 比特币Talk
+      forum Archived BitcoinTalk:
+        name: 已存档比特币Talk
+  Media:
+    title: 媒体
+    items:
+      media ETCfInv:
+        name: 以太奇为投资者的 Etherum Casicic (ETC)
+      media Etherplan:
+        name: 以太计划
+      media EVM61:
+        name: EVM61
+      media Explore The Chain:
+        name: 探索链条
+      media Let's Talk ETC!:
+        name: 让我们说话ETC！
+  Twitter Accounts:
+    title: Twitter 账户
+    items:
+      twitter China 1:
+        name: 中国
+      twitter China 2:
+        name: 中国
+      twitter English 1:
+        name: Distr.
+      twitter English 2:
+        name: Distr.
+      twitter Español:
+        name: Español
+      twitter France:
+        name: 法国
+      twitter Germany:
+        name: 德国
+      twitter Italia:
+        name: Italia
+      twitter Japan:
+        name: 日本
+      twitter Korea 1:
+        name: Korea
+      twitter Korea 2:
+        name: Korea
+      twitter Netherlands:
+        name: 荷兰
+      twitter Philippines:
+        name: 菲律宾
+      twitter Sri Lanka:
+        name: 斯里兰卡
+      twitter Turkey:
+        name: 土耳其
+      twitter Viet Nam:
+        name: Viet Nam
+  Regional Website:
+    title: 区域网站
+    items:
+      website ETC Hub:
+        name: ETCHub.io
+      website EthereumClassic.cn:
+        name: EthereumClassic.cn
+      website ETC Korea:
+        name: ETC Korea
+      website EthereumClassicKorea.com:
+        name: EthereumClassicKorea.com
