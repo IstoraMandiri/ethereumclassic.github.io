@@ -1,0 +1,46 @@
+---
+items:
+  table:
+    number: 号码
+    author: 作者
+    columnItems:
+      number:
+        name: "ECIP #"
+      title:
+        name: 标题
+      author:
+        name: 作者
+    items:
+      Delay Difficulty Bomb Explosion:
+        number: "1010"
+        title: 延迟难度炸弹爆炸数
+      Long-term gas cost changes for IO-heavy operations to mitigate transaction spam attacks:
+        number: "1015"
+        title: 为减少交易垃圾邮件袭击而进行的重型IO-重型业务的长期气体成本变化
+      Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule:
+        number: "1017"
+        title: 货币政策和以太基古姆经典排放时间表的最后修改
+      Monetary policy rounding specification:
+        number: "1039"
+        title: 货币政策四舍五入的规范
+      Remove Difficulty Bomb:
+        number: "1041"
+        title: 移除难度炸弹b
+      Clique proof-of-authority consensus protocol:
+        number: "1048"
+        title: 客户授权证明协商一致协议
+      Status Codes:
+        number: "1050"
+        title: 状态码
+      Atlantis EVM and Protocol Upgrades:
+        number: "1054"
+        title: Atlantises EVM and Protocol 升级
+      Agharta EVM and Protocol Upgrades:
+        number: "1056"
+        title: Agharta EVM和协议升级
+      Phoenix EVM and Protocol Upgrades:
+        number: "1088"
+        title: Phoenix EVM 和协议升级
+      Calibrate Epoch Duration:
+        number: "1099"
+        title: 校准Epoch时长
