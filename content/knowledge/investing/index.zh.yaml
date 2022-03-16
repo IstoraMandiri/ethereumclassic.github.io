@@ -1,1 +1,25 @@
 ---
+items:
+  links:
+    items:
+      Grayscale's ETC Research Report:
+        name: 灰度 ETC 研究报告
+        description: 灰度关于以太坊类的价值建议的报告。 讨论ETH和ETC的起源，这是ETC作为一种能够为互联网提供动力的价值存货的投资机会。 以及如何将战略性分配给企业发展委员会以提高投资者组合的效率。
+      etcIsMoney:
+        name: ETC 是钱
+        description: 一个关于硬金的品质以及它们与以太坊经典的关系的多彩和意见提醒
+      The Ethereum Classic Monetary Policy Explained:
+        name: 以太坊经典货币政策解释
+        description: 规定ETC的最高货币政策，类似于比特币，也不同于ETH。 在下一个世纪，ETC的总供应量将达到199M-210M。 另外还解释了每5M区块减少20%的新供应量("五秒") 以及初始发射分配的经济效益。
+      The Logic of why Ethereum Classic will Rise 1000x in the Medium to Long Term:
+        name: Ethereum 经典为何在中期到长期内升值1000x 的原理
+        description: 以太普计划解释了为何以太西姆经典*可能*在可预见的将来看到一些有利的回报。
+      Why Does Ethereum Classic Have Value?:
+        name: 为什么以太坊经典具有价值？
+        description: 以太计划审查了ETC的价值建议，以及该网络为什么具有作为“可编程数字黄金”的基本价值。
+      Decentralized Finance (DeFi) on ETC Explained:
+        name: ETC解释上的分权金融（DeFi）
+        description: 探索由其所有者如何将财富储存在区块链上，并通过分散的融资应用程序来杠杆。 与传统的银行系统相比，DeFi系统使参与者对其资金有了更大的控制和透明度。
+      Grayscale Ethereum Classic Trust (ETCG):
+        name: 灰度以太坊经典信托基金(ETCG)
+        description: Grayscal's Etherum经典信托基金使投资者能够通过传统的投资工具接触到ETC的价格变动。 ETCG是通过经纪人在股票市场上交易的，可通过退休账户持有(IRA/401K)。 避免投资者购买和储存电子逆向拍卖的挑战。
