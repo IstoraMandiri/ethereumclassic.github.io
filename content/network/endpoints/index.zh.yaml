@@ -1,1 +1,33 @@
 ---
+title: 公共端点
+seo: 可以通过MetaMask和其他应用程序与ETC交互的远程程序调用终点列表。
+description: |
+  远程过程调用 (RPC) 端点是您通往Ethereum Classic的网关，允许您与ETC 链通信并读取数据。 为了最大的不可信性，您可以在本地运行[ETC Client](/development/clients)；本地端点通常可在 `http://localhost:8545`上查找。
+
+  也可以使用公共经典的RPC端点，免费向社区提供，或作为订阅服务。 因为您可以使用诸如 [MetaMask](/guides/metamask)等钱包在本地签名和广播交易， 公共端点可以在维护您的私钥保管时使用。
+
+  您可以通过更新你的钱包或部署工具配置来交易和部署到 ETC (或它的测试网)。 请确保你也将你的链条ID更改为Ethereum mainet的`61'。
+
+  关于其他网络的更多信息，请访问 [testnets](/development/testnets) 部分。
+items:
+  endpoints:
+    columnItems:
+      name:
+        name: 服务
+      rpcUrl:
+        name: RPC URL
+    items:
+      Ethercluster:
+        name: 以太分组
+      Ethercluster (Kotti):
+        name: Ethercluster (Kotti)
+      Ethercluster (Mordor):
+        name: 以太集群(Mordor)
+      Ethercluster (Goerli):
+        name: 以太群(Goerli)
+      BlockScout API:
+        name: BlockScout API
+      RIVET API:
+        name: 里韦特
+      TokenView API:
+        name: TokenView API
