@@ -1,1 +1,33 @@
 ---
+title: 区块链探索器
+seo: Ethereum 经典和各种ETC 测试网的区块链浏览器服务列表。
+description: |
+  Blockchain Explorers 提供了一种方便的方式来了解某个链的当前和过去状态， 允许您检查块、交易和账户余额的内容。
+
+  以下第三方探索者独立验证Ethereum Classic的状态和它的测试网。 它们通常用来核实交易是否已经广播和确认， 但许多项目提供了更先进的特点，如历史账户余额、合同核查等等。
+items:
+  explorers:
+    columnItems:
+      etc:
+        text: Mainnet
+      kotti:
+        text: 科蒂文
+      mordor:
+        text: Mordor
+    items:
+      AnyBlock:
+        name: 任意屏蔽
+      Bitquery:
+        name: Bit查询
+      BlockScout:
+        name: Block侦查器
+      Emerald Receipt:
+        name: 绿宝石收件人
+      ETCBlockExplorer:
+        name: ETCBockExplorer
+      Expedition:
+        name: 探险模式
+      MinerGate:
+        name: MinerGate
+      Tokenview:
+        name: 令牌视图
