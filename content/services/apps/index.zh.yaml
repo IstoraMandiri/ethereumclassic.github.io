@@ -1,1 +1,23 @@
 ---
+title: 应用程序和协议
+seo: 分散化应用和协议建立在以太坊传统模式为顶端；NFT、游戏、身份系统、DEX、金融产品等...
+description: Ethereum Classic 托管了越来越多的分散应用程序和协议。本页概述了ETC 网络开发的状况。
+types:
+  nfts:
+    title: NFTs
+    description: 不可救世代代币是不可忘却的收藏品，2021年及以后用风暴夺取了加密货币空间。
+  games:
+    title: 游戏
+    description: 嵌入埃瑟姆经典区块链的交互式游戏进入了新的娱乐领域。
+  identity:
+    title: 身份系统
+    description: 相互可操作的特性将在建立抵制Sybil的权力下放制度方面发挥作用，促进声誉和治理。
+  interoperability:
+    title: 互操作性
+    description: 允许区块链之间分享价值和数据的跨链技术增强了网络效果，使得所有参与者都能够分享更大的眼睛。
+  finance:
+    title: A. 财务
+    description: 分权金融（DeFi）、分权交易所、分权自治组织（DAOs），不论缩略语为何，区块链技术在这些新型经济工具的建造方面表现优秀。
+  other:
+    title: 其他
+    description: 所有非常独特的应用程序和协议都不适合于现有类别。
