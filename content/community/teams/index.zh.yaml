@@ -1,1 +1,57 @@
 ---
+title: 开发团队
+seo: 以往或目前正在为以太西姆古典作出贡献的主要组织名单。
+description: |
+  以太久经典是一种分散的开发生态系统，意味着没有“官方”团队或正式等级。 这个全球发展界是一个没有权限的管理机构，任何人都可以参加。 个人和团队自己选择任务并执行它们。我们集体建立[粗略共识](https://en.wikipedia)。 rg/wiki/Rough_consens) through [Etherum Classic Improvement Proposal](https://ecips.eferumclassic.org/)
+
+  这是自该项目于2015年7月30日起诞生区块以来为以太坊经典做出贡献的杰出团队名单。 以太古经典生态系统赞赏个人、志愿者和团队在协议一级的所有发展努力。
+items:
+  teams:
+    columnItems:
+      year:
+        name: 年份
+      name:
+        name: 团队名称
+      social:
+        name: 社交活动
+      active:
+        name: 已启用
+    items:
+      Ethereum Foundation:
+        name: 以太久基金会
+      Parity Technologies:
+        name: 对等技术
+      ETC Consortium:
+        name: ETC Consortium
+      ETCDEV:
+        name: 其它设备
+      Grothendieck:
+        name: IOHK Mantis
+      ETC Cooperative:
+        name: ETC Cooperative
+      Ethereum Commonwealth:
+        name: 以太坊英联邦组织
+      Grayscale:
+        name: Grayscale
+      commonwealth.gg:
+        name: 英联邦.gg
+      ETC Labs:
+        name: ETC 标签
+      POA Network:
+        name: POA 网络
+      Chippr Robotics:
+        name: Chippr 机器人
+      ETC Core:
+        name: ETC Core
+      ChainSafe:
+        name: 链安全
+      Core Paper:
+        name: 核心文件
+      Second State:
+        name: 第二个国家
+      Byzantine Fault:
+        name: Byzantine 故障
+      Gödel Labs:
+        name: Goodutification del Labs
+      Storj Labs:
+        name: Storj Labs
