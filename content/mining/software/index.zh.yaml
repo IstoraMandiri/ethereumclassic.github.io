@@ -1,1 +1,60 @@
 ---
+title: 矿工软件
+seo: 可用来挖掘Ethereum Classic上加密货币ETC的软件包列表。
+description: "埃瑟姆经典网络的工作证明采矿算法自2020年11月28日起为 [ETCHash](https://github.com/eth-classic/etchash)。"
+items:
+  table:
+    columnItems:
+      name:
+        name: 名称
+      windowsAmd:
+        name: Windows AMD
+      windowsNvidia:
+        name: Windows Nvidia
+      linuxAmd:
+        name: Linux AMD
+      linuxNvidia:
+        name: Linux Nvidia
+      guide:
+        text: 指南
+    items:
+      Cruxminer:
+        name: "Cruxminer"
+      GMiner:
+        name: "GMiner"
+      lolMiner:
+        name: "大矿工"
+      Nanominer:
+        name: "Nanominer"
+      NBMiner:
+        name: "NBMiner"
+      OpenETC Pool:
+        name: "OpenETC 库"
+      Phoenix Miner:
+        name: "Phoenix 矿工"
+      SRBMiner-Multi:
+        name: "SRBMiner-Multi"
+      T-Rex Miner:
+        name: "T-Rex Miner"
+      TeamRedMiner:
+        name: "团队红矿工"
+      TT-Miner:
+        name: "TT-矿工"
+      AwesomeMiner:
+        name: "操作系统：非常棒的矿工"
+      HiveOS:
+        name: "OS: HiveOS"
+      MinerStat:
+        name: "操作系统：矿工统计"
+      MMP OS:
+        name: "OS: MMP OS"
+      NiceHash:
+        name: "OS: NiceHash OS"
+      PiMPOS:
+        name: "操作系统: PiMP OS"
+      RaveOS:
+        name: "操作系统：覆盖系统"
+      SimpleMining:
+        name: "OSS：简单开采："
+      Stratums:
+        name: "Tool: Stratums"
