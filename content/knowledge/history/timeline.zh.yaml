@@ -1,1 +1,265 @@
 ---
+title: 事件时间表
+items:
+  frontierRelease:
+    title: Ethereum 启动
+    text: Vitalik Buterin 和 The Etherum基金会创建了第一个基于区块链的智能合同平台，带有边界版本
+  frontierThawingUpgrade:
+    title: 边框热门升级
+    text: 该网络在200 000块上安装了“冰河时代”，引进了难度炸弹， 一种旨在将网络的协商一致机制从工作证明转向利益证明的机制
+  homesteadUpgrade:
+    title: 回家升级
+    text: Homestead 是以太坊平台的第二个主要版本
+  slockItCreatesThe Dao:
+    title: Slock.it 创建 DAO
+    text: Slock.it 构建DAO 以太坊合同；安全审计由Dejavu完成。
+  the DaoCrowdsaleBegins:
+    title: DAO 花园销售开始
+    text: 部署了 DAO 智能合同；公众发送其值以换取DAO 令牌
+  securityProposal:
+    title: 安全提议
+    text: Slock.it 宣布一个150万美元的建议书，由人群在Ether支付，“以保证DAO的完整性”
+  moratoriumCalled:
+    title: 暂停呼叫
+    text: 在人群销售的最后一天，DAO 馆长Vlad Zamfir呼吁暂停DAO，引述了许多游戏理论安全问题
+  the DaoCrowdsaleEnds:
+    title: DAO 花圈销售结束
+    text: 人群销售完成后成为世界上最大的人群，筹集了令人难以置信的1.5亿美元。
+  recursiveCallBugDiscovered:
+    title: 递归通话错误发现
+    text: Peter Vessenes公开披露在许多团结合同中被忽视的严重安全脆弱性。
+  noFundsAtRisk:
+    title: 没有风险资金
+    text: Stephan Tual 公开声称，尽管新发现了严重的安全缺陷，DAO基金仍然是安全的
+  the DAOIsHacked:
+    title: DAO 已被打包
+    text: 当重新进入错误应用时，Ether 正在缓慢和静默地从 DAO 中流出
+  panicHitsTheMarkets:
+    title: 恐慌冲击市场
+    text: 当Griff Green宣布DAO已被破解时，Ether 的价格会在一半内下跌。
+  theCountdownBegins:
+    title: 倒计时开始
+    text: 财政部的分割机制大约给出一个月的时间来找到收回资金的解决办法。 基础和社区开发者竞赛来实现软论坛
+  robinHoodGroupAnnounced:
+    title: Robin Hood Group Annabed
+    text: 一组“白色”黑客获得了 70% 的 DAO 资金，但需要协议级别的行动来节省其余的 30% 被黑客拆分
+  softForkTheDao:
+    title: "DAO 战争：软分叉投票"
+    text: 以太坊基金会释放了一个“软福”客户来检查黑客的交易；矿池投票通过降低气体限制使其能够使用
+  softForkVulnerability:
+    title: 软分叉脆弱性
+    text: Soft Fork 实现中发现了严重拒绝服务缺陷，矿工很快决定不使用它
+  hardForkDebate:
+    title: 硬叉辩论
+    text: 许多天的激烈争辩在以太坊社区中继续进行，涉及实现硬叉的利弊。
+  hardForkSpecAnnounced:
+    title: 硬派福克Spec 已发布
+    text: 唯一剩下的选项是一个有争议的硬叉。规格是由 Slock.it 和 Ethereum 基金会成员确定和宣布的。
+  lastMinuteCarbonvote:
+    title: 最后分钟的碳投票数
+    text: 通知12小时。 以太坊基金会使用一个有争议的第三方“硬币投票”来确定硬叉应该默认打开； 已声明共识，更新客户端已发布
+  daoBailoutHardFork:
+    title: DAO Bailout Hard Fork
+    text: 2016年7月20日，约80%的节点更新到新客户端， 社区热切等待DAO Bailout Fork激活区1 920 000
+  newEthereumIsBorn:
+    title: 新建派生链接
+    text: 叉链已经诞生了！Etherum基金会在2016年7月20日修改了以扭转DAO失窃行为。 作为商标权持有人，以太基姆基金会将以太基品牌为基础的新叉链。
+  ethereumRenamedToClassic:
+    title: 原始非Fork Chain
+    text: 由于预测原来的无叉链将在几个小时内消失，许多人惊讶地发现矿工继续支持原始链。 Bisq 和 OTC桌面为这些代币提供了一本价格发现订单簿。市场参与者重新商标这个非叉链以太坊经典(ETC)
+  missionAccomplished:
+    title: 任务完成！
+    text: 由于DAO分叉代码已成功实施，没有明显缺陷，ETH社区会让人们轻松解说。 冠军玉米遍布全球。 新链的诞生是成功！
+  poloniexListsETC:
+    title: Poloniex lists ETC
+    text: 最大的以太坊交易所标志着对原始链的长期支持，Poloniex列出了ETC。许多交易所很快跟随。
+  etheriansInDisarray:
+    title: 食人分形
+    text: 火焰战争从板块开始。 随着经济实力充沛的零部件开始在与分裂的现实相适应时对参与者起到控制作用。
+  ethereumClassicsupporters:
+    title: 以太久经典支持者
+    text: 以太古经典支持者分支从以太坊的版块上关闭，组成他们自己的社会频道
+  geth-ETC-Support:
+    title: Geth 支持 Ethereum 经典
+    text: Geth 发布支持Ethereum Classic 网络。 此节点已从客户端删除所有的 DAO 代码，不需要额外的标志来使用Ethereum 经典网络
+  parity-ETC-Support:
+    title: 对等支持经典
+    text: 均等标志着对以1.2为基础的以太久为基础的经典的长期支持。 发行，处理以太空高频和以太空经典链为对象的网络稳定性问题，并对交易跟踪 API 带来一些更改
+  51Pool:
+    title: 51%的攻击威胁
+    text: ETH支持者组成了一个称为“51Pool.org”的矿池，他们计划通过策划51%的攻击摧毁ETC网络。
+  minerSupport:
+    title: 矿工支持 ETC
+    text: ETC 网络发展到无法再攻击的地步，ETH矿工公开宣布不攻击ETC。 为了防止伤害无辜的以太坊传统持股人，ETHash矿工将资源用于采矿ETC。
+  attackRhg:
+    title: RHG 攻击 ETC
+    text: Robin Hood集团试图从DAO叉上推销大量被盗的ETC。Poloniex冻结了他们的资金
+  classicDeclaresIndependence:
+    title: 经典声明的独立性
+    text: Ethereum 经典支持者从链条分割的ETH一侧进行无情攻击后，坚定地宣布独立于新的ETH链。
+  classicRebuilds:
+    title: 作战测试并能恢复
+    text: Ethesum Classic 经典随着ETEC以稳定价格从ETH袭击中出现而对市场产生了弹性。 网络核心原理在 DAO Bailout 期间得到激励。支持者从灰色开始重建
+  unlockedDaoFunds:
+    title: DAO 资金在ETC 上解锁
+    text: 以前被锁定或冻结的数百万ETC可提供给DAO代币持有者和DAO黑客。 面对巨大的市场倾销，ETC公司的价格保持得很好
+  codeIsLaw:
+    title: 代码是法律
+    text: 在ETH攻击中，许多战斗都来自Etherasum经典支持者。 他们开始澄清其核心原则，并向公众确认ETC网络的存在。
+  gasReprice:
+    title: 天然气重新价格升级
+    text: 2016年10月24日，Ethereum Network由于技术堆栈的脆弱性而遭到攻击。 ETC devs很快确保网络升级顺畅和无争议，以补丁被利用的脆弱性
+  etcMonetaryPolicy:
+    title: ETC 货币政策
+    text: Ethasum Classic suppliers debate ETC的排放时间表和货币政策
+  grothendieckTeam:
+    title: Grothendieck 团队
+    text: IOHK 向Etherum经典派遣了7个全职开发人员
+  dieHardUpgrade:
+    title: 派生硬升级
+    text: 2017年1月13日，ETC 处理重放攻击和推迟网络升级中的难易炸弹问题
+  etcDEVTeamAnnouncement:
+    title: ETCDEV 团队
+    text: 一个长期的ETC贡献者小组和志愿者重新命名为ETCDEV团队
+  monetaryPolicyAdopted:
+    title: 货币政策共识：
+    text: 以太古经典形式围绕着210达成共识。 ME ETC 固定上限货币政策，采用比特币激励的有限排放时间表，称为5M20；每5M区块减少20%的奖励。
+  etcInvestmentFund:
+    title: ETCG 投资基金
+    text: 灰度启动了第一个非比特币加密基金，使传统投资者能够将ETC添加到他们的投资组合中，并从传统投资资产中获得所有的税收利益。
+  etcCommonwealth:
+    title: 英联邦小组
+    text: 以以英联邦名称组成的开发团队
+  mantis-Launch:
+    title: 启动Mattis
+    text: 这个beta客户Mantis的释放将于今天进行，这是格罗滕迪埃克小组七个月工作的结果。 IOHK 开发者致力于以太坊经典版
+  etcCoop:
+    title: ETC 合作团队
+    text: 灰度表示长期支持以太基姆经典协议的制订，为此赞助了ETC合作社队，其部分管理费由其提供。 对非营利机构的捐款是可减税的。
+  etcSummitHK:
+    title: ETC 首脑会议 2017
+    text: 首届以太坊经典年会在香港举行
+  gothamUpgrade:
+    title: Gotham 升级
+    text: 2017年12月11日，哥塔姆升级在比特币的启发下制定了可预测的货币政策和排放时间表。 5M20, 区块奖励将每5M区块减少20%
+  era2:
+    title: 5M20 Era 2
+    text: 2017年12月11日，Ethereum Classic的 5M20 排放计划进入Era 2. 区块奖励每个区块减少20% 到 4 ETC
+  multi-Geth-Launch:
+    title: 多地理启动
+    text: 多地理客户端项目启动。 这是一个从 Ethereum Foundation 的版本派生的go-eythum 客户端，旨在密切跟踪上游的变化，并支持多个Ethereum 网络。 我们刚刚添加了 Ethereum 经典网络的 Alpha 支持。
+  defuseDifficultyBomb:
+    title: 防守难炸弹b
+    text: 2018年5月29日，ETC 安全地使难易炸弹无法将原先的Etherum项目转换为PoS。 以太西古经典标志着人们长期致力于把《小武器公约》作为一个网络共识机制
+  etclabs:
+    title: ETC 实验室团队
+    text: 以太久古经典实验室提供资金、行业联系和办公空间以促进新兴的电子计算机项目，而办公空间则设在旧金山和新加坡。
+  kotti:
+    title: 科蒂发射器
+    text: ETC Cooperation资助开发Kotti testnet，这是一个为了提供与姐妹ETH的Gorli Testnet的互操作性测试而建造的验证局测试网。 PoA变成开发测试的首选测试网环境
+  etcSummitSeoul:
+    title: ETC 首脑会议 2018
+    text: 第二次以太坊经典年会在南朝鲜首尔举行。
+  coinbase:
+    title: Coinbase Lists ETC
+    text: 美国最大的加密货币交易所标志着对原始以太坊链的长期支持；以太坊经典。
+  etcLabsIncubator:
+    title: 孵化器程序启动
+    text: Etherum Classic Labs启动了一个孵化器程序。ETC Labs承诺每年与多达24个以Etherum为基础的经典启动器一起工作
+  51Attack:
+    title: 51% 攻击
+    text: 以太古经典经历了其网络首次成功的链路重组攻击。耐力强的ETC从废墟中升起。
+  51AttackReturn:
+    title: Whitehat攻击者
+    text: 51%的攻击者似乎是白色黑客，将被盗资金退回到交易所中。交易所收紧了51%的对PoW硬币的攻击监视。
+  atlantisConsensus:
+    title: Atlantiss Rough Consensus
+    text: 以太古经典核心开发者就ECIP-1054达成了大致共识，努力实现ETH 的精准龙和 Byzantium 网络协议升级
+  atlantisUpgrade:
+    title: 阿特兰蒂斯升级
+    text: Ethesum 经典核心开发者执行ETH的精密拖龙和Byzantium 网络协议升级以保持与其姐妹链的业务均等性
+  etcSummitVancouver:
+    title: ETC 首脑会议 2019
+    text: 第三次以太坊经典年会在加拿大温哥华举行
+  mordorLaunch:
+    title: Mordor 启动
+    text: 核心开发者通过使用 Mordor, 一个 Ethash PoW 测试网来替换 Kensington, Morden 和 Nazgul 测试网络来删除 testnet 冗余。
+  besu-ETC-Support:
+    title: 别苏支持以太久经典
+    text: 超量账号别斯向他们的Ethereum 客户端添加了Etheressim 经典支持，其目的是为公共和私人授权网络使用案例对企业友善。
+  aztlanConsensus:
+    title: Astlan Rough Consensus
+    text: 以太西古经典核心开发商就ECIP-1061达成了基本共识，努力执行ETH的伊斯坦布尔网络协议升级
+  aghartaConsensus:
+    title: Agharta Rough Consensus
+    text: 以太古经典核心开发者就ECIP-1056达成了大致共识，努力实现ETH Constantinople 和 Petersburg网络协议升级
+  aghartaUpgrade:
+    title: Agharta 升级
+    text: 以太古经典核心开发者执行ETH的君士坦丁堡和彼得堡网络协议升级以保持与其姐妹链的业务均等性
+  core-Geth-Launch:
+    title: 核心地理启动器
+    text: ETC 核心团队将脱离多地理客户端项目。 该项目称为“Core-Geth”，是一种为使以太基议定书为多种生态系统提供便利和推广的下游努力。
+  phoenixFixConsensus:
+    title: Phoenix Fix Rough Consensus
+    text: 在 Aztlan 测试网实现过程中，Etherum Classic 核心开发者发现了ECIP 1061 旁观的并发症以添加ETH 的伊斯坦布尔网络协议升级。 如预期的那样，ETC 测试网会捕获问题，核心开发者会为这些问题提供补丁。
+  ecip1050-Status-Codes:
+    title: ECIP 1050 状态码
+    text: ECIP 1050 状态码移动到最终状态。这个标准概述了一套常见的状态码与HTTP状态相同的状态码。 这提供了一套共享的信号，以便智能合约能够自动对局势做出反应，向用户暴露局部错误消息，等等，
+  aztlanBugs:
+    title: 测试网捕获错误
+    text: 在 Aztlan 测试网实现过程中，Etherum Classic 核心开发者发现了ECIP 1061 和 1078 投影的并发症，可以添加ETH 的伊斯坦布尔网络协议。 ETC 核心的方法记录了结果。按照原来的意图，ETC 测试网抓住问题，核心开发人员返回绘图板
+  aztlanRejected:
+    title: Aztlan
+    text: 根据Aztlan 测试网安装过程中发现的问题，找到Phoenix Fix 不是一个足够的修复，两者都是打断测试网； 核心开发者提议拒绝 ecips-1061, 1078, 1086 出于对安全与稳定的关切，继续从零开始撰写新提案
+  phoenixConsensus:
+    title: Phoenix Rough Consensus
+    text: 以太西古经典核心开发商就ECIP-1088达成了基本共识，努力执行ETH的伊斯坦布尔网络协议升级。 测试网的实施揭示了先前尝试的ECIP-1061 和 ECIP-1078 的问题
+  phoenixMordor:
+    title: Phoenix Mordor Testing
+    text: Phoenix 测试开始于 Mordor PoW 测试网在999 983块上。核心开发团队已经发出信号，这是一个复杂的执行方法。 测试可能会发现延迟此网络升级的问题，但以太坊经典将永远不会急于升级主网。 网络安全优先于开发速度和任意的时间表
+  era3:
+    title: 5M20 Era 3
+    text: 基于比特币激励的5M20排放计划，古典类的奖励每个区块减少20％至3.2ETC。
+  phoenixKotti:
+    title: Phoenix Kotti 测试
+    text: Phoenix 测试开始在 Kotti PoA 测试网上的第2200 013 块。核心开发团队已经发出信号，这是一个复杂的实施方法。 测试可能会发现延迟此网络升级的问题，但以太坊经典将永远不会急于升级主网
+  phoenixUpgrade:
+    title: Phoenix 升级
+    text: 以太西古经典核心开发者执行ETH的伊斯坦布尔网络协议升级，以保持与其姐妹链的业务均等性
+  client-Deprecation-Attacks:
+    title: 客户端废弃攻击
+    text: 在DAO Bailout Hard Fork四周年之际，ETH以客户为中心的维护者组织了一次对Ethereum Classic的社会攻击。 客户端维护者宣布弃用Ethereum 经典支持。 然后进行错误的信息营销活动，引用ETC网络将会失去70%的哈希率和其他不真实的
+  51Attack2:
+    title: "51% 攻击 #2"
+    text: 以太古经典经历了第二次成功的连锁重组对其网络的攻击。
+  51Attack3:
+    title: "51% 攻击 #3"
+    text: 以太古经典经历了第三次成功的连锁重组对其网络的攻击。
+  51Attack4:
+    title: "51% 攻击 #4"
+    text: 以太古经典经历了第四次成功的连锁重组对其网络的攻击。
+  messClientFunctionality:
+    title: M.E.S.S. 客户端功能
+    text: Core-Geth客户端将旗帜用于应用可选的 M.E.S.S.的功能，作为对网络51%攻击的回应。
+  thanosMordor:
+    title: Thanos Mordor 测试
+    text: Thanos测试开始于Mordor PoW 测试网上2,520,000个区块。
+  thanosUpgrade:
+    title: Thanos升级
+    text: 以太久经典实现了 Thanos 升级以重新校准在 DAG 计算中使用的教程长度。
+  etchash:
+    title: 埃特查什文
+    text: 以太久经典实现了Thanos升级以调整从ETHash到ETCHas的采矿算法
+  manis-ETC-Stupport:
+    title: MantisETC客户端恢复
+    text: 输入输出全球信号支持埃瑟姆经典网络，同时恢复Matis客户端和GUI。
+  lcetcc:
+    title: 让我们保持以太古典经典
+    text: 一名相关的ETC 与会者提出了长时间的反驳，反对执行ECIP-1098。
+  treasuryDebate:
+    title: 已撤回财务建议
+    text: 经过一年长时间的讨论，即一项ECIP-1098是否能够获得ETC价值后，ETC Coop，接着IOHK撤回对财务处建议的支持。
+  aBrightFuture:
+    title: 光明的未来
+    date: 未来
+    text: 随着生态系统继续有机地发展，独立的发展小组遵循的原则使以太坊经典成为这样一个独特的网络。 该网络是真正分散的、不可改变的和不可阻挡的。
