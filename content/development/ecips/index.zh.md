@@ -41,7 +41,4 @@ ECIPs Website: https://ecips.etherumclassic.org/
 
 ## 已接受的 ECIP
 
-下面的收费已获批准并纳入以太坊经典协议。
-
-<Table data="ecips" >
-  </p>
+The following features were approved and integrated into the Ethereum Classic protocol.
