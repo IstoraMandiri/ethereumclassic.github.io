@@ -1,1 +1,187 @@
 ---
+title: 开发者工具
+seo: 一系列工具来加强以太西姆经典应用的开发和开发经验。
+description: |
+  这个页面包含了一个资源清单，那些正在开发Ethereum Classic 上的应用程序的人可能会发现有用的资源。 请务必同时签出 [Etherum]。 rg 开发者环境](https://eferum.org/en/developers/local-environment/)页面，因为许多这些工具在为以太坊类开发时仍然适用。
+items:
+  prices:
+    title: 价格来源
+    description: 这些网站和 API 提供了用于您应用程序的 ETC 价格。
+    items:
+      BeInCrypto:
+        name: 在加密中
+      BitInfoCharts:
+        name: 位信息图表
+      BusinessInsider:
+        name: 企业内线人
+      Coin360:
+        name: Coin360
+      Coinbase:
+        name: 硬币
+      CoinCheckup:
+        name: 硬币检查
+      CoinCodex:
+        name: Coin Codex
+      CoinCurrencyChart:
+        name: 币种图
+      CoinDesk:
+        name: 硬币桌面
+      CoinGecko:
+        name: CoinGecko
+      CoinLib:
+        name: 硬币Lib
+      CoinMarketCap:
+        name: 金币市场帽子
+      CoinRanking:
+        name: 硬币排名
+      CoinStats:
+        name: 硬币统计
+      CoinTelegraph:
+        name: 硬币电报
+      CryptoCompare:
+        name: 加密比较
+      CryptoSlate:
+        name: Crypto Slate
+      CryptoWatch:
+        name: 加密观察
+      LiveCoinWatch:
+        name: 实时硬币观察
+      Messari:
+        name: 马萨里文
+      Nomics:
+        name: 随机数
+      OnChainFX:
+        name: OnChainFX
+      TradingView:
+        name: 交易视图
+      WorldCoinIndex:
+        name: 世界硬币索引
+      YahooFinance:
+        name: 雅虎金融公司
+  processors:
+    title: 付款处理器
+    description: 这些API可以用于在您的网站或应用程序中接受ETC付款。
+    items:
+      AnyCoinDirect:
+        name: AnyCoinDirect
+      Bit4Sale:
+        name: Bit4销售
+      Bitladon:
+        name: Bitladon
+      CoinsBee:
+        name: CoinsBee
+      CoinDirect:
+        name: 硬币
+      CoinGate:
+        name: CoinGate
+      Coinmerce:
+        name: 硬币
+      CoinPayments:
+        name: 硬币付款
+      Cryptomate:
+        name: 加密算法
+      Cryptonator Merchant:
+        name: 加密器商家
+      Cryptwerk:
+        name: Cryptwerk
+      Fud Desk:
+        name: Fud 桌面
+      LiteBit:
+        name: LiteBit
+      NOWPayments:
+        name: 无付款
+      Paxful:
+        name: Paxful
+      RoundlyX:
+        name: 圆十
+      Utrust:
+        name: 乌托尔
+  dex:
+    title: 发展经验
+    description: 可以帮助开发Ethereum 经典应用程序的开发者工具，包括IDE、库、测试框架、调试器、*etcetera*。
+    items:
+      BUIDL IDE:
+        name: BUIDL IDE
+        description: 第二个国家 BUIDL IDE 是一个基于网络的IDE，无需软件下载或安装。 它为智能合同和dapp 开发者提供了一站式开发和部署环境。
+      Dappkit:
+        name: Dappkit
+        description: 一个供开发者构建和缩放应用的分类账、高性能基础结构和图书馆。简而言之，开发者协作开发火基。
+      Embark Framework:
+        name: Embark 框架
+        description: 使用Ethereum、IPFS和其他平台的无服务器分散应用框架。
+      Emerald Platform:
+        name: 绿宝石平台
+        description: 构建ETC 区块链的 Dapps 平台。
+      ESerialize:
+        name: ESerialize
+        description: 本单元的目标是提供易于序列化和反序列化Ethereum Stack数据的功能。
+      Ethereum JSON-RPC API:
+        name: Ethereum JSON-RPC API
+        description: 基于 EVM 区块链客户端必须实现的 JSON RPC 方法的规格。
+      Eth Fiddle:
+        name: Eth Fiddle
+        description: 智能合约在线编辑。
+      EVM-LLVM:
+        name: EVM-LLVM
+        description: 开发人员不仅可以使用大量编程语言(智能合约Rust ) ！ 除了针对以Ethereum 虚拟机为目标的团结之外，他们还可以立即受益于围绕LLVM基础设施建立的各种开发工具。
+      Ganache:
+        name: 加那奇州
+        description: 个人Etherum区块链来运行测试。
+      Jade Suite:
+        name: 染色套装
+        description: Jade 套装的工具使开发者能够在EVM基础上的 Ethereum Classic 等区块链上创建对等分散的应用程序。
+      Mythx:
+        name: 我的
+        description: MythX 是以太基智能合同为目的的主要安全分析服务。 我们的任务是确保发展小组避免代价高昂的错误，并使以太坊成为一个更加安全和值得信任的平台。
+      Open-RPC:
+        name: 开放式RPC
+        description: OpenRPC 规格定义了JSON-RPC 2.0 API的标准编程语言诊断界面描述。
+      OpenZeppelin:
+        name: OpenZepelin
+        description: 经过战斗测试的安全可复用智能合约框架。
+      Quorum:
+        name: Quorum
+        description: Quorum 是一个开放源码区块链平台，它将公共以太坊社区的创新与支持企业需求的增强结合起来。
+      Remix Online IDE:
+        name: Remix Online IDE
+        description: 一个有用的浏览器内IDE，可以编译和发布智能合约到各种以太坊网络。包括一个午餐。
+      Signatory:
+        name: 签字人
+        description: Ethereum Stack离线交易和消息签名人。
+      SOLL:
+        name: SOLL
+        description: LLVM 编译器终于开始团结。通过它我们可以轻松地在多个区块链VM中创建智能合同。 以太久经典上的EVM和ETH 2.0的eWASM是我们首先支持的。
+      Sputnikvm:
+        name: Sputnikvm
+        description: SputnikVM 是一个开源单独实现Etherum虚拟机(EVM)的开放源码。它旨在成为不同基于以Etherum为基础的区块链的高效插件虚拟机。
+      Truffle Suite:
+        name: Truffle 套装
+        description: 使用以太坊虚拟机进行区块链的世界级开发环境、测试框架和资产管道， 旨在使作为开发者的生活更加容易。
+  nodeTools:
+    title: 节点部署
+    description: 这些工具使得能够很容易地为生产部署增加一组节点，或用公共数据集执行数据科学。
+    items:
+      Bloq Cloud:
+        name: Bloq 云
+        description: BloqCloud 提供了高度优化，总是可以访问区块链网络。 根据您的需要快速连接和缩放，无需担心管理基础设施。
+      DappNode:
+        name: DappNode
+        description: DAppNode 为运行节点、 DApps 和托管P2P网络和经济提供便利。
+      Ethercluster:
+        name: 以太分组
+        description: 以太群是一个开源的 Etherum虚拟机 (EVM) 远程过程调用(RPC)，免费提供以太久经典(ETC) 和 Kotti端点。
+      GetBlock:
+        name: GetBlock
+        description: GetBlock是一个提供连接到主要加密货币节点的服务。 他们支持诸如JSON-RPC、REST和WebSockets等工具，这有助于直接同步区块链。 没有必要运行您自己的节点。 平台允许客户通过完整节点连接到区块链，而无需支付费用。
+      Google BigQuery:
+        name: Google BigQuery
+        description: 谷歌云发布的数据集包含Etherum Classic区块链交易历史，帮助您更好地了解加密货币。 还包括一组查询和视图，将所有区块链数据集映射到双条目数据结构，从而能够进行多链元分析， 以及与常规财务记录处理系统的一体化。
+      Raspberry Pi Node:
+        name: 树莓派节点
+        description: 关于如何在树莓派上设置以太坊经典节点的详细指南。
+      Rivet Cloud:
+        name: 里韦特
+        description: 无限可缩放、可获得的以太坊和可真正起作用的经典终点。
+      QuikNode:
+        name: QuikNode
+        description: QuikNodes 很容易，总是开启，快速的互联网连接可以快速区块链同步， 而且你永远不必担心磁盘空间不足。
