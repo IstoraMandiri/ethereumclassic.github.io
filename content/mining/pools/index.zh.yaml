@@ -1,1 +1,143 @@
 ---
+title: 矿池子
+seo: 您可以加入的热门矿池列表来支持以太坊经典和矿井ETC。
+description: |
+  采矿池是一个由加密矿工组成的联合群组，他们将继承计算资源与网络结合起来，以加强找到区块或以其他方式成功开采加密货币的概率。
+
+  此页面包含一个支持以太久传统的集合列表。
+
+  最热门的5个池已在下面突出显示，以帮助您缩小搜索范围。 您可以在[网络监视器](/network/监视器)部分找到每个矿池大小的实况更新。
+items:
+  pools:
+    items:
+      1stPool:
+        name: 1stPool
+      2Miners:
+        name: 2矿工
+      AltPool:
+        name: AltPool
+      AntPool:
+        name: AntPool
+      BaikalMine:
+        name: BaikalMine
+      Beepool:
+        name: 蜜蜂库
+      BTC.com:
+        name: BTC.com
+      BWPool:
+        name: BWPool
+      Clona:
+        name: 克洛纳
+      CoinMine:
+        name: 硬币
+      Coinotron:
+        name: Coinotron
+      Cominers:
+        name: 进来者
+      Comining:
+        name: 正在入门
+      CoolPool:
+        name: 冷却库
+      CrazyPool:
+        name: CrazyPool
+      Cruxpool:
+        name: Cruxpoint
+      CRYPIT:
+        name: CRYPIT
+      DigiPools:
+        name: DigiPools
+      E4Pool:
+        name: E4库
+      EMCD:
+        name: EMCD
+      ETC365:
+        name: ETC365
+      ETC Mining Club:
+        name: ETC 采矿Club
+        __link: https://www.etcmining.cub/
+      ETCPool:
+        name: ETCPool
+      ETC-POOL:
+        name: ETC-POL
+      ETCTurk:
+        name: ETCTurk
+      Ethashpool:
+        name: Ethashpool
+      Ethermine:
+        name: Ethermine
+      EZil:
+        name: 埃西尔
+      f2pool:
+        name: f2池子
+      FairPool:
+        name: 法尔普尔
+      FirePool:
+        name: FirePool
+      flexpool:
+        name: Flexpore
+      HashExpress:
+        name: 哈希快照
+      HashCity:
+        name: 哈希城
+      Hellominer:
+        name: Hellinder
+      HeroMiners:
+        name: 牧民矿工
+      Hiveon:
+        name: Hiveon
+      HuobiPool:
+        name: HuobiPool
+      ICanMining:
+        name: ICanMining
+      K1Pool:
+        name: K1库
+      KDV-Mining:
+        name: KDV-Mining
+      MaxHash:
+        name: MaxHash
+      MinerGate:
+        name: MinerGate
+      Mole Pool:
+        name: 摩尔库
+      MyMiners:
+        name: 我的矿工
+      Nanopool:
+        name: Nanopool
+      Open ETC Pool:
+        name: 打开 ETC 库
+      Pearpool:
+        name: 珍宝箱
+      PhoenixMax:
+        name: PhoenixMax
+      Pool-Node:
+        name: 池节点
+      Prohashing:
+        name: 推送
+      RociMining:
+        name: 罗奇采矿公司
+      RuPool:
+        name: RuPool
+      SaturnPool:
+        name: SaturnPool
+      SoloPool:
+        name: SoloPool
+      StartMining:
+        name: 开始挖掘工作
+      ua-mining:
+        name: ua-mining
+      uuPool:
+        name: uuPool
+      ViaBTC:
+        name: ViaBTC
+      Wattpool:
+        name: Wattpool
+      Whalesburg:
+        name: 沃莱斯堡
+      WoolyPooly:
+        name: 羊毛套装
+      XnPool:
+        name: XnPool
+      Zergpool:
+        name: Zergpool
+      ŻET:
+        name: ZcessET
