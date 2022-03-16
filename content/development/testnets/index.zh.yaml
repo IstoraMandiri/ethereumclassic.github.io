@@ -1,1 +1,47 @@
 ---
+title: Testnets
+seo: 关于各种Ethereum 经典测试网的信息，这些测试网可用于测试合同和协议升级。
+description: |
+  在制定Ethereum Classic合同时，如同任何EVM合同系统一样，建议使用本地[虚拟网络](/development/tool)， 允许您快速循环而不必等待方块被开采。 但在某个时候，您可能希望允许公众与您的应用程序的 beta 版本交互。 为此，可以使用测试网。
+
+  由于Etherum经典与Etherum上游的EVM保持兼容性，除了一些较小的边缘情况外，合同的行为将是相同的。 这意味着流行的Ethereum testsnet，比如 [Kovan](https://kovan-testnet.github)。 o/website/）大部分可用来公开测试“以太坊经典”合同， 而且因为它们很受欢迎，这可能更适合用户测试。
+
+  此外，以太坊经典有自己的测试网来运行以太坊经典版本的 EVM 还强烈建议在生产释放之前向其中一个网络部署。 这些公共测试网也提供了动物群，所以您可以轻松获取测试网ETC并部署您的代码。
+
+  其中一些网络，如Astor，测试实验版本的ETC，其特性尚不存在于Ethereum Classic mainnet中。
+items:
+  testnets:
+    i18n:
+      pow: 工作证明
+      poa: 权力证明
+      testnet: Testnet
+      experimental: 实验性
+      faucet: Faucet
+    columnItems:
+      name:
+        name: 名称
+      faucet:
+        text: Faucet
+      type:
+        name: 类型
+      miningAlgo:
+        name: 算法
+      consensusAlgo:
+        name: 共识类型
+      networkId:
+        name: 网络 ID
+      chainId:
+        name: 链号
+    items:
+      Testnet Kotti:
+        name: 科蒂文
+      Testnet Mordor:
+        name: Mordor
+      Testnet Astor:
+        name: 阿斯托尔
+      Testnet Helmsdeep:
+        name: Helmsdeep
+      Testnet Keccak Besu:
+        name: Keccak Besu
+      Testnet Sagano:
+        name: Sagano
