@@ -1,1 +1,21 @@
 ---
+title: Git 资源库
+description: Ethereum Classic 开发者的各种开源仓库的堆栈。
+items:
+  repos:
+    items:
+      EthereumClassic:
+        name: Github 主要组织
+        description: 主要经典Github 组织，包含一些仓库，我们将在下面着重介绍其中的选择...
+      eth-classic:
+        name: 备选Github 组织
+        description: 另一个社区管理Github组织，该组织包括测试网配置、ETCHash、Besu等。
+      etcLabs:
+        name: ETC 标签
+        description: 含有许多以前由ETC 实验室维护的以太空传统仓库的组织，包括核心宝库。
+      website:
+        name: ETC 网站
+        description: 这个网站的源代码，包括如何贡献的说明。
+      awesomeEtc:
+        name: 太棒了
+        description: 太空经典项目(ETC)的精彩资源列表。
