@@ -1,1 +1,227 @@
 ---
+learn:
+  name: 学习
+  navItems:
+    whyClassic:
+      name: 为什么是传统的？
+      description: 开始这里来在以太鲁姆古典的理由和独特的价值主张上下调下
+      navItems:
+        codeIsLaw:
+          name: 代码是法律
+        genesis:
+          name: 始发地
+        decentralism:
+          name: 分权制
+        ethBtcEtc:
+          name: ETH + BTC = ETC
+        soundMoney:
+          name: 声音钱
+        proofOfWork:
+          name: 工作证明
+    #etcVsEth:
+    #__link: /why-classic/etc-vs-eth
+    #name: ETC vs ETH
+    knowledge:
+      name: 知识
+      description: 进一步阅读ETC所基于的基础
+      navItems:
+        foundation:
+          name: 地基
+          description: 构成ETC坚实哲学基础的核心原则
+        theory:
+          name: 原理
+          longName: 理论与研究
+          description: 使用社区中的碎片更深地潜入以太久经典的逻辑。
+        investing:
+          name: 投资
+          longName: 投资者资源
+          description: 关于以太坊经典的价值延伸和它可能带来生病收益的信息
+        forks:
+          name: Forks
+          longName: 协议升级
+          description: 添加功能或缺陷修复到ETC的过去和未来硬盘叉的记录
+        history:
+          name: 历史记录
+          longName: 经典历史
+          description: Ethereum Classics 直到今日的所有主要活动时间表
+        future:
+          name: 未来
+          longName: 未来经典
+          description: ETC决策过程概览及其可在哪些方面领导协议
+    guides:
+      name: 指南
+      description: 以多种方式与网络互动的实用教程和步行路径
+      navItems:
+        basics:
+          name: 基础知识
+          longName: 基础知识
+          description: 常见问题和视频解释涉及区块链和ETC 101
+        metamask:
+          name: 元蒙版
+          longName: 使用 MetaMask 与 ETC
+          description: 如何配置MetaMask和替代方案与dapps
+        development:
+          name: 贸易和发展会议
+          longName: 开发者指南
+          description: 关于如何在以太古经典上构建dapps的海龟集
+    videos:
+      name: 视频
+      description: 一系列视频和播客，让您了解ETC的概念和事件
+      navItems:
+        explainers:
+          name: 扩展名
+        discussions:
+          name: 讨论
+        trading:
+          name: 交易
+        development:
+          name: 贸易和发展会议
+        tutorials:
+          name: 教程
+        mining:
+          name: 采矿业：
+        conferences:
+          name: 会议
+          navItems:
+            2017:
+              name: 2017 Hong Kong
+            2018:
+              name: 2018 Seoul
+            2019:
+              name: 2019 Vancouver
+#memes:
+#__link: /memes
+#__icon: images
+#name: Memes
+#description: Spreading the good word of ETC involves winning the battle of hearts and minds through the whimsicalities of information warfare
+#navItems:
+#mediaKit:
+#__link: /memes/media-kit
+#name: Media Kit
+#charts:
+#__link: /memes/charts
+#name: Charts
+#etc:
+#__link: /memes/etc
+#name: Etcetera
+play:
+  name: 播放
+  navItems:
+    services:
+      name: 服务
+      description: 与ETC连接的应用、钱包和交易；100%未审计，所以看一看地块脉冲！
+      navItems:
+        wallets:
+          name: 钱包
+          description: 存储和管理ETC、Token、NFTs和其他资产的软件
+        exchanges:
+          name: 交易
+          description: 购买和交易ETC
+        apps:
+          name: 应用程序
+          longName: 应用程序和协议
+          description: 4. levarage Ethereum Classic 的各种应用程序的生态环境
+          navItems:
+            nfts:
+              name: NFTs
+            games:
+              name: 游戏
+            identity:
+              name: 身份
+            interoperability:
+              name: 互操作性
+            finance:
+              name: A. 财务
+            other:
+              name: 其他
+    community:
+      name: 社区
+      description: 如果你很长时间要与对ETC感兴趣的人沟通，在这里是如何找到他们的
+      navItems:
+        channels:
+          name: 频道
+          longName: 社交媒体频道
+          description: 与他人讨论ETC的帐户、聊天室和论坛
+        teams:
+          name: 团队
+          longName: 开发者团队
+          description: 关于谁在以太坊经典上工作的信息
+        events:
+          name: 事件
+          description: 加入ETC社区参加全年定期举行的社会活动
+    #bounties:
+    #__link: /community/bounties
+    #name: Bounties
+    #dao:
+    #__link: /community/daos
+    #name: DAOs
+    network:
+      name: 网络
+      description: RPC 端点、探索者、网络监视器和其他技术倾斜的资源
+      navItems:
+        endpoints:
+          name: 终点
+          longName: RPC 端点
+          description: 与ETC网络通信的公共和私人服务
+        explorers:
+          name: 探险家
+          longName: 区块链探索器
+          description: 查看交易链、方块和其他见解的工具
+        monitors:
+          name: 监视器
+          longName: 网络监视器
+          description: 使用有毒度计的网络健康和状态检查工具
+    #statistics:
+    #__link: /network/statistics
+    #name: Statistics
+    mining:
+      name: 采矿业：
+      description: 池、软件和硬件要求将帮助您挖掘ETC以获得乐趣和利润。
+      navItems:
+        hardware:
+          name: 硬件
+          description: 关于何种设备最适合用于有利润的采矿ETC的信息
+        software:
+          name: 软件
+          longName: 挖掘软件
+          description: 可用于在各种操作系统上开采ETC的工具清单
+        pools:
+          name: 资源库
+          longName: 矿池子
+          description: 加入矿池可以让你根据哈希力而不是找到的方块获利。
+    develop:
+      name: 贸易和发展会议
+      description: 测试、配套、客户端和如何为ETC 协议本身做出贡献的信息
+      navItems:
+        clients:
+          name: 客户
+          description: 客户软件是网络的主干，执行ETC 协议
+        testnets:
+          name: Testnets
+          description: 在生产前公开测试应用和协议升级网络
+        tooling:
+          name: 配刀中
+          longName: 开发者配对
+          description: 他们说工人和他的工具一样好，所以确保你挑选好事！
+        repos:
+          name: 资源库
+          longName: Git 资源库
+          description: 您的观众喜欢的经典项目仓库列表
+        ecips:
+          name: ECIP
+          description: 以太坊经典改进提案概览和核准的提议
+news:
+  name: 新闻
+extra:
+  name: 额外的
+  navItems:
+    news:
+      name: 新闻
+    blog:
+      name: 博客
+    about:
+      name: 关于
+    rss:
+      name: RSS 源
+    siteMap:
+      name: Sitemap
