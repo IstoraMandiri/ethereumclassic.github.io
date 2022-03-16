@@ -1,1 +1,157 @@
 ---
+title: 开发指南
+seo: 选择初学者和高级开发者的教程和解释，并解释如何部署到Ethereum Classic。
+description: |
+  将智能合同写入和部署到Etherum经典的过程与Etherum的过程相同。 以太久古教派的目标之一是保持与以太教的兼容性，以便能够很容易地将任何部署到以太基姆的合同重新部署到以太基姆教派。
+
+  这意味着，在以太姆上存在的大多数现有教程、库和开发工具也可以与以太坊经典一起使用。 在大多数情况下，唯一的差异是改变配置选项以部署到以太坊经典而不是测试网或以太坊主网。
+
+  主要例外情况是与诸如Stablecoins 或Oracles等第三方系统的相互作用。 它仅部署在ETH上，而尚未投入ETC中。 慢但肯定的是，这些服务的 ETC 版本将会被迁移过来，甚至可以由您来迁移！ 您可以跟踪目前在[应用部分](/services/apps)中可用的服务，并肯定要探索更多的Goodies的[开发部分](/开发)。
+
+  为此原因，我们强烈建议探索[Etherum开发者资源]。 rg 网站](https://eferum.org/en/developers/)，它有丰富的最新信息。此外，此页面上的链接包含了专门用于编写Ethereum Classic的指南。
+
+  您也可以在[Videos > Development](/videos/development)部分找到与Etherum经典开发相关的视频教程。
+items:
+  tutorials:
+    title: 正在开始
+    description: 以下是一些有用的教程和走向的非详尽列表，以便让你开始Ethereum 经典发展。
+    items:
+      Kotti Testnet Setup Guide:
+        name: Kotti Testnet Setup Guide
+        description: 一分钟内使用 Jade 桌面向上和运行 Kotti TestNet
+      Signatory Client:
+        name: 签名客户端
+        description: 视频演示描述签名客户端 - 一个可以安装在单板电脑上的Do-It-Yourself-host 硬件钱包，如树莓智能电脑。
+      Besu Client Setup Guide:
+        name: Besu Client Setup Guide
+        description: 开始使用超音速贝苏。
+      Raspberry Pi Node Setup Guide:
+        name: 树莓派节点设置指南
+        description: 关于如何在树莓派上设置以太坊节点的详细指南
+      CryptoZombies:
+        name: CryptoZombies
+        description: 通过构建自己的游戏学习编程太太空了。
+      Hitchhikers Guide to Smart Contracts:
+        name: 智能合同Hitchhikers 指南
+        description: 使用Truffle, elotelRPC and Solid在 Etherum上创建智能合同。
+      A 101 Noob Intro to Programming Smart Contracts on Ethereum:
+        name: 以太坊编程智能合同101Noob 简介
+        description: 智能合同教程，重点是在代码之前建立理解。
+      Setup MetaMask for Ethereum Classic:
+        name: 设置Ethereum 经典的 MetaMask
+        description: 如何与以太集群一起在MetaMask 上设置以太币为基础的经典支持
+      Parity Tutorial:
+        name: 对等的 DApp 教程
+        description: 10个如何写入 DApp的部分教程。
+      Start Ethereum DApp Development Career:
+        name: 开始以太空应用开发经历
+        description: 开始开发发展应用程式的非正式指南。
+      Full Stack DApp Tutorial Series:
+        name: 完整堆栈DApp 教程系列
+        description: 使用各种框架的完整堆栈DApp。
+      Ethereum Builders Guide:
+        name: Ethereum Builders 指南
+        description: Gitbook for building on Etherum, which ready into understanding technical function.
+      Introduction to OpenRPC Webinar:
+        name: OpenRPC 网络研讨会简介
+        description: 在这个视频中，您将学习JSON-RPC 和 OpenRPC 的基本知识。
+      Learning Solidity Tutorial Series:
+        name: 学习团结教程系列
+        description: 与 Metamask 和 Remix IDE 构建智能合同。
+      End to End DApp Tutorial:
+        name: 结束DApp 教程
+        description: 使用 Metamask, Truffle, Remix, React 和 IPFS 创建一个赌博DApp
+      How to write secure smart contracts:
+        name: 如何写安全的智能合同
+        description: 查看编程语言和最佳做法，以帮助您写安全的智能合同。
+      Programming Decentralized Money:
+        name: 编程分散的资金
+        description: 开发智能合同应用程序的简单指南。
+      How to create a token and ICO on Ethereum Classic:
+        name: 如何在 Ethereum 经典上创建令牌和 ICO
+        description: 在您通过本指南后，您将学习如何在Ethereum Classic blockchain 上创建一个ERC223令牌，并为此令牌创建一个 ICO。
+      How to use Brave Browser with Ethereum dApps:
+        name: 如何使用 Ethereum dapps 的勇敢浏览器
+        description: 勇敢的浏览器是访问Ethereum blockchain上的 DApp 的最简单和安全的方式。Web 3.0 是所有人最终可以访问的！
+      Vyper and Brownie Contract Development on EVM Chains:
+        name: EVM 链上的Vyper和Brownie 合同开发
+        description: 为庆祝ETC与Vyper的整合，我们决定为Vyper公司建立一个智能合同，部署到ETC。
+      Adventures in Classical Ether:
+        name: 古典花园中的冒险活动
+        description: 为ETC构建您的第一个智能合同。
+      Kotti Solidity ETC Oh My:
+        name: Kotti, Solidity, ETC, Oh My!
+        description: 本指南展示了以太基Classic的 Kotti 测试网的初步配置和ETC 的特定版本团结<>ETH 兼容的应用开发。 Kotti是推荐的 dapp 开发者测试网。建议Mordor 进行协议级别测试。
+      How to contribute to Mordor Testnet:
+        name: 如何为Mordor Testnet做贡献
+        description: 本指南将教你如何挖掘测试网ETC并用快速运行你自己的本地区块探险家。 Kotti是推荐的 dapp 开发者测试网。建议Mordor 进行协议级别测试。
+      Migrate to Hyperledger Besu - Switch from OpenEthereum or Multi-Geth:
+        name: 迁移到超时的贝苏-从 OpenEtherum或多地理交换机
+        description: 本指南将帮助您从OpenEtherum或多地理客户端迁移到超标贝苏客户端。
+      Ethereum Classic on Raspberry Pi:
+        name: 树莓派上的以太久经典
+        description: 本指南将分成几个部分，并将记录我对IotT、ETC和所有事项的探索。
+      Ethercluster An Open-Source Alternative to Infura:
+        name: 以太集群，一个对Infura 的开放源代码替代办法
+        description: 一个关于构建您自己可扩缩的以以以Etherum为基础的 RPC 基础设施的指南。
+      Analyzing Ethereum Classic with Google BigQuery:
+        name: 使用 Google BigQuery 分析以太坊经典
+        description: 使用 BigQuery 分析以太基古典的指南。该指南使用以太基古典量化分散化的例子。
+      Creating Your Own Smart Contract Languages Using LLVM:
+        name: 使用LVM创建您自己的智能合同语言
+        description: 这篇文章展示了我们如何使用 EVM-LLVM 使Kaleidoscrop 玩具语言生成区块链可部署智能合约。
+      ERC20 to ERC223 upgrade path:
+        name: ERC20 到 ERC223 升级路径
+        description: ERC223 是一个现代的令牌标准，它有较低的费用并保护投资者免遭丢失令牌。团队土星演示如何升级现有的 ERC20 令牌。
+      Continuity for an Augmented world:
+        name: 增强世界的连续性
+        description: 编写一份指南，用以建立一个分散式的以Ethereum Classic为基础的广告系统。
+      Deployment Automation for Goerli testnet in 10 minutes:
+        name: 10分钟后Goerli测试网的部署自动化
+        description: 一个用于快速部署新的 Goerli Proff Authority 跨客户端测试网络的简短教程。此教程可以应用于Ethereum Classic的 Kotti 测试网。
+      Monitoring in PegaSys Plus:
+        name: 在 PegaSys Plus 中进行监测
+        description: 由 PegaSys 设计用于设置网络监测仪表板的简短教程。
+      Using OpenRPC Mock Server to test against an Ethereum JSON-RPC API:
+        name: 使用 OpenRPC 模拟服务器来测试一个 Etherum JSON API。
+        description: 开启的 rpc-mock-server 允许开发者在本地和轻量环境中运行和测试他们的 API。
+      Introduction to Pristine An open standard and template for open-source projects:
+        name: Pristine 介绍——开放源码项目的标准和模板。
+        description: 普里什蒂纳是一个存储库，它包含一个项目用于传达您正在解决的问题的约定和规格，方便登机， 建立和使用可编译的工具，促进开放源码的贡献和参与，并促进问题和关于Github本身的讨论。
+      Jade Suite Overview and Workshop:
+        name: Jade 套件概述和创意讲习班
+        description: 使用 Jade 套装的工具让以太坊的经典应用的开发和配置变得简单而快速。
+      Various Ethereum Solidity Tutorials:
+        name: 各种以太坊和团结教程
+        description: 如何创建智能合约，部署您自己的DApp，创建令牌，以及更多——从初学者到中间主题。
+  advanced:
+    title: 高级概念
+    description: 区块链背后的技术很深，深入到许多领域。 这里有少量文章来帮助你开始你的旅程走下兔子洞。
+    items:
+      2018-03-15-signatures:
+        name: 通道经典数字签名代码
+        description: 数字签名安全交易。这些交易涉及椭圆曲线加密法和椭圆曲线数字签名算法。
+      2018-03-19-rlp:
+        name: 递归长前缀编码
+        description: 以太久经典(ETC)使用递归长前缀(RLP)编码来存储和发送数据结构。
+      2018-01-31-difficulty:
+        name: 以太空古典采矿难度参数的简单解释
+        description: 采矿难度参数对某些人来说似乎很神秘。这篇文章显示它有一种美丽易懂的解释。
+      2018-01-26-implicit-info:
+        name: 隐式以太币经典区块链信息
+        description: 对于初学者来说，Ethereum Classic (ETC) blockchain可能缺少一些必要的信息。 此信息隐含在区块链中，可能导致混乱。
+      2017-12-04-light-clients:
+        name: 经典的光顾客如何能够保持安全操作
+        description: Etherum经典光线客户端是不保留整个ETC区块链副本的客户端。
+      2017-04-28-blocks:
+        name: "Explain: The Three categories"
+        description: 块可以分为头、交易列表和解锁头列表。
+      2017-04-18-keys:
+        name: "公钥和私钥：小Enlightenment"
+        description: 私钥用于转移资金、安装程序和运行程序。
+      2017-03-30-accounts-and-states:
+        name: 账户和状态解释
+        description: Etherum经典区块链使得一台不可阻挡、可靠、可审计、不可信和安全的世界计算机成为可能。 要了解这一制度，就必须了解账户和国家。
+      2017-02-10-hashes:
+        name: "Hash：介绍和为什么他们是互联网和Blockchain的基金会"
+        description: 短语“单向散列函数”可能会听到arcane and geeky，但散列函数是现代加密法的工作马。
