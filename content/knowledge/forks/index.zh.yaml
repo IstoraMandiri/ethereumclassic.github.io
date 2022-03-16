@@ -1,1 +1,52 @@
 ---
+title: 协议升级
+seo: 过去硬叉的历史；协议升级已被认可为以太基古典。
+description: |
+  以太古典，尽管历史悠久，但并不反对所有类型的硬叉。 远非如此； 硬解Forcing 允许协议升级，修复缺陷，并添加一些功能，推动实现开发者创建不可阻挡应用程序的目标。
+
+  以太久经典永远不会实现的硬叉类型是那些像[DAO Fork](/why-classic/genesis), 不处理议定书本身缺陷或加强议定书本身的问题， 但通过修改应用程序图层中的智能合同来覆盖*代码是法律*。
+
+  以太空古经典与上游以太空燃气机保持最大兼容性， 这意味着部署到ETH的合同也可以部署到ETC，Ethereum Classic 继承了以Etheresours为基础的许多宝贵创新。
+items:
+  forks:
+    title: ETC Fork 历史
+    items:
+      Frontier:
+        title: 边框
+        text: 在“建造不可阻挡的应用”口号下启动的“边界”是一个活生生的、但却是先行实施以太空为目的的项目，它是在成功的奥林匹克试验阶段之后进行的。 它面向技术用户，特别是开发者。方块的气体限制为5 000个。 这个“缓存”期使矿工能够开始作业，并使早期采用者能够安装他们的客户端而不必“匆忙”。
+      Ice Age:
+        title: 冰河年龄
+        text: 边防分叉取消了每个区块5 000个天然气上限，将默认天然气价格定在51千瓦。 允许交易 - 交易需要 21 000种天然气。
+      Homestead:
+        title: 回家
+        text: 家园福址展望未来。 其中包括几项协议修改和网络变更，使以太坊能够进一步进行网络升级。
+      Gas Reprice:
+        title: 煤气重新价格
+        text: ECIP-1015是Ethereum Classic在DAO Hard Fork之后的第一次独立协议升级。 这涉及到为减少交易垃圾邮件袭击而对IO重型业务进行的长期气体成本变动。
+      Die Hard:
+        title: Die Hard
+        text: Die Hard Fork延迟了难度炸弹，重新定价EXP opcode 并实施了重放保护，将ETC Chain ID设置为61。
+      Gotham:
+        title: 哥塔姆
+        text: ECIP 1017使以太坊经典更像比特币，因为它对最大绝对数和一种随着时间的推移而退化的排放方法施加了上限约束。
+      Defuse Difficulty Bomb:
+        title: 防守难炸弹b
+        text: 难易炸弹已被推迟，没有其他改变。
+      Atlantis:
+        title: Atlantis
+        text: 在一个硬叉名为Atlantis的Etherum码网络上启用以太坊基金会精密龙和Byzantium网络协议升级，以使这些网络能够最大限度地兼容。
+      Agharta:
+        title: Agharta
+        text: 启用以硬叉名为Agharta的Ethereum Foundation Constantinople and Petersburg网络协议升级以便在这些网络之间实现最大兼容性。
+      Phoenix:
+        title: 菲尼克斯
+        text: 在一个硬叉名为Phoenix 的Ethereum Classic 网络上启用杰出的以太坊基金会伊斯坦布尔网络协议升级，以便能够最大限度地兼容这些网络。
+      Thanos:
+        title: 萨诺斯
+        text: ECIP 1099 校准了DAG 计算中使用的教程长度，从ETHash切换到ETCHash。 它允许拥有4GB记忆的GPU进入地雷ETC，从而加强了网络的安全。
+      Magneto:
+        title: Magneto
+        text: 启用以太坊基金会柏林网络协议升级功能，与以太坊实现最大兼容性。
+      Mistique:
+        title: Mystique
+        text: 启用以太坊基金会伦敦网络协议升级功能，保持最大兼容性。
