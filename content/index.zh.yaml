@@ -1,1 +1,34 @@
 ---
+billboard:
+  text: '%%$%% 以太久！'
+  randomWords:
+    Decentralized: "放权化"
+    Original: "原始文件"
+    Veracious: "Veracious"
+    Untainted: "未污染的"
+    Uncensored: "不受检查的"
+    Untampered: "未篡改的"
+    Immutable: "不可逆的"
+    Sound Money: "声音钱"
+    Uncaptured: "未抓取"
+    SovereignGrade: "最高等级"
+    Principled: "原理"
+    Unstoppable: "不可阻止的"
+    Proof of Work: "工作证明"
+    Leaderless: "无排行榜"
+    Antifragile: "Antifragile"
+    Code is Law: "代码是法律"
+    Classic: "经典"
+    Permisionless: "无权限"
+intro:
+  title: 构建不可阻挡的应用程序
+  content: |
+    由于现任机构日益受到区块链技术的巨大潜力的威胁，只有真正分散的加密货币才能生存。
+
+    针对以太环节为对象的姐妹链合同审查存在， 经典证明它有能力抵制对各种困难的审查，并且能够提供*不可阻挡的*原始*以太久的*应用程式*。
+
+    将ETH技术与BTC哲学结合起来， 由于其他链条受到特殊利益集团的破坏或占据，ETC具有独特的地位，可以成为未来智能合同平台。
+
+    欢迎并请邀请我们发现以太坊传统的过去、现在和未来； 它是原则、宝贵的建议、 社区以及更多的- 了解*为何是传统的*。
+  button:
+    text: 让我们去吧
