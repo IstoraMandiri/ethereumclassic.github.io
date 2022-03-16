@@ -1,1 +1,44 @@
 ---
+title: 网络监视器
+seo: 用来检查以太西姆经典网络健康状况的工具，以及发行、交易计数和采矿利润等一般统计数字。
+description: |
+  下面是一些工具，这些工具可以使人们深入了解与以太基姆古典有关的各种衡量标准。 它们共同对网络的健康和状况进行全面分析。
+items:
+  monitors:
+    items:
+      2Miners:
+        name: 2矿工
+        description: Etherum 经典统计仪表板提供了最重要的区块链统计、图表和其他直接从在线节点获取的性能指标。
+      CoinMetrics:
+        name: CoinMetrics
+        description: 包括价格、哈希率、地址计数、交易计数等若干衡量标准在内的详细历史数据。
+      CoinWarz:
+        name: CoinWarz
+        description: 以太坊经典采矿信息——包括以太坊经典采矿计算器、以太坊经典采矿硬件清单， 以太古经典为难点的历史图表、以太古经典散列图以及以太古经典当前价格。
+      Emerald Insights:
+        name: 绿宝石洞察力
+        description: 绿宝石洞察是绿宝石项目的一部分，该项目应提供统计数据。 监测和有关紧急情况使用的加密货币的高级信息。
+      #ETCNodes:
+      #name: ETCNodes
+      #__link: https://etcnodes.org/
+      ForkWatch:
+        name: Fork Watch
+        description: ForkWatch 是一种尼克哈希监测工具，它提醒人们注意尼克哈希市场特定算法上的异常情况，特别是当租用比特币/TH/日间价格发生变化时。 这有助于在特定硬币的利益攸关方因某个特定网络遭到袭击而可能租用采矿电力时向其发出警告。
+      MiningPoolStats:
+        name: MiningPoolStats
+        description: 关于ETC矿池状态的实时统计，包括区块分布、哈希率历史等。
+      Nanopool:
+        name: Nanopool
+        description: 历史上的困难、困难、阻碍时间和价格。
+      PoolDetective:
+        name: 池检测
+        description: 采矿池是工作证明加密货币中的重要参与者。 但谁来监测他们告诉他们的矿工在哪里工作？ 2019年夏季，麻省理工学院的数字货币倡议启动了一个项目，开始监测采矿池的行为。
+      TokenView:
+        name: 令牌视图
+        description: 标准历史网络统计信息。
+      WhatToMine:
+        name: WhatToMine
+        description: 开采以太坊经典和其他链条的利润计算器。
+      Kotti Stats:
+        name: Kotti 统计
+        description: Ethereum Classic Kotti Testnet的网络统计信息。
