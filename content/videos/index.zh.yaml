@@ -1,1 +1,34 @@
 ---
+title: 视频
+description: 按类别组织的 Ethereum Classic 视频集。
+tags:
+  explainers:
+    title: 扩展名
+    description: 教育录像，解释以往经典哲学、历史和技术概念。
+  tutorials:
+    title: 教程
+    description: 关于如何使用和发展以太基古典的指南。
+  development:
+    title: 贸易和发展会议
+    description: 用于开发者的以太坊传统技术为主题的视频。
+  trading:
+    title: 交易
+    description: 技术和基本分析、价格预测和涉及ETC的投资咨询意见。
+  discussions:
+    title: 讨论
+    description: 长形式的讨论，包括播客、辩论和每周社区通话
+  mining:
+    title: 采矿业：
+    description: 关于如何开采ETC、硬件、软件和利润期望的视频。请务必检查 [mining](/mining) 部分以获取更多信息。
+  conferences:
+    title: 会议
+    description: 以太久经典首脑会议是每年在世界各地的城市举行的一次活动，其中包括来自经发会议首脑会议和其他会议或会议的讨论。
+  etc-summit-2018:
+    title: ETC 首脑会议 2018
+    description: 第二次以太空古典峰会于2018年9月12日在韩国首尔举行。
+  etc-summit-2019:
+    title: ETC 首脑会议 2019
+    description: 第三届以太坊经典首脑会议于2019年10月3日在加拿大温哥华举行
+  etc-summit-2017:
+    title: ETC 首脑会议 2017
+    description: 2017年11月13日在香港举行了第一届以太空为主题的古典首脑会议
