@@ -1,1 +1,139 @@
 ---
+title: 钱包
+seo: 网上钱包、扩展、软件钱包、硬件钱包和其他安全ETC的方法。
+description: 有许多钱包选项可供选择来安全和使用ETC。 每个选项给安全和方便之间带来不同的平衡。请根据您的要求研究最好的选项。
+items:
+  web:
+    title: Web 钱包
+    description: 这些Web3钱包可以使用网页访问。 它们不应被用来获取大笔金额，但允许您在没有下载的情况下轻松地与ETC进行交互。
+    items:
+      MyCrypto:
+        name: MyCrypto
+      MyEtherWallet:
+        name: MyEtherWallet
+      Portis:
+        name: Portis
+  browsers:
+    title: 浏览器集成钱包
+    description: 这些Web3钱包被整合到网络浏览器。 典型的情况是，他们注入网站的账户信息，以便您可以在浏览器中无缝地与 Ethereum Classic dapps 交互。
+    items:
+      Brave:
+        name: 勇士
+      MetaMask:
+        name: 元蒙版
+      Nifty Wallet:
+        name: Nifty 钱包
+      Opera:
+        name: Opera
+      Saturn Wallet:
+        name: 土星钱包
+      SimpleHold Wallet:
+        name: 简单的钱包
+  hardware:
+    title: 硬件钱包
+    description: 硬件钱包是为长期存储设计的安全钱包。
+    items:
+      Bitski:
+        name: Bitski
+      CoolBitX:
+        name: CoolBitX
+      Ellipal:
+        name: Ellipal
+      HTC Exodus:
+        name: HTC Exodus
+      Ledger:
+        name: 账单
+      Parity Signer:
+        name: 对等签名人
+      SafePal:
+        name: 安全保护
+      Signatory Client:
+        name: 签名客户端
+      Trezor:
+        name: 特雷佐尔
+  software:
+    title: 软件钱包
+    description: 软件钱包是为短期存储设计的桌面或移动设备。
+    items:
+      ABRA:
+        name: ABRA
+      Alpha Wallet:
+        name: Alpha 钱包
+      AToken:
+        name: AToken
+      Atomic Wallet:
+        name: Atomic Wallet
+      BTCPOP:
+        name: BTCPOP
+      Button Wallet:
+        name: 按钮钱包
+      Citowise:
+        name: Citowise
+      Cobo:
+        name: 科波文
+      Coinbase Wallet:
+        name: Coinbase 钱包
+      Coinomi:
+        name: Coinomi
+      Cryptonator:
+        name: 加密器
+      Edge:
+        name: 边缘
+      Emerald Wallet:
+        name: 绿宝石钱包
+      Ethos:
+        name: Ethos
+      eToro Wallet:
+        name: eToro Wallet
+      Evercoin:
+        name: 埃韦尔币
+      Exodus:
+        name: Exodus
+      Guarda:
+        name: 守卫a
+      HubrisOne:
+        name: HubrisOne
+      Huobi Wallet:
+        name: Huobi Wallet
+      Hebe Wallet:
+        name: Habe 钱包
+      Infinito Wallet:
+        name: Infinito 钱包
+      Jaxx Liberty:
+        name: Jaxx 自由
+      Mantis Wallet:
+        name: Matantis 钱包
+      Midas Protocol:
+        name: Midas Protocol
+      Ownbit:
+        name: 所有者
+      Tokenview:
+        name: 令牌视图
+      Trust Wallet:
+        name: 信任钱包
+      Trustee Wallet:
+        name: 托管钱包
+      Zelcore Wallet:
+        name: Zelcore 钱包
+      ZenGo:
+        name: ZenGo
+  other:
+    title: 其他钱包产品
+    description: 这些产品是对诸如恢复种子存储等加密钱包的补充。
+    items:
+      BillFodl:
+        name: 账单Fodl
+      Blockplate:
+        name: 块板
+      ColdTi:
+        name: 科尔多蒂文
+      Crypto Key Stack:
+        name: 加密密钥应用
+      CryptoSteel:
+        name: 加密Steel
+      CRYPTOTAG:
+        name: CRYPTOTAG
+      Hodlinox:
+        name: Hodlinox
+      Steely:
+        name: 稳固的
