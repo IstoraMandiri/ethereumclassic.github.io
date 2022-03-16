@@ -1,2 +1,71 @@
 ---
 title: 以太币经典
+seo: "运行智能合同的分散计算平台：完全按程序运行而不受停机、检查或第三方干扰的应用程序"
+#Used by og:locale meta tag [info](https://kb.yoast.com/kb/changing-the-og-locale-output/)
+metaLocale: zh_CN
+#Used in the <html> tag [info](https://www.w3schools.com/tags/att_lang.asp)
+htmlLang: zh
+published: 已发布
+updated: 上次更新
+author: 作者
+timeline:
+  chronological: 按时间顺序排序
+  reversed: 反转
+disclaimers:
+  verify:
+    title: 不信任，验证。
+    text: 外部联系是非正式的社区提交。
+  opinion:
+    title: 查看的内容
+    text: 这一页不一定反映了ETC所有利害关系方的观点。
+next: 继续阅读
+prev: 上一篇文章
+contribute: 如果您想通过添加或更正信息到这个页面做出贡献，请在 [Discord](https://discord)上投放一条消息。 om/invite/dwxb6nf) 或在 [GitHub](https://github.com/etherumclassic/efasumclassic.github.io) 创建问题
+contributors: "这个页面存在部分感谢以下贡献者："
+allLanguages: 所有语言
+noResults: 无结果
+announcement:
+  text: |
+    欢迎来到最近更新的 Ethereum Classic 网站。欢迎您的反馈。
+  button:
+    text: "Feedback on GitHub"
+signOff: 使用 '<3' 为原始以太坊视力制成的
+socialHilight: ETC 社区在 Discord 上活动中
+socialItems:
+  github:
+    name: Github
+  discord:
+    name: Discord
+  reddit:
+    name: Reddit
+  twitter:
+    name: 推特
+appTypes:
+  finance:
+    name: A. 财务
+  games:
+    name: 游戏
+  identity:
+    name: 身份
+  interoperability:
+    name: 互操作性
+  nfts:
+    name: NFTs
+  other:
+    name: 其他
+appLinks:
+  homepage: 主页
+  app: 应用站点
+  twitter: 推特
+  github: Github
+newsTypes:
+  news:
+    name: 链接
+  blog:
+    name: 博客
+  application:
+    name: 应用
+    prefix: "应用程序： "
+  video:
+    name: 视频
+    prefix: "视频： "
