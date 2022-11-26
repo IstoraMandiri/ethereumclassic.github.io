@@ -8,9 +8,9 @@ const { locales, defaultLocale } = require("./configs/locales");
 module.exports = {
   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
-    FAST_DEV: true,
     DEV_SSR: false,
     // PARALLEL_SOURCING: true,
+    // DETECT_NODE_MUTATIONS: true,
   },
   siteMetadata: {
     siteUrl,
@@ -137,12 +137,6 @@ module.exports = {
       },
     },
     {
-      resolve: "news-plugin",
-      options: {
-        defaultLocale,
-      },
-    },
-    {
       resolve: "contributor-avatars-plugin",
       options: {
         instanceType: "content",
@@ -162,10 +156,16 @@ module.exports = {
       options: {
         nodeType: "VideosCollection",
         imagePath: "youtube",
-        name: "videoImage",
+        name: "image",
         silent: true,
         prepareUrl: (youtube) =>
           `https://img.youtube.com/vi/${youtube}/hqdefault.jpg`,
+      },
+    },
+    {
+      resolve: "news-plugin",
+      options: {
+        defaultLocale,
       },
     },
     {

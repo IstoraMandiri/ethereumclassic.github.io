@@ -1,0 +1,28 @@
+- Extract first image from markdown posts for featured image
+- Pass images to newsItem
+
+- Social card generation
+  - do https://github.com/emgoto/gatsby-plugin-react-social-cards/blob/main/gatsby-node.js
+    - except don't require committing the images in git
+    - instead, save them in some local state or just output directly to public/static
+    - ideally avoid reubuilding/shotting loads of images, treat as downloads, or use some fast library?
+    - somehow attach the image data as and output as a gatsbyImage to page, or slugify and cachebust in /public/
+    - use `[hash]-[service]-social-image.jpg` ?
+
+  - cache by content
+  - queryable by slug
+  - create gatsby-image
+  - get flavor image based on
+    - featuredLink
+    - icon
+    - extracted image
+    - [later]: video app icon
+    - fallback
+
+- Inline videos w/ modal popup
+
+- Videos / Apps rewrite
+- Create lowFi pages for redirecting
+
+- Figure out noscript & sharing for apps and videos (or create dedicated pages)
+- Comments for videos / apps

@@ -1,4 +1,5 @@
 const visit = require("unist-util-visit");
+
 module.exports = (params, { instanceName, rewriteTo }) => {
   const { getNode, markdownAST, markdownNode } = params;
   const parent = getNode(markdownNode.parent);

@@ -1,5 +1,6 @@
 // This script sets up the news items
 // combines blog and newslinks into single queriable NewsItem type
+// TODO configure this in plugin config
 
 const types = {
   NewsLinksCollection: { tag: "news" },
