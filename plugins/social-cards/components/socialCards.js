@@ -4,29 +4,48 @@ import { Helmet } from "react-helmet";
 
 // import the default card, or override with custom
 // todo make everything configurable
+import { useEffect, useState } from "react";
 
-export default function SocialCards({ data }) {
+const withTwoPassRendering =
+  (WrappedComponent) =>
+  ({ children, ...rest }) => {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+      setIsClient(true);
+    }, [setIsClient]);
+
+    return (
+      <WrappedComponent {...rest} key={isClient}>
+        {children}
+      </WrappedComponent>
+    );
+  };
+
+function SocialCards({ data, children }) {
   // only do work if if the URL param is set or we are generating static html
-  if (
-    typeof window !== "undefined" &&
-    !window.location.search.includes("generateSocialCard")
-  ) {
-    return null;
-  }
-  // TODO default value
-  // generate a cache key, based on inputs
   const hash = MD5(JSON.stringify(data)).toString();
   const imageUrl = `http://localhost:9000/static/social-card-${hash}.jpg`;
-  if (typeof window === "undefined") {
-    return (
-      <Helmet>
-        <meta key="og:image" property="og:image" content={imageUrl} />
-      </Helmet>
-    );
+  const metaImage = (
+    <Helmet>
+      <meta
+        key="og:image"
+        property="og:image"
+        content={imageUrl}
+        data-hash={hash}
+      />
+    </Helmet>
+  );
+  if (
+    typeof window === "undefined" ||
+    !window.location.search.includes("generateSocialCard")
+  ) {
+    return metaImage;
   }
   // render the social card itself
   return (
     <>
+      {metaImage}
       <div
         id="gatsby-social-card"
         data-hash={hash}
@@ -37,22 +56,28 @@ export default function SocialCards({ data }) {
           width: 1200,
           height: 632,
           zIndex: 999,
-          background: "grey",
+          background: "white",
           overflow: "hidden",
         }}
       >
         {/* pass data to children instead of using default card */}
-        <pre>
-          <code>
-            {JSON.stringify(
-              { socialCard: window.location.pathname, data, hash },
-              null,
-              2
-            )}
-          </code>
-        </pre>
+        {children ? (
+          children
+        ) : (
+          <pre>
+            <code>
+              {JSON.stringify(
+                { hash, path: window.location.pathname, data },
+                null,
+                2
+              )}
+            </code>
+          </pre>
+        )}
       </div>
       <div style={{ height: 640 }}></div>
     </>
   );
 }
+
+export default withTwoPassRendering(SocialCards);

@@ -20,6 +20,17 @@ export const pageQuery = graphql`
       headings(depth: h1) {
         value
       }
+      fields {
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(
+              width: 512
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
       meta: frontmatter {
         title
         seo

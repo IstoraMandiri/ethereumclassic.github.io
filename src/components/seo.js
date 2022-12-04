@@ -14,6 +14,7 @@ import { etc as EtcLogo } from "../utils/icons";
 import { useTheme } from "../utils/themeProvider";
 import useSiteMetadata from "../utils/useSiteMetadata";
 import useLocaleItems from "../utils/useLocaleItems";
+import SocialCard from "./socialCard";
 
 export default function Seo({
   data,
@@ -32,6 +33,7 @@ export default function Seo({
   const is404 = basePath === "404";
   const url = `${siteUrl}${path}`;
   const image = `${siteUrl}${socialImage}`; // LODO extract first image from MDX, somehow
+  const dynamicImage = data?.mdx?.fields?.featuredImage;
   const pageTitle = data?.mdx?.meta?.title || i18n.title || ui.title;
   const title = pageTitle.includes(ui.title)
     ? pageTitle
@@ -70,18 +72,23 @@ export default function Seo({
       ).slice(1)}`}
     />
   );
+  // TODO organize this better
   const meta = {
     title,
+    pageTitle,
     description,
     author,
     category,
     published,
     image,
+    dynamicImage,
     updated,
   };
   return (
     <>
-      <SocialCards data={meta} />
+      <SocialCards data={meta}>
+        <SocialCard {...meta} />
+      </SocialCards>
       <Helmet titleTemplate={`%s - ${title}`} defaultTitle={title}>
         {i18nDev &&
           current.editor && [
@@ -106,7 +113,7 @@ export default function Seo({
         {/* meta head */}
         {!is404 && [
           <meta key="description" name="description" content={description} />,
-          <meta key="image" name="image" content={image} />,
+          // <meta key="image" name="image" content={image} />,
           category && (
             <meta
               key="article:section"
@@ -147,7 +154,7 @@ export default function Seo({
             property="og:description"
             content={description}
           />,
-          <meta key="og:image" property="og:image" content={image} />,
+          // <meta key="og:image" property="og:image" content={image} />,
           <meta key="og:locale" property="og:locale" content={ui.metaLocale} />,
           <meta key="og:url" property="og:url" content={url} />,
           // twitter tags
@@ -158,7 +165,7 @@ export default function Seo({
             name="twitter:description"
             content={description}
           />,
-          <meta key="twitter:image" name="twitter:image" content={image} />,
+          // <meta key="twitter:image" name="twitter:image" content={image} />,
         ]}
       </Helmet>
       {i18nDev && current.editor && <SeoHelper meta={meta} />}

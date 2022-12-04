@@ -3,6 +3,7 @@ const puppeteer = require("puppeteer");
 const { spawn, exec } = require("child_process");
 // const { join } = require('path');
 const { promises: fs } = require("fs");
+const { info } = require("console");
 
 // const readdir = util.promisify(fs.readdir);
 
@@ -24,39 +25,40 @@ RUN apt-get update && apt-get install curl gnupg -y \
 const filePrefix = "social-card-";
 const fileExt = ".jpg";
 const selector = "#gatsby-social-card";
-const staticDir = "./public/static/";
+const publicDir = "./public/";
+const staticDir = `${publicDir}static/`;
 
 const hashCache = {};
 
 const takeScreenshot = async (page, path) => {
-  const url = `http://localhost:9000${path}?generateSocialCard`;
-  await page.goto(url, { waituntil: "networkidle0" });
-  await page.waitForSelector(selector); // wait
-  const hash = await page.$$eval(selector, (el) =>
-    el[0].getAttribute("data-hash")
-  );
-  // skip if there is no hash
-  if (!hash) {
-    throw Error(`Page did not include the social card component ${url}`);
+  const url = `http://localhost:9000${path}generateSocialCard`;
+  // parse the raw HTML for speed
+  await page.goto(url);
+  try {
+    await page.waitForSelector(selector, { timeout: 1000 }); // wait up to 1 second
+  } catch (e) {
+    console.log(
+      `Page ${url}, did not have social image component, skipping...`
+    );
+    return;
   }
-  hashCache[hash] = { keep: true };
-  if (!hashCache[hash]) {
-    console.log("screenshotting", url, hash);
-    await page.screenshot({
-      path: `${staticDir}${filePrefix}${hash}${fileExt}`,
-      clip: {
-        x: 0,
-        y: 0,
-        width: 1200,
-        height: 632,
-      },
-    });
-    hashCache[hash].generated = true;
-  }
+  const imgPath = `${staticDir}${filePrefix}${hash}${fileExt}`;
+  console.log("screenshotting", url, imgPath);
+  await page.screenshot({
+    path: imgPath,
+    clip: {
+      x: 0,
+      y: 0,
+      width: 1200,
+      height: 632,
+    },
+  });
+  hashCache[hash] = { keep: true, generated: true };
 };
 
 async function takeScreenshots(graphql) {
   // TODO populate the hash cache.
+  // TODO parse the raw HTML for speed
   // read static to check for hashes
   (await fs.readdir(staticDir)).forEach((file) => {
     if (file.startsWith(filePrefix)) {
@@ -64,14 +66,6 @@ async function takeScreenshots(graphql) {
       hashCache[hash] = {};
     }
   });
-  // start puppeteers
-  const browser = await puppeteer.launch({
-    // TODO allow this option to be bassed
-    // eg for use inside docker (like now)
-    executablePath: "/usr/bin/google-chrome",
-    args: ["--no-sandbox"],
-  });
-  const page = await browser.newPage();
 
   const pages = await graphql(`
     query AllSitePage {
@@ -84,12 +78,29 @@ async function takeScreenshots(graphql) {
       }
     }
   `);
+
+  // parse the raw HTML files to quickly check if there's an og:image hash
+  for (const edge of pages.data.allSitePage.edges) {
+    const htmlPath = `${publicDir}${edge.node.path}index.html`;
+    const data = await fs.readFile(htmlPath);
+    console.log("got data", data);
+  }
+  return;
+  // if there are no files that need generting, start puppeteer
+  const browser = await puppeteer.launch({
+    // TODO allow this option to be bassed
+    // eg for use inside docker (like now)
+    executablePath: "/usr/bin/google-chrome",
+    args: ["--no-sandbox"],
+  });
+  const page = await browser.newPage();
+
+  // todo clean up the cache
   for (const edge of pages.data.allSitePage.edges) {
     // TODO figure out a good name name w/ caching
     // TODO take multiple shots if configured
     await takeScreenshot(page, edge.node.path);
   }
-  // todo clean up the cache
   let generated = 0;
   let cached = 0;
   for (const hash of Object.keys(hashCache)) {
