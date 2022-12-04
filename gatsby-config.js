@@ -270,5 +270,9 @@ module.exports = {
         `,
       },
     },
+    {
+      resolve: "social-cards",
+      // TODO options
+    },
   ],
 };

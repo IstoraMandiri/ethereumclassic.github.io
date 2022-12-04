@@ -5,9 +5,11 @@ import { Helmet } from "react-helmet";
 import "twin.macro";
 import { theme } from "twin.macro";
 
+import { useLocalization } from "../../plugins/translations-plugin/src/components/localizationProvider";
+import SocialCards from "../../plugins/social-cards/components/socialCards";
+
 import SeoHelper from "./seoHelper";
 
-import { useLocalization } from "../../plugins/translations-plugin/src/components/localizationProvider";
 import { etc as EtcLogo } from "../utils/icons";
 import { useTheme } from "../utils/themeProvider";
 import useSiteMetadata from "../utils/useSiteMetadata";
@@ -79,6 +81,7 @@ export default function Seo({
   };
   return (
     <>
+      <SocialCards data={meta} />
       <Helmet titleTemplate={`%s - ${title}`} defaultTitle={title}>
         {i18nDev &&
           current.editor && [
