@@ -1,12 +1,7 @@
-// TODO only do this when in production mode
+// TODO only do this when in production mode ?
 const puppeteer = require("puppeteer");
 const { spawn, exec } = require("child_process");
-// const { join } = require('path');
 const { promises: fs } = require("fs");
-const { info } = require("console");
-
-// const readdir = util.promisify(fs.readdir);
-
 /*
 
 # We don't need the standalone Chromium
@@ -22,17 +17,23 @@ RUN apt-get update && apt-get install curl gnupg -y \
   && rm -rf /var/lib/apt/lists/*
 */
 
+// TODO make all this configurable
+const PORT = "9017";
 const filePrefix = "social-card-";
 const fileExt = ".jpg";
 const selector = "#gatsby-social-card";
 const publicDir = "./public/";
 const staticDir = `${publicDir}static/`;
+const search = "?generateSocialCard";
 
 const hashCache = {};
 
-const takeScreenshot = async (page, path) => {
-  const url = `http://localhost:9000${path}generateSocialCard`;
-  // parse the raw HTML for speed
+const takeScreenshot = async (page, hash) => {
+  const { path } = hashCache[hash];
+  const timer = new Date();
+  const url = `http://localhost:${PORT}${path}${search}`;
+  const imgPath = `${staticDir}${filePrefix}${hash}${fileExt}`;
+
   await page.goto(url);
   try {
     await page.waitForSelector(selector, { timeout: 1000 }); // wait up to 1 second
@@ -42,8 +43,7 @@ const takeScreenshot = async (page, path) => {
     );
     return;
   }
-  const imgPath = `${staticDir}${filePrefix}${hash}${fileExt}`;
-  console.log("screenshotting", url, imgPath);
+  // TODO option to take multiple sized shots
   await page.screenshot({
     path: imgPath,
     clip: {
@@ -53,91 +53,40 @@ const takeScreenshot = async (page, path) => {
       height: 632,
     },
   });
-  hashCache[hash] = { keep: true, generated: true };
+
+  console.log(`${new Date() - timer}ms - ${url} -> ${imgPath}`);
 };
 
-async function takeScreenshots(graphql) {
-  // TODO populate the hash cache.
-  // TODO parse the raw HTML for speed
-  // read static to check for hashes
-  (await fs.readdir(staticDir)).forEach((file) => {
-    if (file.startsWith(filePrefix)) {
-      const hash = file.split(".")[0].replace(filePrefix, "");
-      hashCache[hash] = {};
-    }
-  });
-
-  const pages = await graphql(`
-    query AllSitePage {
-      allSitePage {
-        edges {
-          node {
-            path
-          }
-        }
-      }
-    }
-  `);
-
-  // parse the raw HTML files to quickly check if there's an og:image hash
-  for (const edge of pages.data.allSitePage.edges) {
-    const htmlPath = `${publicDir}${edge.node.path}index.html`;
-    const data = await fs.readFile(htmlPath);
-    console.log("got data", data);
-  }
-  return;
-  // if there are no files that need generting, start puppeteer
-  const browser = await puppeteer.launch({
-    // TODO allow this option to be bassed
-    // eg for use inside docker (like now)
-    executablePath: "/usr/bin/google-chrome",
-    args: ["--no-sandbox"],
-  });
-  const page = await browser.newPage();
-
-  // todo clean up the cache
-  for (const edge of pages.data.allSitePage.edges) {
-    // TODO figure out a good name name w/ caching
-    // TODO take multiple shots if configured
-    await takeScreenshot(page, edge.node.path);
-  }
-  let generated = 0;
-  let cached = 0;
-  for (const hash of Object.keys(hashCache)) {
-    if (!hashCache[hash].keep) {
-      await fs.unlink(`${staticDir}${filePrefix}${hash}${fileExt}`);
-      return;
-    }
-    if (hashCache[hash].generated) {
-      generated += 1;
-    } else {
-      cached += 1;
-    }
-  }
-  await browser.close();
-  return { generated, cached };
-}
-
-exports.onPostBuild = async (params) => {
-  const { graphql, reporter } = params;
-  reporter.info("Generating social cards...");
-  // TODO find a better way to do this
+async function startPuppeteer() {
+  // START WEB SERVER AND PUPPETEER
+  // TODO set a different port
+  // TODO find a better way to do this, don't start the server unless we need to.
   // TODO have some way of creating a random port and killing it aterwards
-  exec("fuser -k 9000/tcp");
+  exec(`fuser -k ${PORT}/tcp`);
   // start the server
-  const server = spawn("./node_modules/.bin/gatsby", ["serve"]);
+  const server = spawn("./node_modules/.bin/gatsby", ["serve", "--port", PORT]);
   await new Promise((resolve, reject) => {
     server.stdout.on("data", async (data) => {
       if (`${data}`.includes("You can now view")) {
-        const { generated, cached } = await takeScreenshots(graphql);
-        reporter.info(
-          `Created social cards: ${generated} new, ${cached} cached`
-        );
+        // if there are files that need generting, start puppeteer
+        // TODO replace with aws lambda functionm if available for use with netlify
+        const browser = await puppeteer.launch({
+          // TODO allow this option to be passed for use inside docker (like now)
+          executablePath: "/usr/bin/google-chrome",
+          args: ["--no-sandbox"],
+        });
+        const page = await browser.newPage();
+        for (const hash of Object.keys(hashCache)) {
+          if (hashCache[hash].keep) {
+            await takeScreenshot(page, hash);
+          }
+        }
+        await browser.close();
         resolve();
       }
       if (`${data}`.includes("Something is already running at")) {
         reject(
-          "Server is already running on port 9000, please stop the server (pkill node)"
+          `Server is already running on port ${PORT}, please stop the server (pkill node)`
         );
       }
     });
@@ -149,5 +98,88 @@ exports.onPostBuild = async (params) => {
       resolve();
     });
   });
+
   server.kill();
+}
+
+async function takeScreenshots(graphql) {
+  // check for existing images
+  (await fs.readdir(staticDir)).forEach((file) => {
+    if (file.startsWith(filePrefix)) {
+      const hash = file.split(".")[0].replace(filePrefix, "");
+      hashCache[hash] = {};
+    }
+  });
+  // query all pages that need images
+  const pages = await graphql(`
+    query AllSitePage {
+      allSitePage {
+        edges {
+          node {
+            path
+          }
+        }
+      }
+    }
+  `);
+  // filter 404 pages
+  const filteredPage = pages.data.allSitePage.edges.filter(
+    (edge) => !edge.node.path.includes("/404")
+  );
+
+  let generated = 0;
+  let cached = 0;
+
+  // parse the raw HTML files to quickly check if there's an og:image hash,
+  // we can skip pupeteer loading this page if we know there's a cached image
+  for (const edge of filteredPage) {
+    const htmlPath = `${publicDir}${edge.node.path}/index.html`;
+    const data = await fs.readFile(htmlPath, "utf8");
+    const match = data.match(
+      /(.?!<meta.)*?property="og:image".*?content="(.*?)".*?>/
+    );
+    const fileName = match[2] && match[2].split("/").pop().split(".")[0];
+    // ignore files that don't use our plugin
+    if (fileName.startsWith(filePrefix)) {
+      const hash = fileName.replace(filePrefix, "");
+      const toGenerate = !hashCache[hash];
+      if (toGenerate) {
+        generated += 1;
+      } else {
+        cached += 1;
+      }
+      hashCache[hash] = {
+        keep: true,
+        generated: !hashCache[hash],
+        path: edge.node.path,
+      };
+    }
+  }
+  // console.log(hashCache);
+
+  // only run expensive server / pupeteer stuff if we need to
+  if (generated > 0) {
+    await startPuppeteer();
+  }
+
+  let deleted = 0;
+
+  // remove unused files
+  for (const hash of Object.keys(hashCache)) {
+    if (!hashCache[hash].keep) {
+      console.log("deleting", `${staticDir}${filePrefix}${hash}${fileExt}`);
+      await fs.unlink(`${staticDir}${filePrefix}${hash}${fileExt}`);
+      deleted += 1;
+    }
+  }
+
+  return { generated, cached, deleted };
+}
+
+exports.onPostBuild = async ({ graphql, reporter }) => {
+  reporter.info("Generating social cards...");
+  const { generated, cached, deleted } = await takeScreenshots(graphql);
+  reporter.info(
+    `Created social cards: ${generated} new, ${cached} cached, ${deleted} removed.`
+  );
 };
