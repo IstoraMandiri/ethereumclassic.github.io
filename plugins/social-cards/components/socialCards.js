@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 // todo make everything configurable
 import { useEffect, useState } from "react";
 
+// TODO try and make it work without re-rendering each on each navigation -_-
 const withTwoPassRendering =
   (WrappedComponent) =>
   ({ children, ...rest }) => {
@@ -23,9 +24,10 @@ const withTwoPassRendering =
   };
 
 function SocialCards({ data, children }) {
+  // TODO use sitepage url, configurable prefix etc.
   // only do work if if the URL param is set or we are generating static html
   const hash = MD5(JSON.stringify(data)).toString();
-  const imageUrl = `http://localhost:9000/static/social-card-${hash}.jpg`;
+  const imageUrl = `http://localhost:9000/static/social-card-${hash}.png`;
   const metaImage = (
     <Helmet>
       <meta

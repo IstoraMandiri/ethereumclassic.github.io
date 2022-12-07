@@ -24,9 +24,12 @@ export const pageQuery = graphql`
         featuredImage {
           childImageSharp {
             gatsbyImageData(
-              width: 512
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
+              height: 632
+              width: 900
+              layout: FIXED
+              placeholder: NONE
+              formats: [AUTO]
+              transformOptions: { cropFocus: ATTENTION, fit: COVER }
             )
           }
         }
@@ -51,11 +54,7 @@ export const pageQuery = graphql`
           githubId
           githubImage {
             childImageSharp {
-              gatsbyImageData(
-                width: 40
-                placeholder: BLURRED
-                formats: [AUTO, WEBP, AVIF]
-              )
+              gatsbyImageData(width: 100, placeholder: BLURRED, formats: [AUTO])
             }
           }
         }

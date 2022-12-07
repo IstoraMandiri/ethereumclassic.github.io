@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install curl gnupg -y \
 // TODO make all this configurable
 const PORT = "9017";
 const filePrefix = "social-card-";
-const fileExt = ".jpg";
+const fileExt = ".png";
 const selector = "#gatsby-social-card";
 const publicDir = "./public/";
 const staticDir = `${publicDir}static/`;
@@ -28,6 +28,7 @@ const search = "?generateSocialCard";
 
 const hashCache = {};
 
+// TODO do this in batches.
 const takeScreenshot = async (page, hash) => {
   const { path } = hashCache[hash];
   const timer = new Date();
@@ -36,7 +37,7 @@ const takeScreenshot = async (page, hash) => {
 
   await page.goto(url);
   try {
-    await page.waitForSelector(selector, { timeout: 1000 }); // wait up to 1 second
+    await page.waitForSelector(selector, { timeout: 4000 }); // wait up to 4 seconds (!)
   } catch (e) {
     console.log(
       `Page ${url}, did not have social image component, skipping...`
@@ -75,9 +76,10 @@ async function startPuppeteer() {
           executablePath: "/usr/bin/google-chrome",
           args: ["--no-sandbox"],
         });
+        // TODO parralelize this into a few pages...
         const page = await browser.newPage();
         for (const hash of Object.keys(hashCache)) {
-          if (hashCache[hash].keep) {
+          if (hashCache[hash].generated) {
             await takeScreenshot(page, hash);
           }
         }

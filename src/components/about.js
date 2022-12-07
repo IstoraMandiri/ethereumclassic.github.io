@@ -7,7 +7,7 @@ import Link from "./link";
 import Markdown from "./markdownDynamic";
 
 export default function About({ i18n, data }) {
-  const sorted = data.contributors.group.sort(
+  const sorted = data.allContributors.group.sort(
     (a, b) => b.totalCount - a.totalCount
   );
   return (

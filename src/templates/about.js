@@ -14,7 +14,7 @@ export default function AboutLayout(props) {
 
 export const pageQuery = graphql`
   query {
-    contributors: allContributorAvatar {
+    allContributors: allContributorAvatar {
       group(field: githubId, limit: 1) {
         totalCount
         edges {

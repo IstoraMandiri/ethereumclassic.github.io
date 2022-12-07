@@ -40,7 +40,7 @@ export default function Seo({
     : `${pageTitle} - ${ui.title}`;
   const author = data?.mdx?.meta?.author || i18n.author;
   const updated = data?.mdx?.meta?.updated || i18n.updated;
-  const published = data?.mdx?.meta?.published || i18n.published;
+  const published = data?.mdx?.meta?.date || i18n.date;
   const description = [
     data?.mdx?.meta?.seo,
     i18n.seo,
@@ -74,6 +74,7 @@ export default function Seo({
   );
   // TODO organize this better
   const meta = {
+    siteTitle: ui.title,
     title,
     pageTitle,
     description,
@@ -84,10 +85,22 @@ export default function Seo({
     dynamicImage,
     updated,
   };
+  // console.log(data);
+  const socialCard = {
+    // todo
+    siteTitle: ui.title,
+    title: pageTitle,
+    category,
+    author,
+    dynamicImage,
+    published,
+    description,
+    contributors: data?.contributors,
+  };
   return (
     <>
-      <SocialCards data={meta}>
-        <SocialCard {...meta} />
+      <SocialCards data={socialCard}>
+        <SocialCard {...socialCard} />
       </SocialCards>
       <Helmet titleTemplate={`%s - ${title}`} defaultTitle={title}>
         {i18nDev &&
