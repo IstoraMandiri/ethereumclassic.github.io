@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 2016 年から続く最初のコミュニティサーバーで、過去のコア開発者コールやコミュニティコールの多くがここで行われてきました。
+        description: 2016 年から続く最初のコミュニティサーバーで、モデレーションは緩やかです。過去のコア開発者コールやコミュニティコールの多くがここで行われてきました。
       discordCommunity:
         name: Ethereum Classic コミュニティ Discord
-        description: '2025 年 11 月に開設された新しいサーバーで、モデレーションがより厳格で、自動認証、スパム対策、アナウンス連携を備えています。経緯は[お知らせの記事](/blog/2025-11-05-discord-migration)をご覧ください。'
+        description: '2025 年 11 月に開設された新しいサーバーで、モデレーションが厳格で、自動認証、スパム対策、アナウンス連携を備えています。経緯は[お知らせの記事](/blog/2025-11-05-discord-migration)をご覧ください。'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Ethereum Classic 上のプロジェクトに助成を行う [ETC Grants DAO](https://etcgrantsdao.io) を中心としたグループです。ETC のチャットのなかでもとくに活発で、多くの利用者がエコシステムについて日々やり取りしています。'
       telegramEnglish:
         name: Ethereum Classic（英語）
         description: ETC 全般について話す、長く続いている英語のグループです。
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Ethereum Classic 上のプロジェクトに助成を行う [ETC Grants DAO](https://etcgrantsdao.io) を中心としたグループです。'
   twitter:
     description: |
-      主要な 2 つのコミュニティアカウントは [twitter-together](https://github.com/twitter-together/action) で運用されています。ツイートは各アカウントのリポジトリへのプルリクエストとして提案され、公開の場でレビューされ、マージされると自動的に投稿されます。もっとも簡単なのは [ETC コントリビューションアプリ](https://etc.contributions.app) を使う方法で、GitHub アカウントの有無にかかわらず、プルリクエストを代わりに作成してくれます。`#ETCtweets` を付けたツイートからも案が集められ、Discord の `#ETCtweets` スレッドで検討されます。
+      コミュニティが運営する 2 つのアカウントは [twitter-together](https://github.com/twitter-together/action) を利用しています。ツイートは各アカウントのリポジトリへのプルリクエストとして提案され、公開の場でレビューされ、マージされると自動的に投稿されます。もっとも簡単なのは [ETC コントリビューションアプリ](https://etc.contributions.app) を使う方法で、GitHub アカウントの有無にかかわらず、プルリクエストを代わりに作成してくれます。`#ETCtweets` を付けたツイートからも案が集められ、Discord の `#ETCtweets` スレッドで検討されます。
     items:
       twitterEthClassic:
         description: '2 つのうちフォロワーが多い方のアカウントで、編集方針により、フォーマルで中立、ミームを扱わない内容に保たれています。ツイートは [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic) で提案します。'

@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 'Izvorni poslužitelj zajednice, u radu od 2016., na kojem su održani mnogi raniji pozivi core razvojnih programera i pozivi zajednice.'
+        description: 'Izvorni poslužitelj zajednice, u radu od 2016., labavo moderiran, na kojem su održani mnogi raniji pozivi core razvojnih programera i pozivi zajednice.'
       discordCommunity:
         name: Discord zajednice Ethereum Classic
-        description: 'Noviji poslužitelj, pokrenut u studenom 2025., strože moderiran, s automatskom provjerom, zaštitom od neželjenih poruka i integracijama za objave. Pozadinu potražite u [objavi najave](/blog/2025-11-05-discord-migration).'
+        description: 'Noviji poslužitelj, pokrenut u studenom 2025., strogo moderiran, s automatskom provjerom, zaštitom od neželjenih poruka i integracijama za objave. Pozadinu potražite u [objavi najave](/blog/2025-11-05-discord-migration).'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Grupa okupljena oko [ETC Grants DAO-a](https://etcgrantsdao.io), koji financira projekte na Ethereum Classicu. Jedan je od najživljih ETC razgovora, s mnogo aktivnih korisnika koji svakodnevno raspravljaju o ekosustavu.'
       telegramEnglish:
         name: Ethereum Classic (engleski)
         description: Dugogodišnja grupa na engleskom jeziku za općenit razgovor o ETC-u.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Grupa okupljena oko [ETC Grants DAO-a](https://etcgrantsdao.io), koji financira projekte na Ethereum Classicu.'
   twitter:
     description: |
-      Dva glavna računa zajednice vode se pomoću [twitter-togethera](https://github.com/twitter-together/action): tweetovi se predlažu kao pull requestovi u repozitoriju računa, javno se pregledavaju i automatski objavljuju nakon spajanja. Najjednostavnije je predložiti ga putem [ETC-ove aplikacije za doprinose](https://etc.contributions.app), koja pull request otvara umjesto vas, sa ili bez GitHub računa. Ideje se preuzimaju i iz tweetova označenih s `#ETCtweets`, o kojima se raspravlja u niti `#ETCtweets` na Discordu.
+      Dva računa koja vodi zajednica koriste [twitter-together](https://github.com/twitter-together/action): tweetovi se predlažu kao pull requestovi u repozitoriju računa, javno se pregledavaju i automatski objavljuju nakon spajanja. Najjednostavnije je predložiti ga putem [ETC-ove aplikacije za doprinose](https://etc.contributions.app), koja pull request otvara umjesto vas, sa ili bez GitHub računa. Ideje se preuzimaju i iz tweetova označenih s `#ETCtweets`, o kojima se raspravlja u niti `#ETCtweets` na Discordu.
     items:
       twitterEthClassic:
         description: 'Praćeniji od dva računa, s uredničkim smjernicama koje ga drže formalnim, neutralnim i bez memeova. Tweetovi se predlažu u [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

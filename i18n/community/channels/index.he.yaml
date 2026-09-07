@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Discord של Ethereum Classic
-        description: 'שרת הקהילה המקורי, פועל מאז 2016, ובו התקיימו רבות משיחות מפתחי הליבה ומשיחות הקהילה בעבר.'
+        description: 'שרת הקהילה המקורי, פועל מאז 2016, עם ניהול מקל, ובו התקיימו רבות משיחות מפתחי הליבה ומשיחות הקהילה בעבר.'
       discordCommunity:
         name: Discord של קהילת Ethereum Classic
-        description: 'שרת חדש יותר, שהושק בנובמבר 2025, עם ניהול קפדני יותר, אימות אוטומטי, הגנה מפני ספאם ושילובי הודעות. לרקע נוסף ראו את [פוסט ההכרזה](/blog/2025-11-05-discord-migration).'
+        description: 'שרת חדש יותר, שהושק בנובמבר 2025, עם ניהול קפדני, אימות אוטומטי, הגנה מפני ספאם ושילובי הודעות. לרקע נוסף ראו את [פוסט ההכרזה](/blog/2025-11-05-discord-migration).'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'הקבוצה סביב [ETC Grants DAO](https://etcgrantsdao.io), שמממן פרויקטים הנבנים על Ethereum Classic. זו אחת מקבוצות הצ''אט הפעילות ביותר של ETC, עם משתמשים רבים שדנים במערכת האקולוגית מדי יום.'
       telegramEnglish:
         name: Ethereum Classic (אנגלית)
         description: הקבוצה הוותיקה בשפה האנגלית לשיחה כללית על ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'הקבוצה סביב [ETC Grants DAO](https://etcgrantsdao.io), שמממן פרויקטים הנבנים על Ethereum Classic.'
   twitter:
     description: |
-      שני חשבונות הקהילה המרכזיים מנוהלים באמצעות [twitter-together](https://github.com/twitter-together/action): ציוצים מוצעים כבקשות משיכה במאגר של החשבון, נבדקים בגלוי ומתפרסמים אוטומטית לאחר המיזוג. הדרך הפשוטה ביותר להציע ציוץ היא [אפליקציית התרומות של ETC](https://etc.contributions.app), שמגישה עבורכם את בקשת המשיכה, עם חשבון GitHub או בלעדיו. רעיונות נאספים גם מציוצים המתויגים ב-`#ETCtweets`, ונדונים בשרשור `#ETCtweets` ב-Discord.
+      שני החשבונות שמנהלת הקהילה משתמשים ב-[twitter-together](https://github.com/twitter-together/action): ציוצים מוצעים כבקשות משיכה במאגר של החשבון, נבדקים בגלוי ומתפרסמים אוטומטית לאחר המיזוג. הדרך הפשוטה ביותר להציע ציוץ היא [אפליקציית התרומות של ETC](https://etc.contributions.app), שמגישה עבורכם את בקשת המשיכה, עם חשבון GitHub או בלעדיו. רעיונות נאספים גם מציוצים המתויגים ב-`#ETCtweets`, ונדונים בשרשור `#ETCtweets` ב-Discord.
     items:
       twitterEthClassic:
         description: 'החשבון בעל מספר העוקבים הגדול יותר מבין השניים, עם קווים מנחים ששומרים עליו רשמי, ניטרלי ונטול ממים. ציוצים מוצעים ב-[tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 'Der ursprüngliche Community-Server, in Betrieb seit 2016, und Schauplatz vieler früherer Core-Devs-Calls und Community-Calls.'
+        description: 'Der ursprüngliche Community-Server, in Betrieb seit 2016, der locker moderiert wird und Schauplatz vieler früherer Core-Devs-Calls und Community-Calls war.'
       discordCommunity:
         name: Ethereum Classic Community Discord
-        description: 'Ein neuerer Server, gestartet im November 2025, der strenger moderiert wird und über automatische Verifizierung, Spamschutz und Ankündigungs-Integrationen verfügt. Hintergründe dazu im [Ankündigungsbeitrag](/blog/2025-11-05-discord-migration).'
+        description: 'Ein neuerer Server, gestartet im November 2025, der streng moderiert wird und über automatische Verifizierung, Spamschutz und Ankündigungs-Integrationen verfügt. Hintergründe dazu im [Ankündigungsbeitrag](/blog/2025-11-05-discord-migration).'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Die Gruppe rund um die [ETC Grants DAO](https://etcgrantsdao.io), die Projekte auf Ethereum Classic finanziert. Sie ist einer der lebhaftesten ETC-Chats, mit vielen aktiven Nutzern, die das Ökosystem täglich diskutieren.'
       telegramEnglish:
         name: Ethereum Classic (Englisch)
         description: Die langjährige englischsprachige Gruppe für allgemeine Gespräche über ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Die Gruppe rund um die [ETC Grants DAO](https://etcgrantsdao.io), die Projekte auf Ethereum Classic finanziert.'
   twitter:
     description: |
-      Die beiden wichtigsten Community-Konten laufen über [twitter-together](https://github.com/twitter-together/action): Tweets werden als Pull Requests im Repository des jeweiligen Kontos vorgeschlagen, offen geprüft und nach dem Merge automatisch veröffentlicht. Am einfachsten geht das über die [ETC-Contributions-App](https://etc.contributions.app), die den Pull Request für dich erstellt, mit oder ohne GitHub-Konto. Ideen werden außerdem aus Tweets mit dem Hashtag `#ETCtweets` aufgegriffen, die im `#ETCtweets`-Thread auf Discord besprochen werden.
+      Die beiden von der Community betriebenen Konten nutzen [twitter-together](https://github.com/twitter-together/action): Tweets werden als Pull Requests im Repository des jeweiligen Kontos vorgeschlagen, offen geprüft und nach dem Merge automatisch veröffentlicht. Am einfachsten geht das über die [ETC-Contributions-App](https://etc.contributions.app), die den Pull Request für dich erstellt, mit oder ohne GitHub-Konto. Ideen werden außerdem aus Tweets mit dem Hashtag `#ETCtweets` aufgegriffen, die im `#ETCtweets`-Thread auf Discord besprochen werden.
     items:
       twitterEthClassic:
         description: 'Das reichweitenstärkere der beiden Konten, mit redaktionellen Richtlinien, die es formell, neutral und frei von Memes halten. Tweets werden in [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic) vorgeschlagen.'

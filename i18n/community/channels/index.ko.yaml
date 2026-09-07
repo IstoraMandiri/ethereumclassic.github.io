@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: '2016년부터 운영된 최초의 커뮤니티 서버로, 과거의 코어 개발자 콜과 커뮤니티 콜이 대부분 이곳에서 열렸습니다.'
+        description: '2016년부터 운영된 최초의 커뮤니티 서버로, 느슨하게 관리되며 과거의 코어 개발자 콜과 커뮤니티 콜이 대부분 이곳에서 열렸습니다.'
       discordCommunity:
         name: Ethereum Classic 커뮤니티 Discord
-        description: '2025년 11월에 시작된 새로운 서버로, 더 엄격하게 관리되며 자동 인증, 스팸 차단, 공지 연동 기능을 갖추고 있습니다. 자세한 배경은 [공지 게시물](/blog/2025-11-05-discord-migration)을 참고하세요.'
+        description: '2025년 11월에 시작된 새로운 서버로, 엄격하게 관리되며 자동 인증, 스팸 차단, 공지 연동 기능을 갖추고 있습니다. 자세한 배경은 [공지 게시물](/blog/2025-11-05-discord-migration)을 참고하세요.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Ethereum Classic 위에서 개발되는 프로젝트를 지원하는 [ETC Grants DAO](https://etcgrantsdao.io) 관련 그룹입니다. 활동적인 사용자가 많아 생태계 이야기가 매일 오가는, ETC에서 가장 활발한 채팅방 중 하나입니다.'
       telegramEnglish:
         name: Ethereum Classic(영어)
         description: 'ETC 전반을 이야기하는, 오랫동안 이어져 온 영어 그룹입니다.'
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Ethereum Classic 위에서 개발되는 프로젝트를 지원하는 [ETC Grants DAO](https://etcgrantsdao.io) 관련 그룹입니다.'
   twitter:
     description: |
-      두 개의 주요 커뮤니티 계정은 [twitter-together](https://github.com/twitter-together/action)로 운영됩니다. 트윗은 계정 저장소에 풀 리퀘스트로 제안되어 공개적으로 검토된 뒤, 병합되면 자동으로 게시됩니다. 가장 간단한 방법은 [ETC 기여 앱](https://etc.contributions.app)을 이용하는 것으로, GitHub 계정이 없어도 대신 풀 리퀘스트를 만들어 줍니다. `#ETCtweets` 태그가 달린 트윗에서도 아이디어를 모으며, 이는 Discord의 `#ETCtweets` 스레드에서 논의됩니다.
+      커뮤니티가 운영하는 두 계정은 [twitter-together](https://github.com/twitter-together/action)를 사용합니다. 트윗은 계정 저장소에 풀 리퀘스트로 제안되어 공개적으로 검토된 뒤, 병합되면 자동으로 게시됩니다. 가장 간단한 방법은 [ETC 기여 앱](https://etc.contributions.app)을 이용하는 것으로, GitHub 계정이 없어도 대신 풀 리퀘스트를 만들어 줍니다. `#ETCtweets` 태그가 달린 트윗에서도 아이디어를 모으며, 이는 Discord의 `#ETCtweets` 스레드에서 논의됩니다.
     items:
       twitterEthClassic:
         description: '두 계정 중 팔로워가 더 많은 쪽으로, 편집 지침에 따라 격식 있고 중립적이며 밈을 다루지 않습니다. 트윗은 [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic)에서 제안합니다.'

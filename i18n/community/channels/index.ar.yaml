@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: خادم Ethereum Classic على Discord
-        description: الخادم المجتمعي الأصلي، ويعمل منذ عام 2016، وقد استضاف كثيرًا من مكالمات المطورين الأساسيين ومكالمات المجتمع السابقة.
+        description: الخادم المجتمعي الأصلي، ويعمل منذ عام 2016، ويخضع لإشراف خفيف، وقد استضاف كثيرًا من مكالمات المطورين الأساسيين ومكالمات المجتمع السابقة.
       discordCommunity:
         name: خادم مجتمع Ethereum Classic على Discord
-        description: 'خادم أحدث، أُطلق في نوفمبر 2025، ويخضع لإشراف أكثر صرامة، ويعتمد على التحقق التلقائي والحماية من الرسائل المزعجة وتكاملات الإعلانات. راجع [منشور الإعلان](/blog/2025-11-05-discord-migration) للاطلاع على الخلفية.'
+        description: 'خادم أحدث، أُطلق في نوفمبر 2025، ويخضع لإشراف صارم، ويعتمد على التحقق التلقائي والحماية من الرسائل المزعجة وتكاملات الإعلانات. راجع [منشور الإعلان](/blog/2025-11-05-discord-migration) للاطلاع على الخلفية.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'المجموعة المحيطة بـ [ETC Grants DAO](https://etcgrantsdao.io)، التي تموّل المشاريع المبنية على Ethereum Classic. وهي من أكثر محادثات ETC نشاطًا، ويشارك فيها كثير من المستخدمين النشطين الذين يناقشون المنظومة يوميًا.'
       telegramEnglish:
         name: Ethereum Classic (بالإنجليزية)
         description: المجموعة الإنجليزية العريقة للحديث العام عن ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'المجموعة المحيطة بـ [ETC Grants DAO](https://etcgrantsdao.io)، التي تموّل المشاريع المبنية على Ethereum Classic.'
   twitter:
     description: |
-      يعمل الحسابان المجتمعيان الرئيسيان عبر [twitter-together](https://github.com/twitter-together/action): تُقترح التغريدات على شكل طلبات سحب في مستودع الحساب، وتُراجَع علنًا، ثم تُنشر تلقائيًا بعد دمجها. وأسهل طريقة لاقتراح تغريدة هي [تطبيق مساهمات ETC](https://etc.contributions.app)، الذي يقدّم طلب السحب نيابةً عنك، سواء كان لديك حساب على GitHub أم لا. كما تُستقى الأفكار من التغريدات الموسومة بـ `#ETCtweets`، وتُناقش في سلسلة `#ETCtweets` على Discord.
+      يعمل الحسابان اللذان يديرهما المجتمع عبر [twitter-together](https://github.com/twitter-together/action): تُقترح التغريدات على شكل طلبات سحب في مستودع الحساب، وتُراجَع علنًا، ثم تُنشر تلقائيًا بعد دمجها. وأسهل طريقة لاقتراح تغريدة هي [تطبيق مساهمات ETC](https://etc.contributions.app)، الذي يقدّم طلب السحب نيابةً عنك، سواء كان لديك حساب على GitHub أم لا. كما تُستقى الأفكار من التغريدات الموسومة بـ `#ETCtweets`، وتُناقش في سلسلة `#ETCtweets` على Discord.
     items:
       twitterEthClassic:
         description: 'الحساب الأكثر متابعة من بين الاثنين، وتحافظ إرشاداته التحريرية على طابع رسمي ومحايد وخالٍ من الميمات. تُقترح التغريدات في [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

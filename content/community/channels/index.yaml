@@ -15,7 +15,7 @@ __contributors:
   - redsn0w0
   - TheEnthusiasticAs
   - w1g0
-__updated: 2026-09-02
+__updated: 2026-09-07
 seo: A collection of Ethereum Classic chat rooms, Twitter accounts, discussion groups, forums, podcasts, repositories and regional websites.
 description: |
   Ethereum Classic has no central organisation, and therefore no "official" social media; every channel listed here is run independently by members of the community.
@@ -31,28 +31,28 @@ items:
       discordClassic:
         __link: https://discord.com/invite/hQs894U
         name: Ethereum Classic Discord
-        description: The original community server, running since 2016, and the venue for many of the past core devs calls and community calls.
+        description: The original community server, running since 2016, which is loosely moderated and was the venue for many of the past core devs calls and community calls.
       discordCommunity:
         __link: https://discord.com/invite/Tq57jxSwsa
         name: Ethereum Classic Community Discord
-        description: A newer server, launched in November 2025, which is more tightly moderated and runs automated verification, anti-spam and announcement integrations. See the [announcement post](/blog/2025-11-05-discord-migration) for background.
+        description: A newer server, launched in November 2025, which is tightly moderated and runs automated verification, anti-spam and announcement integrations. See the [announcement post](/blog/2025-11-05-discord-migration) for background.
   telegram:
     __type: cells
     title: Telegram
     items:
-      telegramGrantsDao:
-        __link: https://t.me/ETCGrantsDao
-        name: ETC Grants DAO
-        description: The group around [ETC Grants DAO](https://etcgrantsdao.io), which funds projects building on Ethereum Classic. It is one of the busiest ETC chats, with many active users discussing the ecosystem day to day.
       telegramEnglish:
         __link: https://t.me/ethclassic
         name: Ethereum Classic (English)
         description: The long-running English language group for general ETC chat.
+      telegramGrantsDao:
+        __link: https://t.me/ETCGrantsDao
+        name: ETC Grants DAO
+        description: The group around [ETC Grants DAO](https://etcgrantsdao.io), which funds projects building on Ethereum Classic.
   twitter:
     __type: cells
     title: Twitter
     description: |
-      The two main community accounts are run through [twitter-together](https://github.com/twitter-together/action); tweets are proposed as pull requests against the account's repository, reviewed in the open, and posted automatically once merged. The easiest way to suggest one is the [ETC Contributions app](https://etc.contributions.app), which submits the pull request for you, with or without a GitHub account. Ideas are also picked up from tweets tagged `#ETCtweets`, which are discussed in the `#ETCtweets` Discord thread.
+      The two community-run accounts use [twitter-together](https://github.com/twitter-together/action); tweets are proposed as pull requests against the account's repository, reviewed in the open, and posted automatically once merged. The easiest way to suggest one is the [ETC Contributions app](https://etc.contributions.app), which submits the pull request for you, with or without a GitHub account. Ideas are also picked up from tweets tagged `#ETCtweets`, which are discussed in the `#ETCtweets` Discord thread.
     items:
       twitterEthClassic:
         __link: https://twitter.com/eth_classic

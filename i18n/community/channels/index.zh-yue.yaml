@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 最早的社群伺服器，自 2016 年起運作，過去許多核心開發者會議和社群會議都在這裡舉行。
+        description: 最早的社群伺服器，自 2016 年起運作，審核寬鬆，過去許多核心開發者會議和社群會議都在這裡舉行。
       discordCommunity:
         name: Ethereum Classic 社群 Discord
-        description: '較新的伺服器，於 2025 年 11 月啟用，審核較為嚴格，並設有自動驗證、防垃圾訊息和公告整合功能。背景資料見[公告文章](/blog/2025-11-05-discord-migration)。'
+        description: '較新的伺服器，於 2025 年 11 月啟用，審核嚴格，並設有自動驗證、防垃圾訊息和公告整合功能。背景資料見[公告文章](/blog/2025-11-05-discord-migration)。'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: '圍繞 [ETC Grants DAO](https://etcgrantsdao.io) 的群組，該組織為在 Ethereum Classic 上開發的項目提供資助。這是最熱鬧的 ETC 聊天群之一，有許多活躍用戶每日討論生態系統的動態。'
       telegramEnglish:
         name: Ethereum Classic（英文）
         description: 歷史悠久的英文群組，用來討論 ETC 的各類話題。
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: '圍繞 [ETC Grants DAO](https://etcgrantsdao.io) 的群組，該組織為在 Ethereum Classic 上開發的項目提供資助。'
   twitter:
     description: |
-      兩個主要的社群帳戶透過 [twitter-together](https://github.com/twitter-together/action) 運作：推文以 pull request 的形式提交到帳戶對應的儲存庫，公開審核，合併後自動發佈。最簡單的提議方式是使用 [ETC 貢獻應用程式](https://etc.contributions.app)，無論你有沒有 GitHub 帳戶，它都會代你提交 pull request。帶有 `#ETCtweets` 標籤的推文也會被採納為素材，並在 Discord 的 `#ETCtweets` 討論串中討論。
+      由社群營運的兩個帳戶使用 [twitter-together](https://github.com/twitter-together/action)：推文以 pull request 的形式提交到帳戶對應的儲存庫，公開審核，合併後自動發佈。最簡單的提議方式是使用 [ETC 貢獻應用程式](https://etc.contributions.app)，無論你有沒有 GitHub 帳戶，它都會代你提交 pull request。帶有 `#ETCtweets` 標籤的推文也會被採納為素材，並在 Discord 的 `#ETCtweets` 討論串中討論。
     items:
       twitterEthClassic:
         description: '兩個帳戶中追蹤者較多的一個，其編輯規範令它保持正式、中立，不發佈迷因內容。推文在 [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic) 中提出。'

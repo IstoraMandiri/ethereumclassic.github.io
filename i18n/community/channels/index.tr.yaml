@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 2016'dan beri çalışan ilk topluluk sunucusu; geçmişteki core dev çağrılarının ve topluluk çağrılarının çoğuna ev sahipliği yaptı.
+        description: 2016'dan beri çalışan, gevşek denetlenen ilk topluluk sunucusu; geçmişteki core dev çağrılarının ve topluluk çağrılarının çoğuna ev sahipliği yaptı.
       discordCommunity:
         name: Ethereum Classic Community Discord
-        description: 'Kasım 2025''te açılan, daha sıkı denetlenen ve otomatik doğrulama, spam koruması ile duyuru entegrasyonları çalıştıran daha yeni bir sunucu. Ayrıntılar için [duyuru yazısına](/blog/2025-11-05-discord-migration) bakın.'
+        description: 'Kasım 2025''te açılan, sıkı denetlenen ve otomatik doğrulama, spam koruması ile duyuru entegrasyonları çalıştıran daha yeni bir sunucu. Ayrıntılar için [duyuru yazısına](/blog/2025-11-05-discord-migration) bakın.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Ethereum Classic üzerinde geliştirilen projeleri fonlayan [ETC Grants DAO](https://etcgrantsdao.io) etrafındaki grup. Ekosistemi her gün konuşan çok sayıda aktif kullanıcısıyla en hareketli ETC sohbetlerinden biri.'
       telegramEnglish:
         name: Ethereum Classic (İngilizce)
         description: Genel ETC sohbeti için uzun süredir var olan İngilizce grup.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Ethereum Classic üzerinde geliştirilen projeleri fonlayan [ETC Grants DAO](https://etcgrantsdao.io) etrafındaki grup.'
   twitter:
     description: |
-      Topluluğun iki ana hesabı [twitter-together](https://github.com/twitter-together/action) ile yürütülür: tweetler hesabın deposuna pull request olarak önerilir, herkese açık şekilde incelenir ve birleştirildiğinde otomatik olarak paylaşılır. Tweet önermenin en kolay yolu, GitHub hesabı olsun ya da olmasın pull request'i sizin yerinize açan [ETC Contributions uygulamasıdır](https://etc.contributions.app). Ayrıca `#ETCtweets` etiketli tweetlerden fikirler derlenir ve bunlar Discord'daki `#ETCtweets` başlığında tartışılır.
+      Topluluğun yürüttüğü iki hesap [twitter-together](https://github.com/twitter-together/action) kullanır: tweetler hesabın deposuna pull request olarak önerilir, herkese açık şekilde incelenir ve birleştirildiğinde otomatik olarak paylaşılır. Tweet önermenin en kolay yolu, GitHub hesabı olsun ya da olmasın pull request'i sizin yerinize açan [ETC Contributions uygulamasıdır](https://etc.contributions.app). Ayrıca `#ETCtweets` etiketli tweetlerden fikirler derlenir ve bunlar Discord'daki `#ETCtweets` başlığında tartışılır.
     items:
       twitterEthClassic:
         description: 'İki hesaptan daha çok takip edileni; yayın ilkeleri onu resmi, tarafsız ve mizah paylaşımlarından uzak tutar. Tweetler [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic) deposunda önerilir.'

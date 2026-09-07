@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 'समुदाय का मूल सर्वर, जो 2016 से चल रहा है और जहाँ पहले की कई कोर डेवलपर कॉल और सामुदायिक कॉल हुई हैं।'
+        description: 'समुदाय का मूल सर्वर, जो 2016 से चल रहा है, जहाँ मॉडरेशन हल्का है और जहाँ पहले की कई कोर डेवलपर कॉल और सामुदायिक कॉल हुई हैं।'
       discordCommunity:
         name: Ethereum Classic कम्युनिटी Discord
-        description: 'नवंबर 2025 में शुरू हुआ नया सर्वर, जहाँ मॉडरेशन अधिक सख़्त है और स्वचालित सत्यापन, स्पैम-रोधी सुरक्षा तथा घोषणाओं के इंटीग्रेशन मौजूद हैं। पृष्ठभूमि के लिए [घोषणा वाली पोस्ट](/blog/2025-11-05-discord-migration) देखें।'
+        description: 'नवंबर 2025 में शुरू हुआ नया सर्वर, जहाँ मॉडरेशन सख़्त है और स्वचालित सत्यापन, स्पैम-रोधी सुरक्षा तथा घोषणाओं के इंटीग्रेशन मौजूद हैं। पृष्ठभूमि के लिए [घोषणा वाली पोस्ट](/blog/2025-11-05-discord-migration) देखें।'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: '[ETC Grants DAO](https://etcgrantsdao.io) से जुड़ा समूह, जो Ethereum Classic पर बन रही परियोजनाओं को अनुदान देता है। यह ETC के सबसे व्यस्त चैट समूहों में से एक है, जहाँ कई सक्रिय उपयोगकर्ता रोज़ाना पारिस्थितिकी तंत्र पर चर्चा करते हैं।'
       telegramEnglish:
         name: Ethereum Classic (अंग्रेज़ी)
         description: ETC पर सामान्य बातचीत के लिए लंबे समय से चला आ रहा अंग्रेज़ी समूह।
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: '[ETC Grants DAO](https://etcgrantsdao.io) से जुड़ा समूह, जो Ethereum Classic पर बन रही परियोजनाओं को अनुदान देता है।'
   twitter:
     description: |
-      समुदाय के दोनों मुख्य खाते [twitter-together](https://github.com/twitter-together/action) से चलते हैं: ट्वीट खाते की रिपॉज़िटरी में पुल रिक्वेस्ट के रूप में प्रस्तावित होते हैं, खुले तौर पर उनकी समीक्षा होती है और मर्ज होते ही वे अपने आप पोस्ट हो जाते हैं। सबसे आसान तरीका [ETC कंट्रीब्यूशंस ऐप](https://etc.contributions.app) है, जो आपकी ओर से पुल रिक्वेस्ट भेज देता है, चाहे आपके पास GitHub खाता हो या न हो। `#ETCtweets` टैग वाले ट्वीट से भी विचार लिए जाते हैं, जिन पर Discord के `#ETCtweets` थ्रेड में चर्चा होती है।
+      समुदाय द्वारा चलाए जाने वाले दोनों खाते [twitter-together](https://github.com/twitter-together/action) का उपयोग करते हैं: ट्वीट खाते की रिपॉज़िटरी में पुल रिक्वेस्ट के रूप में प्रस्तावित होते हैं, खुले तौर पर उनकी समीक्षा होती है और मर्ज होते ही वे अपने आप पोस्ट हो जाते हैं। सबसे आसान तरीका [ETC कंट्रीब्यूशंस ऐप](https://etc.contributions.app) है, जो आपकी ओर से पुल रिक्वेस्ट भेज देता है, चाहे आपके पास GitHub खाता हो या न हो। `#ETCtweets` टैग वाले ट्वीट से भी विचार लिए जाते हैं, जिन पर Discord के `#ETCtweets` थ्रेड में चर्चा होती है।
     items:
       twitterEthClassic:
         description: 'दोनों में से अधिक फ़ॉलो किया जाने वाला खाता, जिसके संपादकीय दिशानिर्देश इसे औपचारिक, तटस्थ और मीम-मुक्त रखते हैं। ट्वीट [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic) में प्रस्तावित किए जाते हैं।'

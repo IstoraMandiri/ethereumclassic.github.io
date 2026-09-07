@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Discord Ethereum Classic
-        description: 'Máy chủ cộng đồng đầu tiên, hoạt động từ năm 2016, nơi đã diễn ra nhiều cuộc gọi của các nhà phát triển cốt lõi và các cuộc gọi cộng đồng trước đây.'
+        description: 'Máy chủ cộng đồng đầu tiên, hoạt động từ năm 2016, được kiểm duyệt nhẹ, nơi đã diễn ra nhiều cuộc gọi của các nhà phát triển cốt lõi và các cuộc gọi cộng đồng trước đây.'
       discordCommunity:
         name: Discord Cộng đồng Ethereum Classic
-        description: 'Máy chủ mới hơn, ra mắt vào tháng 11 năm 2025, được kiểm duyệt chặt chẽ hơn và có xác minh tự động, chống thư rác cùng các tích hợp thông báo. Xem [bài đăng thông báo](/blog/2025-11-05-discord-migration) để biết bối cảnh.'
+        description: 'Máy chủ mới hơn, ra mắt vào tháng 11 năm 2025, được kiểm duyệt chặt chẽ và có xác minh tự động, chống thư rác cùng các tích hợp thông báo. Xem [bài đăng thông báo](/blog/2025-11-05-discord-migration) để biết bối cảnh.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Nhóm xoay quanh [ETC Grants DAO](https://etcgrantsdao.io), tổ chức tài trợ cho các dự án xây dựng trên Ethereum Classic. Đây là một trong những nhóm trò chuyện ETC sôi nổi nhất, với nhiều người dùng tích cực bàn luận về hệ sinh thái mỗi ngày.'
       telegramEnglish:
         name: Ethereum Classic (tiếng Anh)
         description: Nhóm tiếng Anh lâu đời để trò chuyện chung về ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Nhóm xoay quanh [ETC Grants DAO](https://etcgrantsdao.io), tổ chức tài trợ cho các dự án xây dựng trên Ethereum Classic.'
   twitter:
     description: |
-      Hai tài khoản cộng đồng chính được vận hành bằng [twitter-together](https://github.com/twitter-together/action): các tweet được đề xuất dưới dạng pull request vào kho lưu trữ của tài khoản, được xem xét công khai và tự động đăng khi hợp nhất. Cách đơn giản nhất để đề xuất là dùng [ứng dụng đóng góp ETC](https://etc.contributions.app), ứng dụng này sẽ gửi pull request thay bạn, dù bạn có tài khoản GitHub hay không. Ý tưởng cũng được lấy từ các tweet gắn thẻ `#ETCtweets` và được thảo luận trong luồng `#ETCtweets` trên Discord.
+      Hai tài khoản do cộng đồng vận hành sử dụng [twitter-together](https://github.com/twitter-together/action): các tweet được đề xuất dưới dạng pull request vào kho lưu trữ của tài khoản, được xem xét công khai và tự động đăng khi hợp nhất. Cách đơn giản nhất để đề xuất là dùng [ứng dụng đóng góp ETC](https://etc.contributions.app), ứng dụng này sẽ gửi pull request thay bạn, dù bạn có tài khoản GitHub hay không. Ý tưởng cũng được lấy từ các tweet gắn thẻ `#ETCtweets` và được thảo luận trong luồng `#ETCtweets` trên Discord.
     items:
       twitterEthClassic:
         description: 'Tài khoản có nhiều người theo dõi hơn trong hai tài khoản, với quy tắc biên tập giữ cho nội dung trang trọng, trung lập và không đăng meme. Tweet được đề xuất tại [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

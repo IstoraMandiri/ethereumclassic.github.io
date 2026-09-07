@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Discord του Ethereum Classic
-        description: 'Ο αρχικός διακομιστής της κοινότητας, σε λειτουργία από το 2016, και ο χώρος όπου έγιναν πολλές από τις παλιότερες κλήσεις των core devs και της κοινότητας.'
+        description: 'Ο αρχικός διακομιστής της κοινότητας, σε λειτουργία από το 2016, με χαλαρή εποπτεία, και ο χώρος όπου έγιναν πολλές από τις παλιότερες κλήσεις των core devs και της κοινότητας.'
       discordCommunity:
         name: Discord της κοινότητας Ethereum Classic
-        description: 'Ένας νεότερος διακομιστής, που ξεκίνησε τον Νοέμβριο του 2025, με αυστηρότερη εποπτεία, αυτόματη επαλήθευση, προστασία από ανεπιθύμητα μηνύματα και ενσωματώσεις ανακοινώσεων. Δείτε τη [δημοσίευση της ανακοίνωσης](/blog/2025-11-05-discord-migration) για το ιστορικό.'
+        description: 'Ένας νεότερος διακομιστής, που ξεκίνησε τον Νοέμβριο του 2025, με αυστηρή εποπτεία, αυτόματη επαλήθευση, προστασία από ανεπιθύμητα μηνύματα και ενσωματώσεις ανακοινώσεων. Δείτε τη [δημοσίευση της ανακοίνωσης](/blog/2025-11-05-discord-migration) για το ιστορικό.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Η ομάδα γύρω από το [ETC Grants DAO](https://etcgrantsdao.io), που χρηματοδοτεί έργα πάνω στο Ethereum Classic. Είναι από τις πιο πολυσύχναστες συνομιλίες του ETC, με πολλούς ενεργούς χρήστες που συζητούν καθημερινά για το οικοσύστημα.'
       telegramEnglish:
         name: Ethereum Classic (αγγλικά)
         description: Η μακροχρόνια αγγλόφωνη ομάδα για γενική συζήτηση περί ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Η ομάδα γύρω από το [ETC Grants DAO](https://etcgrantsdao.io), που χρηματοδοτεί έργα πάνω στο Ethereum Classic.'
   twitter:
     description: |
-      Οι δύο βασικοί λογαριασμοί της κοινότητας λειτουργούν μέσω του [twitter-together](https://github.com/twitter-together/action): τα tweets προτείνονται ως pull requests στο αποθετήριο του λογαριασμού, ελέγχονται δημόσια και δημοσιεύονται αυτόματα μόλις ενσωματωθούν. Ο ευκολότερος τρόπος να προτείνετε ένα είναι η [εφαρμογή συνεισφορών ETC](https://etc.contributions.app), που υποβάλλει το pull request για εσάς, με ή χωρίς λογαριασμό GitHub. Ιδέες αντλούνται επίσης από tweets με την ετικέτα `#ETCtweets`, τα οποία συζητούνται στο νήμα `#ETCtweets` στο Discord.
+      Οι δύο λογαριασμοί που διαχειρίζεται η κοινότητα χρησιμοποιούν το [twitter-together](https://github.com/twitter-together/action): τα tweets προτείνονται ως pull requests στο αποθετήριο του λογαριασμού, ελέγχονται δημόσια και δημοσιεύονται αυτόματα μόλις ενσωματωθούν. Ο ευκολότερος τρόπος να προτείνετε ένα είναι η [εφαρμογή συνεισφορών ETC](https://etc.contributions.app), που υποβάλλει το pull request για εσάς, με ή χωρίς λογαριασμό GitHub. Ιδέες αντλούνται επίσης από tweets με την ετικέτα `#ETCtweets`, τα οποία συζητούνται στο νήμα `#ETCtweets` στο Discord.
     items:
       twitterEthClassic:
         description: 'Ο πιο δημοφιλής από τους δύο λογαριασμούς, με συντακτικές οδηγίες που τον κρατούν τυπικό, ουδέτερο και χωρίς meme. Τα tweets προτείνονται στο [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

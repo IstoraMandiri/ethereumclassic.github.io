@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Ethereum Classic Discord
-        description: 'De oorspronkelijke gemeenschapsserver, actief sinds 2016, en het toneel van veel van de vroegere core devs calls en community calls.'
+        description: 'De oorspronkelijke gemeenschapsserver, actief sinds 2016, die losjes wordt gemodereerd en het toneel was van veel van de vroegere core devs calls en community calls.'
       discordCommunity:
         name: Ethereum Classic Community Discord
-        description: 'Een nieuwere server, gelanceerd in november 2025, die strenger wordt gemodereerd en werkt met automatische verificatie, spambescherming en aankondigingsintegraties. Zie het [aankondigingsbericht](/blog/2025-11-05-discord-migration) voor de achtergrond.'
+        description: 'Een nieuwere server, gelanceerd in november 2025, die streng wordt gemodereerd en werkt met automatische verificatie, spambescherming en aankondigingsintegraties. Zie het [aankondigingsbericht](/blog/2025-11-05-discord-migration) voor de achtergrond.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'De groep rond [ETC Grants DAO](https://etcgrantsdao.io), die projecten op Ethereum Classic financiert. Het is een van de drukste ETC-chats, met veel actieve gebruikers die dagelijks over het ecosysteem praten.'
       telegramEnglish:
         name: Ethereum Classic (Engels)
         description: De al lang bestaande Engelstalige groep voor algemene gesprekken over ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'De groep rond [ETC Grants DAO](https://etcgrantsdao.io), die projecten op Ethereum Classic financiert.'
   twitter:
     description: |
-      De twee belangrijkste gemeenschapsaccounts draaien op [twitter-together](https://github.com/twitter-together/action): tweets worden als pull requests in de repository van het account voorgesteld, in de openbaarheid beoordeeld en automatisch geplaatst zodra ze zijn samengevoegd. De makkelijkste manier om er een voor te stellen is de [ETC Contributions-app](https://etc.contributions.app), die de pull request voor je indient, met of zonder GitHub-account. Ideeën worden ook opgepikt uit tweets met de hashtag `#ETCtweets`, die in de `#ETCtweets`-thread op Discord worden besproken.
+      De twee door de gemeenschap beheerde accounts gebruiken [twitter-together](https://github.com/twitter-together/action): tweets worden als pull requests in de repository van het account voorgesteld, in de openbaarheid beoordeeld en automatisch geplaatst zodra ze zijn samengevoegd. De makkelijkste manier om er een voor te stellen is de [ETC Contributions-app](https://etc.contributions.app), die de pull request voor je indient, met of zonder GitHub-account. Ideeën worden ook opgepikt uit tweets met de hashtag `#ETCtweets`, die in de `#ETCtweets`-thread op Discord worden besproken.
     items:
       twitterEthClassic:
         description: 'Het meest gevolgde van de twee accounts, met redactionele richtlijnen die het formeel, neutraal en vrij van memes houden. Tweets worden voorgesteld in [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

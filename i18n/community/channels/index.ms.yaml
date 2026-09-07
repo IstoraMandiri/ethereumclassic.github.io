@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Discord Ethereum Classic
-        description: 'Pelayan komuniti asal, beroperasi sejak 2016, dan tempat berlangsungnya banyak panggilan pembangun teras serta panggilan komuniti yang lalu.'
+        description: 'Pelayan komuniti asal, beroperasi sejak 2016, dengan penyeliaan yang longgar, dan tempat berlangsungnya banyak panggilan pembangun teras serta panggilan komuniti yang lalu.'
       discordCommunity:
         name: Discord Komuniti Ethereum Classic
-        description: 'Pelayan yang lebih baharu, dilancarkan pada November 2025, dengan penyeliaan yang lebih ketat serta pengesahan automatik, perlindungan spam dan integrasi pengumuman. Lihat [siaran pengumuman](/blog/2025-11-05-discord-migration) untuk latar belakangnya.'
+        description: 'Pelayan yang lebih baharu, dilancarkan pada November 2025, dengan penyeliaan yang ketat serta pengesahan automatik, perlindungan spam dan integrasi pengumuman. Lihat [siaran pengumuman](/blog/2025-11-05-discord-migration) untuk latar belakangnya.'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'Kumpulan di sekitar [ETC Grants DAO](https://etcgrantsdao.io), yang membiayai projek yang dibina di atas Ethereum Classic. Ia antara sembang ETC paling rancak, dengan ramai pengguna aktif membincangkan ekosistem setiap hari.'
       telegramEnglish:
         name: Ethereum Classic (Inggeris)
         description: Kumpulan berbahasa Inggeris yang sudah lama wujud untuk perbualan umum tentang ETC.
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'Kumpulan di sekitar [ETC Grants DAO](https://etcgrantsdao.io), yang membiayai projek yang dibina di atas Ethereum Classic.'
   twitter:
     description: |
-      Dua akaun komuniti utama dikendalikan menerusi [twitter-together](https://github.com/twitter-together/action): tweet dicadangkan sebagai pull request dalam repositori akaun berkenaan, disemak secara terbuka, dan disiarkan secara automatik setelah digabungkan. Cara paling mudah untuk mencadangkan tweet ialah [aplikasi sumbangan ETC](https://etc.contributions.app), yang menghantar pull request bagi pihak anda, sama ada anda mempunyai akaun GitHub atau tidak. Idea turut diambil daripada tweet bertanda `#ETCtweets`, yang dibincangkan dalam bebenang `#ETCtweets` di Discord.
+      Dua akaun yang dikendalikan komuniti menggunakan [twitter-together](https://github.com/twitter-together/action): tweet dicadangkan sebagai pull request dalam repositori akaun berkenaan, disemak secara terbuka, dan disiarkan secara automatik setelah digabungkan. Cara paling mudah untuk mencadangkan tweet ialah [aplikasi sumbangan ETC](https://etc.contributions.app), yang menghantar pull request bagi pihak anda, sama ada anda mempunyai akaun GitHub atau tidak. Idea turut diambil daripada tweet bertanda `#ETCtweets`, yang dibincangkan dalam bebenang `#ETCtweets` di Discord.
     items:
       twitterEthClassic:
         description: 'Akaun yang lebih ramai pengikut antara kedua-duanya, dengan garis panduan penyuntingan yang mengekalkannya formal, neutral dan bebas meme. Tweet dicadangkan dalam [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic).'

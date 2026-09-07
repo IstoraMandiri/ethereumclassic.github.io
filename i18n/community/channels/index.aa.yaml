@@ -15,7 +15,7 @@ __contributors:
   - redsn0w0
   - TheEnthusiasticAs
   - w1g0
-__updated: 2026-09-02
+__updated: 2026-09-07
 seo: crwdns119061:0crwdne119061:0
 description: |
   crwdns119063:0crwdne119063:0
@@ -38,14 +38,14 @@ items:
     __type: cells
     title: crwdns119387:0crwdne119387:0
     items:
-      telegramGrantsDao:
-        __link: https://t.me/ETCGrantsDao
-        name: crwdns119393:0crwdne119393:0
-        description: crwdns119399:0crwdne119399:0
       telegramEnglish:
         __link: https://t.me/ethclassic
         name: crwdns119405:0crwdne119405:0
         description: crwdns119411:0crwdne119411:0
+      telegramGrantsDao:
+        __link: https://t.me/ETCGrantsDao
+        name: crwdns119393:0crwdne119393:0
+        description: crwdns119399:0crwdne119399:0
   twitter:
     __type: cells
     title: crwdns119417:0crwdne119417:0

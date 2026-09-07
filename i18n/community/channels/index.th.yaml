@@ -11,21 +11,21 @@ items:
     items:
       discordClassic:
         name: Discord ของ Ethereum Classic
-        description: เซิร์ฟเวอร์ชุมชนดั้งเดิม เปิดใช้งานมาตั้งแต่ปี 2016 และเป็นสถานที่จัดการประชุมนักพัฒนาหลักและการประชุมชุมชนหลายครั้งในอดีต
+        description: เซิร์ฟเวอร์ชุมชนดั้งเดิม เปิดใช้งานมาตั้งแต่ปี 2016 มีการกำกับดูแลแบบผ่อนปรน และเป็นสถานที่จัดการประชุมนักพัฒนาหลักและการประชุมชุมชนหลายครั้งในอดีต
       discordCommunity:
         name: Discord ชุมชน Ethereum Classic
-        description: 'เซิร์ฟเวอร์ใหม่กว่า เปิดตัวเมื่อเดือนพฤศจิกายน 2025 มีการกำกับดูแลที่เข้มงวดกว่า พร้อมระบบยืนยันตัวตนอัตโนมัติ การป้องกันสแปม และการเชื่อมต่อประกาศต่าง ๆ อ่านที่มาได้จาก[โพสต์ประกาศ](/blog/2025-11-05-discord-migration)'
+        description: 'เซิร์ฟเวอร์ใหม่กว่า เปิดตัวเมื่อเดือนพฤศจิกายน 2025 มีการกำกับดูแลที่เข้มงวด พร้อมระบบยืนยันตัวตนอัตโนมัติ การป้องกันสแปม และการเชื่อมต่อประกาศต่าง ๆ อ่านที่มาได้จาก[โพสต์ประกาศ](/blog/2025-11-05-discord-migration)'
   telegram:
     items:
-      telegramGrantsDao:
-        name: ETC Grants DAO
-        description: 'กลุ่มของ [ETC Grants DAO](https://etcgrantsdao.io) ซึ่งให้ทุนแก่โครงการที่พัฒนาบน Ethereum Classic เป็นหนึ่งในห้องแชท ETC ที่คึกคักที่สุด มีผู้ใช้ที่ใช้งานอยู่จำนวนมากพูดคุยเรื่องระบบนิเวศกันทุกวัน'
       telegramEnglish:
         name: Ethereum Classic (ภาษาอังกฤษ)
         description: กลุ่มภาษาอังกฤษที่เปิดมายาวนานสำหรับพูดคุยเรื่อง ETC ทั่วไป
+      telegramGrantsDao:
+        name: ETC Grants DAO
+        description: 'กลุ่มของ [ETC Grants DAO](https://etcgrantsdao.io) ซึ่งให้ทุนแก่โครงการที่พัฒนาบน Ethereum Classic'
   twitter:
     description: |
-      บัญชีหลักของชุมชนทั้งสองดำเนินการผ่าน [twitter-together](https://github.com/twitter-together/action) ทวีตจะถูกเสนอเป็น pull request ในที่เก็บโค้ดของบัญชีนั้น ผ่านการตรวจทานอย่างเปิดเผย และเผยแพร่โดยอัตโนมัติเมื่อผสานแล้ว วิธีที่ง่ายที่สุดคือใช้[แอปการมีส่วนร่วมของ ETC](https://etc.contributions.app) ซึ่งจะส่ง pull request ให้คุณ ไม่ว่าคุณจะมีบัญชี GitHub หรือไม่ก็ตาม นอกจากนี้ยังรวบรวมแนวคิดจากทวีตที่ติดแท็ก `#ETCtweets` ซึ่งพูดคุยกันในเธรด `#ETCtweets` บน Discord
+      บัญชีทั้งสองที่ชุมชนดูแลใช้ [twitter-together](https://github.com/twitter-together/action) ทวีตจะถูกเสนอเป็น pull request ในที่เก็บโค้ดของบัญชีนั้น ผ่านการตรวจทานอย่างเปิดเผย และเผยแพร่โดยอัตโนมัติเมื่อผสานแล้ว วิธีที่ง่ายที่สุดคือใช้[แอปการมีส่วนร่วมของ ETC](https://etc.contributions.app) ซึ่งจะส่ง pull request ให้คุณ ไม่ว่าคุณจะมีบัญชี GitHub หรือไม่ก็ตาม นอกจากนี้ยังรวบรวมแนวคิดจากทวีตที่ติดแท็ก `#ETCtweets` ซึ่งพูดคุยกันในเธรด `#ETCtweets` บน Discord
     items:
       twitterEthClassic:
         description: 'บัญชีที่มีผู้ติดตามมากกว่าในสองบัญชี โดยมีแนวทางการเขียนที่ทำให้เนื้อหาเป็นทางการ เป็นกลาง และไม่มีมีม เสนอทวีตได้ที่ [tweets-eth_classic](https://github.com/ethereumclassic/tweets-eth_classic)'
