@@ -12,7 +12,7 @@ linkImage: ./banner.png
 
 In [Part 1](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source), I showed you how to set up core-geth by building it from the source we got from GitHub. This time, we're going to use Docker.
 
-Docker is a containerization tool. In layman's terms, it lets you spin up little self-contained boxes called containers on your machine and run them separately, for as long as you need them. Each container comes with everything its software needs to run. So instead of building core-geth yourself, you just download a ready-made image of it and run it. For this guide, we'll use the actively maintained image of v1.12.23 "Argos", the latest stable release of core-geth.
+Docker is a containerization tool. In layman's terms, it lets you spin up little self-contained boxes called containers on your machine and run them separately, for as long as you need them. Each container comes with everything its software needs to run. So instead of building core-geth yourself, you just download a ready-made image of it and run it. For this guide, we'll use the image for v1.12.23 "Argos", the latest stable release of core-geth as of writing.
 
 Here's why that's handy for running a node:
 
@@ -22,13 +22,11 @@ Here's why that's handy for running a node:
 - **Easy to update.** Moving to a newer version of core-geth means changing the version number in one command.
 - **Easy to clean up.** When you're done, remove the container, and nothing is left behind except the chain data you chose to keep.
 
-With Docker, the command to set up and run core-geth is one line, then another when you want to talk to it.
-
-Docker can take a little more time to set up if you don't already have it installed. But once you do, running core-geth is as easy as typing a single line and pressing Enter.
+Docker can take a little more time to set up if you don't already have it installed. But once you do, starting core-geth takes one command, and talking to it takes one more.
 
 This is part 2 of a three-part series. If you get stuck at any point, ask in [r/EthereumClassic](https://www.reddit.com/r/EthereumClassic/). The community is always happy to help.
 
-**Not covered here:** waiting for a full sync, mining, or opening your node up to the internet. See Next steps.
+**Not covered here:** waiting for a full sync, mining, or opening your node up to the internet. See [Next steps](#next-steps).
 
 ## Before you start
 
@@ -38,7 +36,7 @@ You need:
 - An account that can run `sudo` (admin) commands.
 - A terminal, and about 20 minutes, plus however long Docker takes to install.
 
-**If you followed Part 1 and your node is still running, stop it first** ([Part 1, step 8](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source)). Both nodes use the same port, and the second one won't start while the first is running.
+**If you followed Part 1 and your node is still running, stop it first** ([Part 1, step 8](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source#step-8-stop-the-node-safely)). Both nodes use the same port, and the second one won't start while the first is running.
 
 ### Hardware
 
@@ -97,7 +95,7 @@ Version: 1.12.23-stable
 
 **What it means:** you have the right image, and it's the version you expect.
 
-- `etclabscore/core-geth` is the actively maintained image. Only use this name.
+- `etclabscore/core-geth` is the image. core-geth's Docker images are published at [hub.docker.com/r/etclabscore/core-geth](https://hub.docker.com/r/etclabscore/core-geth).
 - `v1.12.23` pins the exact version, so you always get the one this guide shows.
 - `version` is the same command you'd run with a geth you built yourself. Anything after the image name goes to geth.
 - `--rm` cleans up as soon as the command finishes.
@@ -132,7 +130,7 @@ docker run -d --name coregeth -v ~/etc-data:/root/.ethereum -p 30303:30303 -p 30
 | `-v ~/etc-data:/root/.ethereum` | Saves the chain data in `~/etc-data` on your machine, so it's kept even if the container is removed |
 | `-p 30303:30303 -p 30303:30303/udp` | Opens the port other nodes use to connect to you |
 | `etclabscore/core-geth:v1.12.23` | The image to run |
-| `--classic --syncmode snap` | Everything after the image goes to geth: join Ethereum Classic, and use the fastest sync. [Part 1](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source) explains the sync modes |
+| `--classic --syncmode snap` | Everything after the image goes to geth: join Ethereum Classic, and use the fastest sync. [Part 1](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source#step-6-start-your-node) explains the sync modes |
 
 Docker's own options always go before the image name. Anything after it goes to geth.
 
@@ -154,7 +152,7 @@ docker ps
 docker logs -f coregeth
 ```
 
-**What you'll see:** lines of text scrolling as your node starts up, finds peers and begins to sync. A few `WARN` lines in the first minutes are normal, and during a snap sync you'll also see some `ERROR` lines such as `Pending request exists for joining peer`. These are harmless as long as the node keeps syncing.
+**What you'll see:** lines of text scrolling as your node starts up, finds peers and begins to sync. A few `WARN` lines in the first minutes are normal, and during a snap sync you'll also see some `ERROR` lines such as `Expired request does not exist` or `Pending request exists for joining peer`. These are harmless as long as the node keeps syncing.
 
 Press **Ctrl+C** to stop watching. That only stops the display: the node keeps running in the background.
 
@@ -190,7 +188,7 @@ Type each of these after the `>` and press Enter:
 | `eth.syncing` | A block of details, including `currentBlock` and `highestBlock` | How far your node has synced. Shows `false` once it has caught up |
 | `eth.blockNumber` | A number, often `0` during a snap sync | Normal at this stage. It jumps up near the end of the sync |
 
-Type `exit` or press **Ctrl+D** to leave the console. Your node keeps running in the background. [Part 1, step 7](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source) has more console commands and tips, and they all work here too.
+Type `exit` or press **Ctrl+D** to leave the console. Your node keeps running in the background. [Part 1, step 7](/blog/2026-10-15-run-your-own-etc-node-part-1-build-core-geth-from-source#step-7-talk-to-your-node-with-the-console) has more console commands and tips, and they all work here too.
 
 **Keep your IP address private:** `admin.nodeInfo` shows your IP address, so keep its output out of posts and screenshots.
 
@@ -212,7 +210,7 @@ To start it again:
 docker start coregeth
 ```
 
-To remove the container:
+Once it's stopped, you can remove the container:
 
 ```bash
 docker rm coregeth
@@ -232,13 +230,13 @@ Find the message you're seeing, then follow the fix. Still stuck? Ask in [r/Ethe
 
 **`The container name "/coregeth" is already in use`.** You already created the container. Start it with `docker start coregeth`, or remove it with `docker rm coregeth` and run the `docker run` command again.
 
-**`port is already allocated`.** Something else is using port 30303, likely a node from Part 1. Stop it, then try again.
+**`address already in use` or `port is already allocated`.** Something else is using port 30303: usually a node from Part 1 (`address already in use`) or another container (`port is already allocated`). Stop it, then start your node with `docker start coregeth`. Docker created the container before the error, so running the `docker run` command again gives the `The container name "/coregeth" is already in use` error.
 
 **`Error response from daemon: container … is not running`** when you run `docker exec`. The node isn't running. Start it with `docker start coregeth`, wait a minute, then try again.
 
 ## Next steps
 
 - **Finish a full sync:** leave the node running until `eth.syncing` shows `false`. Check you have the disk space listed under Hardware first.
-- **Restart it automatically:** add `--restart unless-stopped` to the `docker run` command (before the image name), and Docker starts your node again after a reboot.
+- **Restart it automatically:** add `--restart unless-stopped --stop-timeout 120` to the `docker run` command (before the image name). Docker then starts your node again after a reboot, and `--stop-timeout 120` gives it the same 2 minutes as step 6 to shut down cleanly when your machine restarts.
 - **Update to a newer version:** when a new release comes out, stop and remove the container (step 6), then run the step 3 command again with the new version number in place of `v1.12.23`. Your chain data in `~/etc-data` carries over.
 - **Free up the space:** remove the container (step 6), delete the image with `docker rmi etclabscore/core-geth:v1.12.23`, then delete the chain data with `sudo rm -rf ~/etc-data`. The files were created inside the container, so deleting them needs `sudo`.
